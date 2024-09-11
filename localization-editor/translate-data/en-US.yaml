@@ -1,0 +1,2452 @@
+locale: en-US
+items:
+  shared_title_start_game:
+    key: shared_title_start_game
+    value: 开始游戏
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips_do_login:
+    key: shared_loading_tips_do_login
+    value: "正在登录中 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips:
+    key: shared_loading_tips
+    value: "正在努力加载中 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail:
+    key: shared_login_fail
+    value: "登录失败 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_exit:
+    key: shared_btn_exit
+    value: Quit
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_sound:
+    key: shared_btn_sound
+    value: Sound
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate:
+    key: shared_btn_rate
+    value: Paytable
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule:
+    key: shared_btn_rule
+    value: Rules
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history:
+    key: shared_btn_history
+    value: History
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close:
+    key: shared_btn_close
+    value: Close
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading:
+    key: shared_loading
+    value: Loading
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_retry:
+    key: shared_btn_retry
+    value: Retry
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_start:
+    key: shared_record_start
+    value: Start
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_end:
+    key: shared_record_end
+    value: End
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_type_title:
+    key: shared_record_date_type_title
+    value: Select Date Range
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_today:
+    key: shared_record_date_today
+    value: Today
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_last_week:
+    key: shared_record_date_last_week
+    value: Last 7 days
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_custom:
+    key: shared_record_date_custom
+    value: Custom
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_history_title:
+    key: shared_record_history_title
+    value: Game History
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_time:
+    key: shared_record_time
+    value: Time
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_order_number:
+    key: shared_record_order_number
+    value: Transaction
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_normal_play:
+    key: shared_record_normal_play
+    value: Normal Spin
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_title:
+    key: shared_setting_bet_title
+    value: Bet Options
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_base:
+    key: shared_setting_bet_base
+    value: Bet Size
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_multiple:
+    key: shared_setting_bet_multiple
+    value: Bet Level
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_line:
+    key: shared_setting_bet_line
+    value: Base Bet
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_total:
+    key: shared_setting_bet_total
+    value: Bet Amount
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_info_tips:
+    key: shared_record_win_line_info_tips
+    value: Bet Size x Bet Level x Symbol Payout Values x Way(s) x Multiplier
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule:
+    key: shared_game_rule
+    value: Game Rules
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_title:
+    key: shared_setting_auto_start_title
+    value: Auto Spin
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_count:
+    key: shared_setting_auto_start_count
+    value: Number of Auto Spins
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_max_bet:
+    key: shared_setting_bet_max_bet
+    value: Maximum Bet
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_min_bet:
+    key: shared_setting_bet_min_bet
+    value: Minimum Bet
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_success:
+    key: shared_btn_success
+    value: Confirm
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_not_history_record_tips:
+    key: shared_record_not_history_record_tips
+    value: No Game History
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_bet:
+    key: shared_record_bet
+    value: Bet
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win:
+    key: shared_record_win
+    value: Profit
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_total_record_n:
+    key: shared_record_total_record_n
+    value: "%{1} Records"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants:
+      - key: shared_record_total_record_n_one
+        value: Record
+        type: 4
+        isVariant: true
+        associations: []
+        _variants: []
+      - key: shared_record_total_record_n_other
+        value: Records
+        type: 4
+        isVariant: true
+        associations: []
+        _variants: []
+  shared_round_count:
+    key: shared_round_count
+    value: Round %{1}
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_balance:
+    key: shared_record_balance
+    value: Balance
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_reward_multiple:
+    key: shared_record_reward_multiple
+    value: Win Multiplier
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_detail_not_reward:
+    key: shared_record_round_detail_not_reward
+    value: No Winning Combination
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_state:
+    key: shared_record_win_state
+    value: Payout
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_2:
+    key: shared_record_win_line_2
+    value: Two of a Kind
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_3:
+    key: shared_record_win_line_3
+    value: Three of a Kind
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_4:
+    key: shared_record_win_line_4
+    value: Four of a Kind
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_5:
+    key: shared_record_win_line_5
+    value: Five of a Kind
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_6:
+    key: shared_record_win_line_6
+    value: Six of a Kind
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_7:
+    key: shared_record_win_line_7
+    value: Seven of a Kind
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_8:
+    key: shared_record_win_line_8
+    value: Eight of a Kind
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_9:
+    key: shared_record_win_line_9
+    value: Nine of a Kind
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_bonus_n:
+    key: shared_record_free_bonus_n
+    value: "%{1} Free Spins"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_start:
+    key: shared_setting_auto_start_start
+    value: Start Auto Spin
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_cash_money_bag:
+    key: shared_cash_money_bag
+    value: Cash Wallet
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_request_fail_retry:
+    key: shared_request_fail_retry
+    value: 网络繁忙，正在重试... (第%{1}次)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_on_tips:
+    key: shared_quick_on_tips
+    value: Turbo Spin Enabled
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_off_tips:
+    key: shared_quick_off_tips
+    value: Turbo Spin Disabled
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_play:
+    key: shared_record_free_play
+    value: "Featur Spin: %{1}"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_date:
+    key: shared_record_round_date
+    value: "%{1}/%{2}/%{3}  %{4}:%{5} (GTM+8:00)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_n:
+    key: shared_record_win_line_n
+    value: "%{1} way(s)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants:
+      - key: shared_record_win_line_n_one
+        value: "%{1} way"
+        type: 4
+        isVariant: true
+        associations: []
+        _variants: []
+      - key: shared_record_win_line_n_other
+        value: "%{1} ways"
+        type: 4
+        isVariant: true
+        associations: []
+        _variants: []
+  shared_money_symbol:
+    key: shared_money_symbol
+    value: ¥
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_range:
+    key: shared_record_date_range
+    value: "%{1}/%{2}/%{3}  -  %{4}/%{5}/%{6}"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_title_transaction_fail:
+    key: shared_note_title_transaction_fail
+    value: Transaction Failed
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_insufficient_balance_tips:
+    key: shared_insufficient_balance_tips
+    value: 余额不足
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_unknow_error_try_again:
+    key: shared_unknow_error_try_again
+    value: 未知错误，请重试。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_tips:
+    key: shared_title_tips
+    value: 提示
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_heart_beat_time_out:
+    key: shared_note_heart_beat_time_out
+    value: 连接服务器超时，是否重新加载。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_exit_game:
+    key: shared_title_exit_game
+    value: Quit Game
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_reload:
+    key: shared_title_reload
+    value: Reload
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_exit_game_tips_content:
+    key: shared_exit_game_tips_content
+    value: Are you sure you want to quit?
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_cancel:
+    key: shared_title_cancel
+    value: Cancel
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_scatter:
+    key: shared_symbol_name_scatter
+    value: Scatter symbol
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_wild:
+    key: shared_symbol_name_wild
+    value: Wild symbol
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'------------------------------------------------------’":
+    key: "'------------------------------------------------------’"
+    value: "'------------------------------------------------------’"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_main_game:
+    key: shared_main_game
+    value: "主游戏 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start:
+    key: shared_btn_start
+    value: 旋转按钮
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info1:
+    key: shared_btn_start_info1
+    value: 单击后可在当前基础投注、投注大小和投注倍数下开始游戏。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info2:
+    key: shared_btn_start_info2
+    value: 旋转过程中单击按钮或游戏区可以马上停止当前旋转。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info3:
+    key: shared_btn_start_info3
+    value: 按下空格键，使用当前的基础投注、投注大小和投注倍数进行旋转。（仅适用于桌面版）
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info4:
+    key: shared_btn_start_info4
+    value: 按住空格键，将持续进行旋转，直到松开空格键。（仅适用于桌面版）
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop:
+    key: shared_btn_stop
+    value: 停止按钮
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop_info1:
+    key: shared_btn_stop_info1
+    value: 单击按钮停止旋转。在自动游戏模式，剩余旋转次数会显示在按钮中。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus:
+    key: shared_btn_minus
+    value: 减少
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus_info1:
+    key: shared_btn_minus_info1
+    value: 点击减少投注金额。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add:
+    key: shared_btn_add
+    value: 增加
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add_info1:
+    key: shared_btn_add_info1
+    value: 点击增加投注金额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance:
+    key: shared_money_bag_balance
+    value: 钱包余额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance_info1:
+    key: shared_money_bag_balance_info1
+    value: 点击显示拥有钱包的余额。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money:
+    key: shared_bet_money
+    value: 投注金额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info1:
+    key: shared_bet_money_info1
+    value: 点击显示投注选项。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info2:
+    key: shared_bet_money_info2
+    value: 投注大小：拖动以选择投注大小。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info3:
+    key: shared_bet_money_info3
+    value: 投注倍数：拖动以选择投注倍数。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info4:
+    key: shared_bet_money_info4
+    value: 投注总额：拖动以选择投注金额。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info5:
+    key: shared_bet_money_info5
+    value: 最大投注：点击按钮可以把投注大小、投注倍数的数值调到最大。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money:
+    key: shared_prize_money
+    value: 奖金金额
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money_info1:
+    key: shared_prize_money_info1
+    value: 点击显示游戏历史。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info1:
+    key: shared_btn_auto_start_info1
+    value: 自动旋转可以根据选的次数进行自动游戏。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info2:
+    key: shared_btn_auto_start_info2
+    value: 点击数值以选择自动旋转的次数。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape:
+    key: shared_btn_snape
+    value: 极速旋转
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape_info1:
+    key: shared_btn_snape_info1
+    value: 点击启动或停止极速旋转，启动极速旋转将减少主游戏中卷轴旋转的持续时间。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu:
+    key: shared_btn_menu
+    value: 更多设置
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu_info1:
+    key: shared_btn_menu_info1
+    value: 点击访问其他设置。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_audio_info1:
+    key: shared_btn_audio_info1
+    value: 点击打开或关闭游戏声音。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate_info1:
+    key: shared_btn_rate_info1
+    value: 显示中奖组合以及赔付表。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule_info1:
+    key: shared_btn_rule_info1
+    value: 显示游戏规则和按键功能。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info1:
+    key: shared_btn_history_info1
+    value: 显示游戏历史记录详情。下滑到页面底部可加载更多记录。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info2:
+    key: shared_btn_history_info2
+    value: 点击          选择日期范围，显示相应的历史记录。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close_info1:
+    key: shared_btn_close_info1
+    value: 点击回到主游戏。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_bonus_multiple:
+    key: shared_game_rule_bonus_multiple
+    value: 奖金翻倍
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_free_game:
+    key: shared_game_rule_free_game
+    value: 免费旋转模式
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example:
+    key: shared_game_rate_line_example
+    value: "参考以上例子 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example_2:
+    key: shared_game_rate_line_example_2
+    value: "本例中的总赢奖 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_size_introduce:
+    key: shared_game_bet_size_introduce
+    value: "投注大小可以在“投注大小”选项中设定。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_multiple_introduce:
+    key: shared_game_bet_multiple_introduce
+    value: "投注倍数可以在“投注倍数”选项中设定。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_total_bet_introduce:
+    key: shared_game_total_bet_introduce
+    value: "投注总额可以在“投注总额”选项中设定。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_money_bag_introduce:
+    key: shared_game_money_bag_introduce
+    value: "“现金钱包”用来显示下注者可用的现金余额。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_auto_spin_introduce:
+    key: shared_game_auto_spin_introduce
+    value: “自动旋转”可以根据玩家所选择的回合数量自动进行游戏。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info:
+    key: shared_game_rule_other_info
+    value: "附加信息 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_1:
+    key: shared_game_rule_other_info_1
+    value: "如遇任何机械故障，所有游戏及奖金（派彩）一律作废。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_2:
+    key: shared_game_rule_other_info_2
+    value: "任何因游戏结果所产生的争议，均以游戏历史页面中所显示的记录为最终依据。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  buy_bonus_game:
+    key: buy_bonus_game
+    value: 购买奖金游戏
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'-------------------'":
+    key: "'-------------------'"
+    value: "'-------------'"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_1:
+    key: game_rule_bonus_multiple_1
+    value: 任何主游戏旋转开始时，奖金倍数为x1。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_2:
+    key: game_rule_bonus_multiple_2
+    value: 若在任何旋转期间，转轴上出现一个或多个赢奖符号，在奖金被支付并且新符号跌落之后，奖金倍数将增加1。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_1:
+    key: game_rule_free_game_1
+    value: 当4个夺宝符号出现在转轴的任意位置时，免费旋转模式将被触发并获得10次免费旋转。每个额外的夺宝符号都将触发多2次的免费旋转。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_2:
+    key: game_rule_free_game_2
+    value: 免费游戏模式开始时，奖金乘数为x2。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_3:
+    key: game_rule_free_game_3
+    value: 若在任何免费旋转期间，转轴上出现一个或多个赢奖符号，在奖金被支付并且新符号跌落之后，奖金倍数将增加2。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_4:
+    key: game_rule_free_game_4
+    value: 免费旋转可以被重复触发。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol:
+    key: game_rule_symbol
+    value: 多路连消百搭
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_1:
+    key: game_rule_symbol_1
+    value: "在任何旋转期间，第2、第3、第4和/或第5转轴上，那些占据2至4个符号位置的符号（不包括百搭符号和夺宝符号），将有可能被银框所包围。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_2:
+    key: game_rule_symbol_2
+    value: "在新符号跌落后的每一轮旋转中，上一轮赢奖中所涉及的任何银框符号将被转换为一个随机并带有金框的符号（百搭符号和夺宝符号除外）。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_3:
+    key: game_rule_symbol_3
+    value: "在新符号跌落后的每一轮旋转中，上一轮赢奖中所涉及的任何金框符号将被转换为百搭符号。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_title:
+    key: game_rate_line_info_title
+    value: "2,025至32,400路 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_1:
+    key: game_rate_line_info_1
+    value: "中奖路奖金按照从最左至右卷轴的顺序派发。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_2:
+    key: game_rate_line_info_2
+    value: "中奖路的奖金计算方式是按照从卷轴的最左边到最右边，每个赢奖符号相邻的数目乘以该符号的中奖路数目。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_3:
+    key: game_rate_line_info_3
+    value: "赢奖符号的赔付是由该符号的赔付值乘以中奖路的数目所得。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_4:
+    key: game_rate_line_info_4
+    value: "每轮游戏结束并发放奖金后，所有赢奖符号都将爆炸消除，让其上方的符号向下跌落以进行新一轮的旋转。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_5:
+    key: game_rate_line_info_5
+    value: "额外的中奖组合都将计入每次旋转的赢奖中，直到没有其他中奖组合。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_6:
+    key: game_rate_line_info_6
+    value: "所有赢奖以现金显示。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_value:
+    key: game_rate_symbol_value
+    value: Symbol Payout Values
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_1:
+    key: game_rate_symbol_info_1
+    value: "第2、第3、第4和/或第5转轴上的一些符号将有可能占据2至4个符号位置，在计算赢奖时，这些符号将计为单个符号。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_wild_info:
+    key: symbol_wild_info
+    value: Wild symbol substitutes for all symbols except the Scatter symbol.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_3:
+    key: game_rate_symbol_info_3
+    value: "百搭符号只出现在第2，第3，第4，和第5转轴上。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1:
+    key: game_rule_title_1
+    value: "寻宝黄金城 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_1:
+    key: game_rule_title_1_1
+    value: "寻宝黄金城是一个6轴5行的视频老虎机游戏（在第2、第3、第4和第5转轴的顶部设有一个附加轴），编入了多路连消百搭，并且在主游戏及免费旋转中均编\
+      入了递增式奖金倍数。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_2:
+    key: game_rule_title_1_2
+    value: "游戏共有2,025 - 32,400个中奖路并规定了%{1}条基础投注，%{2}到%{3}的投注倍数和%{4}到%{5}的投注大小。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_7:
+    key: game_rule_title_1_7
+    value: "中奖组合和奖金派发是根据“赔付表”进行的。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_8:
+    key: game_rule_title_1_8
+    value: "一条中奖路所得的奖励等同于显示在“赔付表”上的符号赔付值乘以投注大小和投注倍数。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_12:
+    key: game_rule_title_1_12
+    value: "不同中奖路上的奖金会被叠加。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_19:
+    key: game_rule_title_1_19
+    value: "免费旋转模式中投注大小和投注倍数和触发免费旋转模式时的参数保持一致。 "
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_scatter_info:
+    key: symbol_scatter_info
+    value: Four Scatter symbols will trigger free spins.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc1:
+    key: FeatureBuyDesc1
+    value: 点击“购买奖金游戏”按钮打开奖金游戏菜单。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc2:
+    key: FeatureBuyDesc2
+    value: 点击“开始”按钮，以奖金游戏菜单中所显示的价格购买免费旋转模式。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  ScatterDescription:
+    key: ScatterDescription
+    value: 4个或更多夺宝符号将触发免费旋转模式。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_NetworkErrorMessage:
+    key: shared_NetworkErrorMessage
+    value: "Failed to connect to game server, please check your network connection
+      or try again.(Error code: N1000EBLWHW14)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_ServerErrorMessage:
+    key: shared_ServerErrorMessage
+    value: 服务器请求失败。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_AnimationTips:
+    key: shared_AnimationTips
+    value: 亲，请稍安勿躁！第一次加载可能略微需要一点时间哦！|在Safari和Chrome享受更震撼的游戏体验吧！|关闭闲置网页，给我多点空间，还你更多惊喜！|高清游戏资源可能略多，建议在WIFI环境下预加载！|加载过的游戏会在浏览器保留缓存，下一次加载更流畅！|使用新版本的手机系统可以获得最佳的游戏体验！
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  all_record_displayed:
+    key: all_record_displayed
+    value: All record(s) displayed
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips1:
+    key: loading_tips1
+    value: If this is your first visit, downloading may take a while.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips2:
+    key: loading_tips2
+    value: Previously loaded games load faster from browser cache!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips3:
+    key: loading_tips3
+    value: Update to latest device update for best gaming experience!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips4:
+    key: loading_tips4
+    value: For the ultimate game experience, use Safari or Chrome!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips5:
+    key: loading_tips5
+    value: Turn off idle pages, give me more resources!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips6:
+    key: loading_tips6
+    value: Downloading over Wi-Fi recommended for HD gaming!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_game_res:
+    key: loading_game_res
+    value: Loading game resourcese
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_basic_res:
+    key: loading_basic_res
+    value: Loading basic resourcese
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_fail:
+    key: loading_fail
+    value: "Failed to load resources, please try again.(Error code: C1009)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  history_later:
+    key: history_later
+    value: History records may take awhile to appear. Please come back later!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  network_error:
+    key: network_error
+    value: Network error
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  account_irregularity:
+    key: account_irregularity
+    value: Account irregularity
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  launch_failed:
+    key: launch_failed
+    value: Launch Failed
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  fail_retrieve_account:
+    key: fail_retrieve_account
+    value: Failed to retrieve account information
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  unable_transaction:
+    key: unable_transaction
+    value: Unable to complete the transaction
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  incorrect_bet_amount:
+    key: incorrect_bet_amount
+    value: |-
+      Incorrect bet amount
+      (Error code: %{1})
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  insufficient_points:
+    key: insufficient_points
+    value: "Insufficient points, please try changing your bet amount.(Error code:
+      %{1})"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  bet_size_level_values:
+    key: bet_size_level_values
+    value: Bet Size  x  Bet Level  x  Symbol Payout Values  x  Way(s)  x  Multiplier
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail1:
+    key: login_fail1
+    value: Login failed, system retrying... (1st  time)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail2:
+    key: login_fail2
+    value: Login failed, system retrying... (2nd  time)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail3:
+    key: login_fail3
+    value: Login failed, system retrying... (3rd  time)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail4:
+    key: login_fail4
+    value: Login failed, system retrying... (4th  time)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail5:
+    key: login_fail5
+    value: Login failed, system retrying... (5th  time)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  account_verification:
+    key: account_verification
+    value: Account verification in progress
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_player_info:
+    key: loading_player_info
+    value: Loading player information
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start:
+    key: shared_btn_auto_start
+    value: Auto Spin
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  reload:
+    key: reload
+    value: Reload
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  fail_connect_game:
+    key: fail_connect_game
+    value: Failed to connect to game server, please check your network connection or
+      try again.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  fail_complete_transaction:
+    key: fail_complete_transaction
+    value: Failed to complete the transaction
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rules:
+    key: game_rules
+    value: Game Rules
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  start:
+    key: start
+    value: GET STARTED
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_22:
+    key: pfb_22
+    value: At the start of the Free Spins Feature, the multipliers below the reels
+      will be increased to x2,x4,x6 and x10 respectively.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_0:
+    key: pfb_0
+    value: Scatter symbol
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_23:
+    key: pfb_23
+    value: If there are one or more winning combinations on the reels,the
+      multipliers below the reels will be increased by 1,2,3 and 5 respectively
+      in the next free spin.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_24:
+    key: pfb_24
+    value: Free spins can be retriggered.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_25:
+    key: pfb_25
+    value: Maximum Win
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_26:
+    key: pfb_26
+    value: The maximum win amount is 8000x of the bet amount.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_27:
+    key: pfb_27
+    value: If the total win in the main game or the Free Spins Feature reaches 8000x
+      of the bet amount,the spin ends.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_28:
+    key: pfb_28
+    value: Feature Buy
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_29:
+    key: pfb_29
+    value: Tap on Feature Buy button to open the Feature Buy menu.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_30:
+    key: pfb_30
+    value: Tap on Start button to buy the Free Spins Feature at the price displayed
+      in the Feature Buy menu.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_31:
+    key: pfb_31
+    value: 576 - 46,656 Ways
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_32:
+    key: pfb_32
+    value: Bet ways win if the winning symbols are in succession from the leftmost
+      reel to the right.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_33:
+    key: pfb_33
+    value: Total number of winning bet ways for each symbol are calculated by
+      multiplying the number of adjacent winning symbols on each symbols from
+      the leftmost reel to the right.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_34:
+    key: pfb_34
+    value: "From Above Example:"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_35:
+    key: pfb_35
+    value: The winning symbol payout is multiplied by the number of winning bet ways.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_37:
+    key: pfb_37
+    value: After the payout of every round is made, all winning symbols will explode
+      allowing the symbols above them to cascade down for a new round.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_38:
+    key: pfb_38
+    value: Additional winning combination will be tallied in every round until no
+      more winning combination can be tallied.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_39:
+    key: pfb_39
+    value: All wins shown in cash.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_40:
+    key: pfb_40
+    value: Winning Bet Lines
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_lz:
+    key: pfb_lz
+    value: "Total Winnings in this example:"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_0:
+    key: rule_0
+    value: Game amount is in {1}.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_1:
+    key: rule_1
+    value: Game Rules
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule2:
+    key: rule2
+    value: The game is played with 10 bet lines(fixed),bet level of 1 to 10 and bet
+      size of 0.03 to 0.9.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_3:
+    key: rule_3
+    value: Ultimate Striker is a 6-reel, 6-row video slot featuring sticky
+      Wilds-on-the-Way and free spins that increase all multipliers.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_4:
+    key: rule_4
+    value: The game is played with 20 base bet for 576 ways - 46,656 ways, bet level
+      of 1 to 10 and bet size of 0.02 to 2.50.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_5:
+    key: rule_5
+    value: The Bet Size is set using the "Bet Size " selector.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_6:
+    key: rule_6
+    value: The Bet Level is set using the "Bet Level" selector.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_7:
+    key: rule_7
+    value: The Bet Amount is set using the "Bet Amount" selector.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_8:
+    key: rule_8
+    value: '"Cash Wallet" displays the cash available for wager.'
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_9:
+    key: rule_9
+    value: '"Auto Spin" automaticcally plays the game for a selected number of
+      rounds.'
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_10:
+    key: rule_10
+    value: Winning combinations and payouts are made according to the "Paytable".
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_11:
+    key: rule_11
+    value: A bet line win cash is equal to the value shown in the "Paytable"
+      multiplied by the bet size and bet level.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_12:
+    key: rule_12
+    value: Bet lines win if the winning symbols are in the succession from the
+      leftmost reel to the right.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_13:
+    key: rule_13
+    value: Total number of winning bet ways for each symbol are calculated by
+      multiplying the number of adjacent winning symbols on each symbols from
+      the leftmost reel to the right.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_14:
+    key: rule_14
+    value: The winning symbol payout is multiplied by the number of winning bet ways.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_15:
+    key: rule_15
+    value: Simultaneous wins on different bet lines are added.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_16:
+    key: rule_16
+    value: After the payout of every round is made, all winning symbols will explode
+      allowing the symbols above them to cascade down for a new round.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_17:
+    key: rule_17
+    value: Addtional winning combination will be tallied in every round until no
+      more winning combination can be tallied.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_18:
+    key: rule_18
+    value: All wins shown in cash.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_19:
+    key: rule_19
+    value: Some symbols in reels 2, 3, 4 and/or 5 may occupy 2 to 4 symbols' spaces
+      and each of these symbols will represent as a single symbol during payout
+      calculations.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_20:
+    key: rule_20
+    value: Wild symbol substitutes for all symbols except Scatter symbol.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_21:
+    key: rule_21
+    value: Wild symbol appears on reels 2, 3, 4 and 5 only.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_22:
+    key: rule_22
+    value: Free Spins Feature is played at the same bet size and bet level as the
+      spin that triggered the Free Spins Feature.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_23:
+    key: rule_23
+    value: Sticky Wilds-on-the-Way
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_33:
+    key: rule_33
+    value: Any win in the second round will increase the third round's multiplier to
+      x2.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_34:
+    key: rule_34
+    value: Any win in the third round will increase the fourth round's (and
+      beyond)multiplier to x5.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_35:
+    key: rule_35
+    value: Free Spins Feature
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_36:
+    key: rule_36
+    value: 4 Scatter symbols appearing anywhere will trigger the Free Spins Feature
+      with 15 free spins. Each additional Scatter symbol will trigger 2 more
+      free spins.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_37:
+    key: rule_37
+    value: At the start of the Free Spins Feature, the multiplier below the reels
+      will be increased to x2,x4,x6 and x10.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_38:
+    key: rule_38
+    value: If there are one or more winning combinations on the reels,the
+      multipliers below the reels will be increased by 1,2,3 and 5 respectively
+      in the next free spin.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_39:
+    key: rule_39
+    value: Free spins can be retriggered.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_40:
+    key: rule_40
+    value: Maximum Win
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_41:
+    key: rule_41
+    value: The maximum win amount is 8000x of the bet amount.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_42:
+    key: rule_42
+    value: If the total win in the main game or the Free Spins Feature reaches 8000x
+      of the bet amount,the spin ends.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_43:
+    key: rule_43
+    value: Feature Buy
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_44:
+    key: rule_44
+    value: Tap on Feature Buy button to open the Feature Buy menu.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_45:
+    key: rule_45
+    value: Tap on Start button to buy the Free Spins Feature at the price displayed
+      in the Feature Buy menu.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_46:
+    key: rule_46
+    value: Main Game
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_47:
+    key: rule_47
+    value: Spin
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_48:
+    key: rule_48
+    value: Tap to start spin at the current Base Bet, Bet Size and Bet Level.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_49:
+    key: rule_49
+    value: Tap the button or the game area during a spin to stop the reels.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_50:
+    key: rule_50
+    value: Press the <Space> key to start spin at the current Base Bet, Bet Size and
+      Bet Level. (applicable to PC version only)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_51:
+    key: rule_51
+    value: Press and Hold <Space> key will continue game spins until it is released
+      (applicable to PC version only)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_52:
+    key: rule_52
+    value: Stop
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_53:
+    key: rule_53
+    value: Tap to stop Auto Spin. The number on the button indicates the remaining
+      number of spins for Auto Spin.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_54:
+    key: rule_54
+    value: Minus
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_55:
+    key: rule_55
+    value: Tap to reduce the Bet Amount.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_56:
+    key: rule_56
+    value: Plus
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_57:
+    key: rule_57
+    value: Tap to increase the Bet Amount.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_58:
+    key: rule_58
+    value: Wallet Balance
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_59:
+    key: rule_59
+    value: Tap to display the balance of available wallets.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_60:
+    key: rule_60
+    value: Bet Amount
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_61:
+    key: rule_61
+    value: Tap to display the Bet Options.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_62:
+    key: rule_62
+    value: "Bet Size: Scroll to select the Bet Size."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_63:
+    key: rule_63
+    value: "Bet Level: Scroll to select the Bet Level."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_64:
+    key: rule_64
+    value: "Bet Amount: Scroll to select the Bet Amount."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_65:
+    key: rule_65
+    value: "Max Bet: Tap to set Bet Size and Bet Level to maximum value."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_66:
+    key: rule_66
+    value: Win Amount
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_67:
+    key: rule_67
+    value: Tap to display the Game History.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_68:
+    key: rule_68
+    value: Auto Spin
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_69:
+    key: rule_69
+    value: Auto Spin automatically plays the game for a selected number of spins.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_70:
+    key: rule_70
+    value: Tap on the values to select number of Auto Spins.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_71:
+    key: rule_71
+    value: Turbo Spin
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_72:
+    key: rule_72
+    value: Tap to enable or disable the Turbo Spin to reduce the duration of reel
+      spins in the main game.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_73:
+    key: rule_73
+    value: More Settings
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_74:
+    key: rule_74
+    value: Tap to access additional settings.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_75:
+    key: rule_75
+    value: Sound
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  net_busy:
+    key: net_busy
+    value: Network is busy, retrying now... (%{1} time)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_1:
+    key: the_1
+    value: 1st
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_2:
+    key: the_2
+    value: 2nd
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_3:
+    key: the_3
+    value: 3rd
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_4:
+    key: the_4
+    value: 4th
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_5:
+    key: the_5
+    value: 5th
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  test:
+    key: test
+    value: test
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: c77ecaa8-c936-46c4-a5b0-98692673ed87
+        nodeUuid: 428ebbrM9EMLIAWGvLxF4D
+        reference: c77ecaa8-c936-46c4-a5b0-98692673ed87
+      - sceneUuid: c77ecaa8-c936-46c4-a5b0-98692673ed87
+        nodeUuid: 428ebbrM9EMLIAWGvLxF4D
+        reference: c77ecaa8-c936-46c4-a5b0-98692673ed87
+    _variants: []
+  rule_24:
+    key: rule_24
+    value: During any spins, some symbols (excluding Wild symbol and Scatter symbol)
+      in reels 2, 3, 4 and/or 5 that occupy 2 to 4 symbols' spaces may have a
+      silver frame around itself.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_25:
+    key: rule_25
+    value: At every new round after the new symbols have cascaded down, any
+      silver-framed symbol(s) that is involved in a win in the previous round
+      will be transformed into a randomly selected symbol (other than Wild
+      symbol and Scatter symbol) with a gold frame around itself.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_41:
+    key: pfb_41
+    value: Only the highest win per bet line is paid.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_42:
+    key: pfb_42
+    value: Bet lines win if the winning symbols are in succession from the leftmost
+      reel to the right.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_2:
+    key: pfb_2
+    value: Symbol Payout Values
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_3:
+    key: pfb_3
+    value: Scatter symbol
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_4:
+    key: pfb_4
+    value: Wild symbol
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_5:
+    key: pfb_5
+    value: Some symbols may occupy 2 to 4 symbols' spaces and each of these symbols
+      will represent as a single symbol during payout calculations.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_6:
+    key: pfb_6
+    value: Wild symbol substitutes for all symbols except Scatter symbol.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_7:
+    key: pfb_7
+    value: Wild symbol appears on reels 2, 3, 4 and 5 only.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_8:
+    key: pfb_8
+    value: Stricky Wilds-on-the-Way
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_9:
+    key: pfb_9
+    value: During any spins, some symbols (excluding Wild symbol and Scatter symbol)
+      in reels 2, 3, 4 and/or 5 that occupy 2 to 4 symbols' spaces may have a
+      silver frame around itself.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_10:
+    key: pfb_10
+    value: At every new round after the new symbols have cascaded down, any
+      silver-framed symbol(s) that is involved in a win in the previous round
+      will be transformed into a randomly selected symbol (other than Wild
+      symbol and Scatter symbol) with a gold frame around itself.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_11:
+    key: pfb_11
+    value: At every new round after the new symbols have cascaded down, any
+      gold-framed symbol(s) that is involved in a win in the previous round will
+      be transformed into Wild symbol(s).
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_12:
+    key: pfb_12
+    value: The number indicated at the top portion of the Wild symbol represents the
+      number of the times the Wild symbol can be used in a winning combination
+      before it destroys itself.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_13:
+    key: pfb_13
+    value: If a Wild symbol is involved in a win and the number at the top portion
+      of the Wild symbol indicates a value of 2 or more,the Wild symbol will not
+      destroy itself in the next round and that value is deducted by 1.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_14:
+    key: pfb_14
+    value: If a Wild symbol is involved in a win and the number at the top portion
+      of the Wild symbol indicates a value of 1,the Wild symbol will destroy
+      itself in the next round .
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_15:
+    key: pfb_15
+    value: Multiplier
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_16:
+    key: pfb_16
+    value: During any spins,all wins will be multiplied by the multiplier shown
+      below the reels,starting with x1 in the first round.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_17:
+    key: pfb_17
+    value: Any win in the first round will increase the second round's multiplier to
+      x2.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_18:
+    key: pfb_18
+    value: Any win in the second round will increase the third round's multiplier to
+      x3.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_19:
+    key: pfb_19
+    value: Any win in the third round will increase the fourth round's (and
+      beyond)multiplier to x5.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_20:
+    key: pfb_20
+    value: Free Spins Feature
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_21:
+    key: pfb_21
+    value: 4 Scatter symbols appearing anywhere will trigger the Free Spins Feature
+      with 15 free spins. Each additional Scatter symbol will trigger 2 more
+      free spins.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_36:
+    key: pfb_36
+    value: "Total Winnings in this Example:"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_2:
+    key: rule_2
+    value: Ultimate Striker
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_26:
+    key: rule_26
+    value: At every new round after the new symbols have cascaded down, any
+      gold-framed symbol(s) that is involved in a win in the previous round will
+      be transformed into Wild symbol.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_27:
+    key: rule_27
+    value: The number indicated at the top portion of the Wild symbol represents the
+      number of the times the Wild symbol can be used in a winning combination
+      before it destroys itself.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_28:
+    key: rule_28
+    value: If a Wild symbol is involved in a win and the number at the top portion
+      of the Wild symbol indicates a value of 2 or more,the Wild symbol will not
+      destroy itself in the next round and that value is deducted by 1.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_29:
+    key: rule_29
+    value: If a Wild symbol is involved in a win and the number at the top portion
+      of the Wild symbol indicates a value of 1,the Wild symbol will destroy
+      itself in the next round .
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_30:
+    key: rule_30
+    value: Multiplier
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_31:
+    key: rule_31
+    value: During any spins, all wins will be multiplied by the multiplier shown
+      below the reels,starting with x1 in the first round.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_32:
+    key: rule_32
+    value: Any win in the second round will increase the third round's multiplier to
+      x2.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_83:
+    key: rule_83
+    value: Tap  <img src='ic_nav_calender' />  to select the dates of games to be
+      shown in History.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_86:
+    key: rule_86
+    value: Addtional Information
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_88:
+    key: rule_88
+    value: In the event of disputes over game results,all game results that are
+      shown in the game history page are absolute and final.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_1:
+    key: pfb_1
+    value: Paytable
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_76:
+    key: rule_76
+    value: Tap to turn sound ON or OFF.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_77:
+    key: rule_77
+    value: Paytable
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_78:
+    key: rule_78
+    value: Shows winning combinations and paytable.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_79:
+    key: rule_79
+    value: Rules
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_80:
+    key: rule_80
+    value: Shows the game rules and button functions.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_81:
+    key: rule_81
+    value: History
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_82:
+    key: rule_82
+    value: Shows details of the previous games played. Scroll down to the end to
+      load more records.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_84:
+    key: rule_84
+    value: Close
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_85:
+    key: rule_85
+    value: Tap to return to the Main Game.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_87:
+    key: rule_87
+    value: Malfunction voids all pays and plays.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  max_beting:
+    key: max_beting
+    value: Max Bet
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_rotation_tips:
+    key: shared_rotation_tips
+    value: |-
+      Please switch back to portrait mode to
+      Continue the game
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rue_0:
+    key: rue_0
+    value: Game amount is in {1}.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+languageConfig:
+  bcp47Tag: en-US
+  translateFinished: 5
+  translateTotal: 12
+  compileFinished: 0
+  compileTotal: 333

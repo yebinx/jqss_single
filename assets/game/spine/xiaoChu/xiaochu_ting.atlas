@@ -1,0 +1,27 @@
+
+xiaochu_ting.png
+size: 1438,552
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sd_vfx_a_screen
+  rotate: true
+  xy: 2, 10
+  size: 540, 700
+  orig: 540, 700
+  offset: 0, 0
+  index: -1
+sd_vfx_b_add_01
+  rotate: false
+  xy: 704, 2
+  size: 365, 548
+  orig: 365, 548
+  offset: 0, 0
+  index: -1
+sd_vfx_b_add_02
+  rotate: false
+  xy: 1071, 2
+  size: 365, 548
+  orig: 365, 548
+  offset: 0, 0
+  index: -1

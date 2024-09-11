@@ -1,0 +1,153 @@
+
+jinbifangun.png
+size: 1316,519
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ib_vfx_f_normal_00000
+  rotate: false
+  xy: 2, 9
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+ib_vfx_f_normal_00001
+  rotate: false
+  xy: 2, 9
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+ib_vfx_f_normal_00002
+  rotate: false
+  xy: 799, 117
+  size: 458, 38
+  orig: 630, 126
+  offset: 93, 0
+  index: -1
+ib_vfx_f_normal_00003
+  rotate: false
+  xy: 799, 310
+  size: 472, 58
+  orig: 630, 126
+  offset: 82, 0
+  index: -1
+ib_vfx_f_normal_00004
+  rotate: false
+  xy: 799, 370
+  size: 491, 74
+  orig: 630, 126
+  offset: 61, 0
+  index: -1
+ib_vfx_f_normal_00005
+  rotate: true
+  xy: 637, 21
+  size: 496, 82
+  orig: 630, 126
+  offset: 57, 0
+  index: -1
+ib_vfx_f_normal_00006
+  rotate: true
+  xy: 376, 20
+  size: 497, 89
+  orig: 630, 126
+  offset: 56, 0
+  index: -1
+ib_vfx_f_normal_00007
+  rotate: true
+  xy: 191, 15
+  size: 502, 92
+  orig: 630, 126
+  offset: 52, 0
+  index: -1
+ib_vfx_f_normal_00008
+  rotate: true
+  xy: 2, 12
+  size: 505, 93
+  orig: 630, 126
+  offset: 50, 0
+  index: -1
+ib_vfx_f_normal_00009
+  rotate: true
+  xy: 97, 12
+  size: 505, 92
+  orig: 630, 126
+  offset: 49, 0
+  index: -1
+ib_vfx_f_normal_00010
+  rotate: true
+  xy: 285, 8
+  size: 509, 89
+  orig: 630, 126
+  offset: 46, 0
+  index: -1
+ib_vfx_f_normal_00011
+  rotate: true
+  xy: 467, 5
+  size: 512, 85
+  orig: 630, 126
+  offset: 44, 1
+  index: -1
+ib_vfx_f_normal_00012
+  rotate: true
+  xy: 554, 2
+  size: 515, 81
+  orig: 630, 126
+  offset: 43, 1
+  index: -1
+ib_vfx_f_normal_00013
+  rotate: true
+  xy: 721, 3
+  size: 514, 76
+  orig: 630, 126
+  offset: 44, 1
+  index: -1
+ib_vfx_f_normal_00014
+  rotate: false
+  xy: 799, 446
+  size: 513, 71
+  orig: 630, 126
+  offset: 44, 1
+  index: -1
+ib_vfx_f_normal_00015
+  rotate: false
+  xy: 799, 4
+  size: 511, 64
+  orig: 630, 126
+  offset: 50, 1
+  index: -1
+ib_vfx_f_normal_00016
+  rotate: false
+  xy: 799, 252
+  size: 430, 56
+  orig: 630, 126
+  offset: 133, 1
+  index: -1
+ib_vfx_f_normal_00017
+  rotate: false
+  xy: 799, 200
+  size: 433, 50
+  orig: 630, 126
+  offset: 130, 1
+  index: -1
+ib_vfx_f_normal_00018
+  rotate: false
+  xy: 799, 157
+  size: 428, 41
+  orig: 630, 126
+  offset: 133, 1
+  index: -1
+ib_vfx_f_normal_00019
+  rotate: false
+  xy: 799, 82
+  size: 386, 33
+  orig: 630, 126
+  offset: 173, 1
+  index: -1
+ib_vfx_f_normal_00020
+  rotate: true
+  xy: 1292, 70
+  size: 374, 22
+  orig: 630, 126
+  offset: 173, 1
+  index: -1

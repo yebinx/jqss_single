@@ -1,0 +1,357 @@
+{
+"skeleton": { "hash": "MZ9wBnW6M5Cb4jgs4PfVWxiVsX0", "spine": "3.8.99", "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "kc", "parent": "root", "rotation": 0.03 }
+],
+"slots": [
+	{ "name": "kc", "bone": "kc", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"kc": {
+				"wh_vfx_c_add_10": { "width": 100, "height": 100 },
+				"wh_vfx_c_add_a": { "rotation": -0.03, "width": 100, "height": 100 },
+				"wh_vfx_c_add_flags": { "rotation": -0.03, "width": 100, "height": 100 },
+				"wh_vfx_c_add_gloves": { "rotation": -0.03, "width": 100, "height": 100 },
+				"wh_vfx_c_add_j": { "rotation": -0.03, "width": 100, "height": 100 },
+				"wh_vfx_c_add_k": { "rotation": -0.03, "width": 100, "height": 100 },
+				"wh_vfx_c_add_q": { "rotation": -0.03, "width": 100, "height": 100 },
+				"wh_vfx_c_add_shoes": { "rotation": -0.03, "width": 100, "height": 100 },
+				"wh_vfx_c_add_soccerball": { "rotation": -0.03, "width": 100, "height": 142 },
+				"wh_vfx_c_add_soccerball_a": { "rotation": -0.03, "width": 100, "height": 100 },
+				"wh_vfx_c_add_ticket": { "rotation": -0.03, "width": 100, "height": 100 },
+				"wh_vfx_c_add_whistle": { "rotation": -0.03, "width": 100, "height": 100 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_10" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_a" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation3": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_flags" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation4": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_gloves" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation5": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_j" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation6": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_k" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation7": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_q" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation8": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_shoes" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation9": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_soccerball" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation10": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_soccerball_a" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation11": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_ticket" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"animation12": {
+		"slots": {
+			"kc": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wh_vfx_c_add_whistle" }
+				]
+			}
+		},
+		"bones": {
+			"kc": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.44, "y": 1.44 }
+				]
+			},
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

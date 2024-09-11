@@ -1,0 +1,10 @@
+{
+    "optionCreate": true,
+    "optionLimit": true,
+    "optionVerify": true,
+    "watchUpdate": false,
+    "filter": "\\.proto$",
+    "fileName": "MaJiang",
+    "input": "/Users/yamiwang/Desktop/mjhl/proto",
+    "output": "/Users/yamiwang/Desktop/mjhl/assets/plugin2"
+}

@@ -1,0 +1,13 @@
+
+pmd_ting.png
+size: 285,74
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+info_scatter
+  rotate: false
+  xy: 2, 2
+  size: 281, 70
+  orig: 285, 72
+  offset: 3, 1
+  index: -1

@@ -1,0 +1,41 @@
+
+lgoo_cuxian.png
+size: 379,131
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai
+  rotate: false
+  xy: 0, 45
+  size: 178, 86
+  orig: 178, 86
+  offset: 0, 0
+  index: -1
+bai2
+  rotate: false
+  xy: 188, 29
+  size: 186, 85
+  orig: 186, 85
+  offset: 0, 0
+  index: -1
+jizi2
+  rotate: false
+  xy: 188, 1
+  size: 178, 26
+  orig: 178, 26
+  offset: 0, 0
+  index: -1
+tebi
+  rotate: false
+  xy: 0, 0
+  size: 186, 43
+  orig: 186, 43
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 180, 116
+  size: 199, 15
+  orig: 199, 15
+  offset: 0, 0
+  index: -1

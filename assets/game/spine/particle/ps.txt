@@ -1,0 +1,17 @@
+particle__fa_vfx_c_add                 免费游戏背景光效    free_bj_idle1     免费游戏背景待机动效，暖色光效果   粒子
+
+
+
+
+
+particle__ma_vfx_c_add             背景待机动效     bj_idle    背景待机光效，球场探照灯效果   粒子
+
+
+
+
+star                                                巨奖  超级巨奖  这类动画粒子
+
+  
+
+
+   

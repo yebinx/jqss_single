@@ -1,0 +1,1830 @@
+locale: vi-VN
+items:
+  shared_title_start_game:
+    key: shared_title_start_game
+    value: Bắt Đầu
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips_do_login:
+    key: shared_loading_tips_do_login
+    value: Đang đăng nhập
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips:
+    key: shared_loading_tips
+    value: Đang tải tài nguyên
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail:
+    key: shared_login_fail
+    value: Đăng nhập thất bại
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_exit:
+    key: shared_btn_exit
+    value: Thoát
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_sound:
+    key: shared_btn_sound
+    value: Âm thanh
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate:
+    key: shared_btn_rate
+    value: Bảng trả thưởng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule:
+    key: shared_btn_rule
+    value: Luật
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history:
+    key: shared_btn_history
+    value: Lịch sử
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close:
+    key: shared_btn_close
+    value: Đóng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading:
+    key: shared_loading
+    value: Đang tải
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_retry:
+    key: shared_btn_retry
+    value: Thử Lại
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_start:
+    key: shared_record_start
+    value: Bắt Đầu
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_end:
+    key: shared_record_end
+    value: Kết Thúc
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_type_title:
+    key: shared_record_date_type_title
+    value: Chọn Phạm Vi Ngày
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_today:
+    key: shared_record_date_today
+    value: Hôm nay
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_last_week:
+    key: shared_record_date_last_week
+    value: 7 Ngày Vừa Qua
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_custom:
+    key: shared_record_date_custom
+    value: Tùy Chỉnh
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_history_title:
+    key: shared_record_history_title
+    value: Lịch Sử Trò Chơi
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_time:
+    key: shared_record_time
+    value: Thời gian
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_order_number:
+    key: shared_record_order_number
+    value: Giao dịch
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_normal_play:
+    key: shared_record_normal_play
+    value: Vòng Quay Thường
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_title:
+    key: shared_setting_bet_title
+    value: Tùy Chọn Cược
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_base:
+    key: shared_setting_bet_base
+    value: Kích cỡ cược
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_multiple:
+    key: shared_setting_bet_multiple
+    value: Mức cược
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_line:
+    key: shared_setting_bet_line
+    value: Cơ sở cược
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_total:
+    key: shared_setting_bet_total
+    value: Số tiền cược
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_info_tips:
+    key: shared_record_win_line_info_tips
+    value: Kích cỡ cược x Mức cược x Giá trị trả thưởng của biểu tượng x Số Đường x
+      Số Nhân
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule:
+    key: shared_game_rule
+    value: Luật Chơi
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_title:
+    key: shared_setting_auto_start_title
+    value: Quay Tự Động
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_count:
+    key: shared_setting_auto_start_count
+    value: Số Vòng Quay Tự Động
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_max_bet:
+    key: shared_setting_bet_max_bet
+    value: Cươc Tối Đa
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_min_bet:
+    key: shared_setting_bet_min_bet
+    value: Cược Tối Thiểu
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_success:
+    key: shared_btn_success
+    value: Xác Nhận
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_not_history_record_tips:
+    key: shared_record_not_history_record_tips
+    value: Không có lịch sử trò chơi
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_bet:
+    key: shared_record_bet
+    value: Cược
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win:
+    key: shared_record_win
+    value: Lời
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_total_record_n:
+    key: shared_record_total_record_n
+    value: "%{1} Dữ liệu"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_round_count:
+    key: shared_round_count
+    value: Vòng %{1}
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_balance:
+    key: shared_record_balance
+    value: Số dư
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_reward_multiple:
+    key: shared_record_reward_multiple
+    value: Win Multiplier
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_detail_not_reward:
+    key: shared_record_round_detail_not_reward
+    value: Không có kết hợp chiến thắng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_state:
+    key: shared_record_win_state
+    value: Trả Thưởng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_2:
+    key: shared_record_win_line_2
+    value: Bộ 2
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_3:
+    key: shared_record_win_line_3
+    value: Bộ 3
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_4:
+    key: shared_record_win_line_4
+    value: Bộ 4
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_5:
+    key: shared_record_win_line_5
+    value: Bộ 5
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_6:
+    key: shared_record_win_line_6
+    value: Bộ 6
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_7:
+    key: shared_record_win_line_7
+    value: Bộ 7
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_8:
+    key: shared_record_win_line_8
+    value: Bộ 8
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_9:
+    key: shared_record_win_line_9
+    value: Bộ 9
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_bonus_n:
+    key: shared_record_free_bonus_n
+    value: "%{1} Vòng Quay Miễn Phí"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_start:
+    key: shared_setting_auto_start_start
+    value: Bắt Đầu Quay Tự Động
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_cash_money_bag:
+    key: shared_cash_money_bag
+    value: Ví tiền mặt
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_request_fail_retry:
+    key: shared_request_fail_retry
+    value: 网络繁忙，正在重试... (第%{1}次)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_on_tips:
+    key: shared_quick_on_tips
+    value: Đã Bật Quay Nhanh
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_off_tips:
+    key: shared_quick_off_tips
+    value: Đã Tắt Quay Nhanh
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_play:
+    key: shared_record_free_play
+    value: "Vòng Quay Miễn Phí: %{1}"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_date:
+    key: shared_record_round_date
+    value: "%{1}/%{2}/%{3}  %{4}:%{5} (GTM+8:00)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_n:
+    key: shared_record_win_line_n
+    value: "%{1} Đường"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_symbol:
+    key: shared_money_symbol
+    value: ¥
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_range:
+    key: shared_record_date_range
+    value: "%{1}/%{2}/%{3}  -  %{4}/%{5}/%{6}"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_title_transaction_fail:
+    key: shared_note_title_transaction_fail
+    value: Giao Dịch Không Thành Công
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_insufficient_balance_tips:
+    key: shared_insufficient_balance_tips
+    value: 余额不足
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_unknow_error_try_again:
+    key: shared_unknow_error_try_again
+    value: 未知错误，请重试。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_tips:
+    key: shared_title_tips
+    value: 提示
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_heart_beat_time_out:
+    key: shared_note_heart_beat_time_out
+    value: 连接服务器超时，是否重新加载。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_exit_game:
+    key: shared_title_exit_game
+    value: Thoát
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_reload:
+    key: shared_title_reload
+    value: Tải Lại
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_exit_game_tips_content:
+    key: shared_exit_game_tips_content
+    value: Thoát Khỏi Trò Chơi ?
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_cancel:
+    key: shared_title_cancel
+    value: Hủy
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_scatter:
+    key: shared_symbol_name_scatter
+    value: Biểu tượng Scatter
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_wild:
+    key: shared_symbol_name_wild
+    value: Biểu tượng Wild
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'------------------------------------------------------’":
+    key: "'------------------------------------------------------’"
+    value: "'------------------------------------------------------’"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_rotation_tips:
+    key: shared_rotation_tips
+    value: |-
+      Vui lòng chuyển lại chế độ xem dọc
+      để tiếp tục trò chơi
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_wild_info:
+    key: symbol_wild_info
+    value: Biểu tượng Wild thay thế cho tất cả biểu tượng trừ các biểu tượng Scatter
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_scatter_info:
+    key: symbol_scatter_info
+    value: 3 Scatter biểu tượng sẽ kích hoạt vòng quay miễn phí
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc1:
+    key: FeatureBuyDesc1
+    value: 点击“购买奖金游戏”按钮打开奖金游戏菜单。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc2:
+    key: FeatureBuyDesc2
+    value: 点击“开始”按钮，以奖金游戏菜单中所显示的价格购买免费旋转模式。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  ScatterDescription:
+    key: ScatterDescription
+    value: 4个或更多夺宝符号将触发免费旋转模式。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_NetworkErrorMessage:
+    key: shared_NetworkErrorMessage
+    value: "Kết nối hệ thống thất bại, hãy kiểm tra mạng hoặc thử lại.(mã lỗi:
+      N1000EBLWHW14)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_ServerErrorMessage:
+    key: shared_ServerErrorMessage
+    value: 服务器请求失败。
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  all_record_displayed:
+    key: all_record_displayed
+    value: Tất cả dữ liệu đã được hiện thị
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips1:
+    key: loading_tips1
+    value: Nếu đây là lần truy cập đầu tiên của bạn, có thể mất một chút thời gian
+      để tải về!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips2:
+    key: loading_tips2
+    value: Tải các trò chơi đã tải trước đó nhanh hơn từ bộ nhớ đệm của trình duyệt!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips3:
+    key: loading_tips3
+    value: Sử dụng thiết bị mới nhất để có trải nghiệm tốt nhất!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips4:
+    key: loading_tips4
+    value: Để có trải nghiệm chơi vượt trội, hãy dùng Safari hoặc Chrome!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips5:
+    key: loading_tips5
+    value: Tắt các trang không hoạt động để tận dụng thêm tài nguyên!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips6:
+    key: loading_tips6
+    value: Khuyến nghị tải về qua Wi-Fi khi chơi ở độ phân giải HD!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_game_res:
+    key: loading_game_res
+    value: Đang tải tài nguyên trò chơi
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_basic_res:
+    key: loading_basic_res
+    value: Đang tải tài nguyên cơ bản
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_fail:
+    key: loading_fail
+    value: "Tải tài nguyên thất bại, hãy thử lại. (mã lỗi: C1009)"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  history_later:
+    key: history_later
+    value: Dữ liệu lịch sử có thể mất một lúc để hiện thị. vui lòng quay lại sau!
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  network_error:
+    key: network_error
+    value: Mạng bất thường
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  account_irregularity:
+    key: account_irregularity
+    value: Tài khoản bất thường
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  launch_failed:
+    key: launch_failed
+    value: Kết nối hệ thống thất bại
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  fail_retrieve_account:
+    key: fail_retrieve_account
+    value: Tải thông tin tài khoản thất bại
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  unable_transaction:
+    key: unable_transaction
+    value: Giao dịch không thành công
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  incorrect_bet_amount:
+    key: incorrect_bet_amount
+    value: |-
+      Mức cược bất thường
+      (mã lỗi: %{1})
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  insufficient_points:
+    key: insufficient_points
+    value: |-
+      Số dư không đủ, Vui lòng thử thay đổi số tiền cược.
+      (mã lỗi: %{1})
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  bet_size_level_values:
+    key: bet_size_level_values
+    value: Kích cỡ cược x Mức cược x Giá trị trả thưởng của biểu tượng x Số Đường x
+      Số Nhân
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail1:
+    key: login_fail1
+    value: Đăng nhập thất bại, hệ thống đang thử lại...(lần thứ 1)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail2:
+    key: login_fail2
+    value: Đăng nhập thất bại, hệ thống đang thử lại...(lần thứ 2)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail3:
+    key: login_fail3
+    value: Đăng nhập thất bại, hệ thống đang thử lại...(lần thứ 3)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail4:
+    key: login_fail4
+    value: Đăng nhập thất bại, hệ thống đang thử lại...(lần thứ 4)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail5:
+    key: login_fail5
+    value: Đăng nhập thất bại, hệ thống đang thử lại...(lần thứ 5)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  account_verification:
+    key: account_verification
+    value: Đang xác minh tài khoản
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_player_info:
+    key: loading_player_info
+    value: Đang tải thông tin tài khoản
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  reload:
+    key: reload
+    value: Tải lại
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  fail_connect_game:
+    key: fail_connect_game
+    value: Kết nối hệ thống thất bại, hãy kiểm tra mạng hoặc thử lại.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  fail_complete_transaction:
+    key: fail_complete_transaction
+    value: Giao dịch không thành công
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rules:
+    key: game_rules
+    value: Luật Chơi
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  start:
+    key: start
+    value: Bắt Đầu
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_1:
+    key: pfb_1
+    value: Bảng trả thưởng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_2:
+    key: pfb_2
+    value: Giá trị trả thưởng cho biểu tượng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_3:
+    key: pfb_3
+    value: Biểu tượng Scatter
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_4:
+    key: pfb_4
+    value: Biểu tượng Wild
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_5:
+    key: pfb_5
+    value: Một số biểu tượng có thể chiếm không gian của từ 2 đến 4 biểu tượng và
+      mỗi biểu tượng như vậy sẽ được xem là một biểu tượng đơn lẻ trong khi tính
+      toán trả thưởng.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_6:
+    key: pfb_6
+    value: Biểu tượng Wild thay thế cho tất cả các biểu tượng trừ các biểu tượng
+      Scatter.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_7:
+    key: pfb_7
+    value: Biểu tượng Wild chỉ xuất hiện trên các guồng 2, 3, 4 và 5.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_8:
+    key: pfb_8
+    value: Wild Hiện Hoạt Kết Dính
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_9:
+    key: pfb_9
+    value: '"Trong bất kỳ vòng quay, một số biểu tượng (ngoại trừ biểu tượng Wild và
+      Scatter) trên các guồng 2, 3, 4 và/hoặc 5 chiếm không gian từ 2 đến 4 biểu
+      tượng có thể có một khung bạc bao quanh nó.'
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_10:
+    key: pfb_10
+    value: Ở mỗi vòng chơi mới sau khi các biểu tượng mới rơi xuống, bất kỳ biểu
+      tượng khung bạc tham gia vào một chiến thắng từ vòng chơi trước sẽ được
+      chuyển hóa thành một biểu tượng được chọn ngẫu nhiên (ngoài biểu tượng
+      Wild và Scatter) với một khung vàng bao quanh nó.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_11:
+    key: pfb_11
+    value: Ở mỗi vòng chơi mới, sau khi các biểu tượng mới rơi xuống, bất kỳ biểu
+      tượng khung vàng nào góp phần vào một chiến thắng từ vòng chơi trước sẽ
+      được biến đổi thành (các) biểu tượng Wild.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_12:
+    key: pfb_12
+    value: Con số chỉ định ở phần trên của biểu tượng Wild thể hiện số lần biểu
+      tượng Wild có thể được dùng trong một tổ hợp chiến thắng trước khi tự phá
+      hủy nó.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_13:
+    key: pfb_13
+    value: Nếu một biểu tượng Wild tham gia vào một chiến thắng và số ở phần trên
+      của biểu tượng Wild chỉ giá trị 2 trở lên, biểu tượng Wild sẽ không phá
+      hủy chính nó trong vòng chơi kế tiếp và giá trị giảm đi 1.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_14:
+    key: pfb_14
+    value: Nếu một biểu tượng Wild tham gia vào một chiến thắng và số ở phần trên
+      của biểu tượng Wild chỉ giá trị 1, biểu tượng Wild sẽ phá hủy chính nó
+      trong vòng chơi kế tiếp.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_15:
+    key: pfb_15
+    value: Số nhân
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_16:
+    key: pfb_16
+    value: Trong vòng quay bất kỳ, tất cả tiền thắng sẽ được nhân với số nhân hiển
+      thị bên dưới các guồng quay, bắt đầu từ x1 trong vòng chơi đầu tiên.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_17:
+    key: pfb_17
+    value: Bất kỳ chiến thắng trong vòng chơi đầu tiên sẽ tăng số nhân của vòng chơi
+      thứ hai thành x2.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_18:
+    key: pfb_18
+    value: Bất kỳ chiến thắng trong vòng chơi thứ hai sẽ tăng số nhân của vòng chơi
+      thứ ba thành x3.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_19:
+    key: pfb_19
+    value: Bất kỳ chiến thắng trong vòng chơi thứ ba sẽ tăng số nhân của vòng chơi
+      thứ tư (và sau đó) thành x5.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_20:
+    key: pfb_20
+    value: Tính năng Vòng quay miễn phí
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_21:
+    key: pfb_21
+    value: 4 biểu tượng Scatter xuất hiện ở mọi vị trí sẽ kích hoạt Tính năng Vòng
+      quay miễn phí với 15 vòng quay miễn phí. Mỗi biểu tượng Scatter bổ sung sẽ
+      kích hoạt thêm 2 vòng quay miễn phí.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_22:
+    key: pfb_22
+    value: Khi bắt đầu Tính năng Vòng Quay Miễn Phí, những số nhân bên dưới các
+      guồng quay sẽ được tăng lên lần lượt là x2, x4, x6 và x10.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_23:
+    key: pfb_23
+    value: Nếu có một hoặc nhiều tổ hợp chiến thắng trên các guồng quay, những số
+      nhân bên dưới các guồng quay sẽ được tăng lần lượt là 1, 2, 3 và 5 trong
+      vòng quay miễn phí tiếp theo.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_24:
+    key: pfb_24
+    value: Có thể tái kích hoạt Vòng quay miễn phí.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_25:
+    key: pfb_25
+    value: Thắng tối đa
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_26:
+    key: pfb_26
+    value: Số tiền thắng tối đa là 8000 số tiền đặt cược.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_27:
+    key: pfb_27
+    value: Nếu tổng thắng trong ván chơi chính hoặc tính năng Vòng Quay Miễn Phí đạt
+      đến %{8000}x số tiền đặt cược, vòng quay kết thúc.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_28:
+    key: pfb_28
+    value: Tính Năng Mua
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_29:
+    key: pfb_29
+    value: Chạm vào nút tính năng mua để mở menu tính năng mua.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_30:
+    key: pfb_30
+    value: Chạm vào nút "Bắt Đầu" để mua tính năng Vòng quay miễn phí với giá hiện
+      thị trong menu tính năng mua
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_31:
+    key: pfb_31
+    value: 576 - 46,656 Đường
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_32:
+    key: pfb_32
+    value: Đường cược sẽ thắng nếu các biểu tượng chiến thắng xuất hiện liên tiếp từ
+      guồng quay ngoài cùng bên trái sang bên phải.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_33:
+    key: pfb_33
+    value: Tổng số đường cược thắng đối với mỗi biểu tượng được tính toán bằng cách
+      nhân số biểu tượng thắng kề nhau trên mỗi biểu tượng từ guồng ngoài cùng
+      bên trái sang phải.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_34:
+    key: pfb_34
+    value: "Từ ví dụ ở trên:"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_35:
+    key: pfb_35
+    value: Mức trả thưởng biểu tượng thắng được nhân với số đường cược thắng.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_36:
+    key: pfb_36
+    value: "Tổng phần thắng trong ví dụ này:"
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_37:
+    key: pfb_37
+    value: Sau khi trả thưởng mỗi vòng chơi, tất cả biểu tượng chiến thắng sẽ phát
+      nổ cho phép các biểu tượng ở trên chúng rơi xuống cho vòng chơi mới.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_38:
+    key: pfb_38
+    value: Kết hợp chiến thắng bổ sung sẽ được tính trong mỗi vòng chơi cho đến khi
+      không thể tạo ra kết hợp chiến thắng nào nữa.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_39:
+    key: pfb_39
+    value: Tất cả tiền thắng cược được hiển thị bằng tiền mặt.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_0:
+    key: rule_0
+    value: Loại tiền tệ trong trò chơi là {1}.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_1:
+    key: rule_1
+    value: Luật Chơi
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_2:
+    key: rule_2
+    value: Tiền Đạo Đỉnh Cao
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_3:
+    key: rule_3
+    value: Tiền Đạo Đỉnh Cao là một trò chơi giật xèng video gồm 6 guồng quay, 6
+      hàng có tính năng Wild Hiện Hoạt kết dính và các vòng quay miễn phí sẽ
+      tăng tất cả các số nhân lên.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_4:
+    key: rule_4
+    value: Trò chơi được chơi với mức cược cơ sở 20 với 576 đường - tối đa 46656
+      đường, mức cược 1 đến 10 và lượng tiền cược từ 0.02 đến 2.50.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_5:
+    key: rule_5
+    value: Quy mô cược được đặt bằng bộ chọn "Quy mô cược".
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_6:
+    key: rule_6
+    value: Mức cược được đặt bằng bộ chọn "Mức cược".
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_7:
+    key: rule_7
+    value: Số tiền cược được đặt bằng bộ chọn "Số tiền cược".
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_8:
+    key: rule_8
+    value: '"Ví tiền mặt" hiện thị số tiền khả dụng để đặt cược.'
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_9:
+    key: rule_9
+    value: '"Quay tự động" tự động chơi trò chơi theo số vòng quay đã chọn.'
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_10:
+    key: rule_10
+    value: Thắng kết hợp và trả thưởng được thực hiện theo "Bảng trả thưởng".
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_11:
+    key: rule_11
+    value: Tiền thắng cược theo dòng cược bằng giá trị hiển thị trên "Bảng trả
+      thưởng" nhân với kích cỡ cược và mức cược.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_12:
+    key: rule_12
+    value: Đường cược sẽ thắng nếu các biểu tượng chiến thắng xuất hiện liên tiếp từ
+      guồng quay ngoài cùng bên trái sang bên phải.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_13:
+    key: rule_13
+    value: Tổng số đường cược thắng đối với mỗi biểu tượng được tính toán bằng cách
+      nhân số biểu tượng thắng kề nhau trên mỗi biểu tượng từ guồng ngoài cùng
+      bên trái sang phải.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_14:
+    key: rule_14
+    value: Mức trả thưởng biểu tượng thắng được nhân với số đường cược thắng.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_15:
+    key: rule_15
+    value: Cược thắng đồng thời trên các đường cược khác nhau được cộng dồn lại.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_16:
+    key: rule_16
+    value: Sau khi trả thưởng mỗi vòng chơi, tất cả biểu tượng chiến thắng sẽ phát
+      nổ cho phép các biểu tượng ở trên chúng rơi xuống cho vòng chơi mới.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_17:
+    key: rule_17
+    value: Kết hợp chiến thắng bổ sung sẽ được tính trong mỗi vòng chơi cho đến khi
+      không thể tạo ra kết hợp chiến thắng nào nữa.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_18:
+    key: rule_18
+    value: Tất cả tiền thắng cược được hiển thị bằng tiền mặt.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_19:
+    key: rule_19
+    value: Một số biểu tượng có thể chiếm không gian của từ 2 đến 4 biểu tượng và
+      mỗi biểu tượng như vậy sẽ được xem là một biểu tượng đơn lẻ trong khi tính
+      toán trả thưởng.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_20:
+    key: rule_20
+    value: Biểu tượng Wild thay thế cho tất cả các biểu tượng trừ các biểu tượng
+      Scatter.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_21:
+    key: rule_21
+    value: Biểu tượng Wild chỉ xuất hiện trên các guồng 2, 3, 4 và 5.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_22:
+    key: rule_22
+    value: Tính năng Vòng quay miễn phí được chơi ở kích cỡ cược và mức cược giống
+      như vòng quay kích hoạt tính năng Nhiều vòng quay miễn phí.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_23:
+    key: rule_23
+    value: Wild Hiện Hoạt Kết Dính
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_24:
+    key: rule_24
+    value: '"Trong bất kỳ vòng quay, một số biểu tượng (ngoại trừ biểu tượng Wild và
+      Scatter) trên các guồng 2, 3, 4 và/hoặc 5 chiếm không gian từ 2 đến 4 biểu
+      tượng có thể có một khung bạc bao quanh nó.'
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_25:
+    key: rule_25
+    value: Ở mỗi vòng chơi mới sau khi các biểu tượng mới rơi xuống, bất kỳ biểu
+      tượng khung bạc tham gia vào một chiến thắng từ vòng chơi trước sẽ được
+      chuyển hóa thành một biểu tượng được chọn ngẫu nhiên (ngoài biểu tượng
+      Wild và Scatter) với một khung vàng bao quanh nó.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_26:
+    key: rule_26
+    value: Ở mỗi vòng chơi mới, sau khi các biểu tượng mới rơi xuống, bất kỳ biểu
+      tượng khung vàng nào góp phần vào một chiến thắng từ vòng chơi trước sẽ
+      được biến đổi thành (các) biểu tượng Wild.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_27:
+    key: rule_27
+    value: Con số chỉ định ở phần trên của biểu tượng Wild thể hiện số lần biểu
+      tượng Wild có thể được dùng trong một tổ hợp chiến thắng trước khi tự phá
+      hủy nó.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_28:
+    key: rule_28
+    value: Nếu một biểu tượng Wild tham gia vào một chiến thắng và số ở phần trên
+      của biểu tượng Wild chỉ giá trị 2 trở lên, biểu tượng Wild sẽ không phá
+      hủy chính nó trong vòng chơi kế tiếp và giá trị giảm đi 1.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_29:
+    key: rule_29
+    value: Nếu một biểu tượng Wild tham gia vào một chiến thắng và số ở phần trên
+      của biểu tượng Wild chỉ giá trị 1, biểu tượng Wild sẽ phá hủy chính nó
+      trong vòng chơi kế tiếp.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_30:
+    key: rule_30
+    value: Số nhân
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_31:
+    key: rule_31
+    value: Trong vòng quay bất kỳ, tất cả tiền thắng sẽ được nhân với số nhân hiển
+      thị bên dưới các guồng quay, bắt đầu từ x1 trong vòng chơi đầu tiên.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_32:
+    key: rule_32
+    value: Bất kỳ chiến thắng trong vòng chơi đầu tiên sẽ tăng số nhân của vòng chơi
+      thứ hai thành x2.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_33:
+    key: rule_33
+    value: Bất kỳ chiến thắng trong vòng chơi thứ hai sẽ tăng số nhân của vòng chơi
+      thứ ba thành x3.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_34:
+    key: rule_34
+    value: Bất kỳ chiến thắng trong vòng chơi thứ ba sẽ tăng số nhân của vòng chơi
+      thứ tư (và sau đó) thành x5.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_35:
+    key: rule_35
+    value: Tính năng Vòng quay miễn phí
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_36:
+    key: rule_36
+    value: 4 biểu tượng Scatter xuất hiện ở mọi vị trí sẽ kích hoạt Tính năng Vòng
+      quay miễn phí với 15 vòng quay miễn phí. Mỗi biểu tượng Scatter bổ sung sẽ
+      kích hoạt thêm 2 vòng quay miễn phí.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_37:
+    key: rule_37
+    value: Khi bắt đầu Tính năng Vòng Quay Miễn Phí, những số nhân bên dưới các
+      guồng quay sẽ được tăng lên lần lượt là x2, x4, x6 và x10.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_38:
+    key: rule_38
+    value: Nếu có một hoặc nhiều tổ hợp chiến thắng trên các guồng quay, những số
+      nhân bên dưới các guồng quay sẽ được tăng lần lượt là 1, 2, 3 và 5 trong
+      vòng quay miễn phí tiếp theo.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_39:
+    key: rule_39
+    value: Có thể tái kích hoạt Vòng quay miễn phí.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_40:
+    key: rule_40
+    value: Thắng tối đa
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_41:
+    key: rule_41
+    value: Số tiền thắng tối đa là 8000 số tiền đặt cược.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_42:
+    key: rule_42
+    value: Nếu tổng thắng trong ván chơi chính hoặc tính năng Vòng Quay Miễn Phí đạt
+      đến %{8000}x số tiền đặt cược, vòng quay kết thúc.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_43:
+    key: rule_43
+    value: Tính Năng Mua
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_44:
+    key: rule_44
+    value: Chạm vào nút tính năng mua để mở menu tính năng mua.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_45:
+    key: rule_45
+    value: Chạm vào nút "Bắt Đầu" để mua tính năng Vòng quay miễn phí với giá hiện
+      thị trong menu tính năng mua
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_46:
+    key: rule_46
+    value: Trò chơi chính
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_47:
+    key: rule_47
+    value: Vòng quay
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_48:
+    key: rule_48
+    value: Chạm để bắt đầu quay ở Cược cơ sở, Lượng phỉnh cược và Mức cược hiện tại.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_49:
+    key: rule_49
+    value: Chạm vào nút hoặc khu vực trò chơi trong một vòng quay để dừng guồng quay.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_50:
+    key: rule_50
+    value: Nhấn phím <Phím cách> để bắt đầu quay ở Dòng cược, Lượng chip cược và Mức
+      cược hiện tại. (chỉ khả dụng cho phiên bản máy tính)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_51:
+    key: rule_51
+    value: Nhấn và Giữ phím <Phím cách> sẽ tiếp tục vòng quay cho đến khi buông phím
+      ra. (chỉ khả dụng cho phiên bản máy tính)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_52:
+    key: rule_52
+    value: Dừng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_53:
+    key: rule_53
+    value: Chạm để dừng Quay tự động. Số trên nút hiển thị số vòng quay còn lại cho
+      Quay tự động.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_54:
+    key: rule_54
+    value: Trừ
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_55:
+    key: rule_55
+    value: Chạm để giảm Tiền Cược.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_56:
+    key: rule_56
+    value: Cộng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_57:
+    key: rule_57
+    value: Chạm để tăng Tiền Cược.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_58:
+    key: rule_58
+    value: Số Dư Ví
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_59:
+    key: rule_59
+    value: Chạm để hiển thị số dư các ví hiện có.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_60:
+    key: rule_60
+    value: Số tiền Cược
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_61:
+    key: rule_61
+    value: Chạm để hiển thị các Tùy chọn Cược
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_62:
+    key: rule_62
+    value: "Lượng chip cược: Cuộn để chọn Lượng chip cược."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_63:
+    key: rule_63
+    value: "Mức cược: Cuộn để chọn Mức cược."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_64:
+    key: rule_64
+    value: "Số tiền cược: Cuộn để chọn Số tiền cược."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_65:
+    key: rule_65
+    value: "Cược tối đa: Chạm để đặt Lượng chip cược và Mức cược ở giá trị tối đa."
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_66:
+    key: rule_66
+    value: Số Tiền Thắng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_67:
+    key: rule_67
+    value: Chạm để hiện thị lịch sử chơi.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_68:
+    key: rule_68
+    value: Quay tự động
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_69:
+    key: rule_69
+    value: Tính năng Quay tự động sẽ tự động chơi theo số vòng quay đã chọn.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_70:
+    key: rule_70
+    value: chạm các giá trị để chọn số vòng quay tự động.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_71:
+    key: rule_71
+    value: Vòng quay Turbo
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_72:
+    key: rule_72
+    value: Chạm để bật hoặc tắt Quay Nhanh sẽ giảm thời gian các guồng quay trong
+      ván chơi chính.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_73:
+    key: rule_73
+    value: Nhiều cài đặt hơn
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_74:
+    key: rule_74
+    value: Chạm để truy cập cài đặt bổ sung.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_75:
+    key: rule_75
+    value: Âm thanh
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_76:
+    key: rule_76
+    value: Chạm để bật hoặc tắt Âm thanh.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_77:
+    key: rule_77
+    value: Bảng Trả thưởng
+    type: 2
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_78:
+    key: rule_78
+    value: Hiện thị các loại Thắng kết hợp và bảng trả thưởng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_79:
+    key: rule_79
+    value: Luật
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_80:
+    key: rule_80
+    value: Hiện thị luật chơi và các nút chức năng.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_81:
+    key: rule_81
+    value: Lịch sử
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_82:
+    key: rule_82
+    value: Hiện thị thông tin các ván chơi đã từng chơi trước đó. Cuộn xuống cuối để
+      tải thêm dữ liệu.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_83:
+    key: rule_83
+    value: chạm  <img src='ic_nav_calender' />  vào để chọn ngày của các ván chơi
+      hiện thị trong lịch sử.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_84:
+    key: rule_84
+    value: Đóng
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_85:
+    key: rule_85
+    value: Chạm để trở về trò chơi chính.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_86:
+    key: rule_86
+    value: Thông tin bổ sung
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_87:
+    key: rule_87
+    value: sự cố lỗi chức năng khiến mọi cuộc chơi và thanh toán trở nên vô hiệu.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_88:
+    key: rule_88
+    value: Trong trường hợp tranh chấp về kết quả trò chơi, tất cả kết quả trò chơi
+      được hiện thị trên trang lịch sử trò chơi là tuyệt đối cuối cùng.
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  net_busy:
+    key: net_busy
+    value: Network is busy, retrying now... (%{1} time)
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_1:
+    key: the_1
+    value: 1st
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_2:
+    key: the_2
+    value: 2nd
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_3:
+    key: the_3
+    value: 3rd
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_4:
+    key: the_4
+    value: 4th
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_5:
+    key: the_5
+    value: 5th
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  max_beting:
+    key: max_beting
+    value: Cược Tối Đa
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+languageConfig:
+  bcp47Tag: vi-VN
+  translateFinished: 3
+  translateTotal: 15
+  compileFinished: 0
+  compileTotal: 248

@@ -1,0 +1,69 @@
+{
+  "name": "bitmap-font",
+  "version": "3.1.4",
+  "description": "快速生成位图字体的插件，这可能是你见过最好用，最强大的位图工具！",
+  "author": "xu_yanfeng",
+  "main": "./main.js",
+  "package_version": 2,
+  "contributions": {
+    "builder": "./builder.js",
+    "messages": {
+      "onBuilder": {
+        "methods": [
+          "onBuilder"
+        ]
+      },
+      "openFNT": {
+        "methods": [
+          "openFNT"
+        ]
+      },
+      "openTTF": {
+        "methods": [
+          "openTTF"
+        ]
+      }
+    },
+    "menu": [
+      {
+        "path": "i18n:menu.extension/BitMap字体工具",
+        "label": "字体图集(IMAGE)",
+        "message": "openFNT"
+      },
+      {
+        "path": "i18n:menu.extension/BitMap字体工具",
+        "label": "字体文件(TTF)",
+        "message": "openTTF"
+      }
+    ],
+    "shortcuts": []
+  },
+  "panels": {
+    "font": {
+      "main": "panel/font_panel.js",
+      "title": "bitmap-images",
+      "type": "dockable",
+      "size": {
+        "width": 800,
+        "height": 580,
+        "min-width": 800,
+        "min-height": 580
+      }
+    },
+    "ttf": {
+      "main": "panel/ttf_panel.js",
+      "title": "bitmap-ttf",
+      "type": "dockable",
+      "size": {
+        "width": 800,
+        "height": 580,
+        "min-width": 800,
+        "min-height": 580
+      }
+    }
+  },
+  "dependencies": {
+    "fs-extra": "10.0.0"
+  },
+  "_storeId": "f4672cb54d506411ed5e4ea6f5dfcbe5"
+}

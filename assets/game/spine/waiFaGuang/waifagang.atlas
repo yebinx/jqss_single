@@ -1,0 +1,90 @@
+
+waifagang.png
+size: 1268,104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wh_vfx_c_add_10
+  rotate: false
+  xy: 248, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_a
+  rotate: false
+  xy: 350, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_flags
+  rotate: false
+  xy: 452, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_gloves
+  rotate: false
+  xy: 554, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_j
+  rotate: false
+  xy: 656, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_k
+  rotate: false
+  xy: 758, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_q
+  rotate: false
+  xy: 860, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_shoes
+  rotate: false
+  xy: 962, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_soccerball
+  rotate: true
+  xy: 2, 2
+  size: 100, 142
+  orig: 100, 142
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_soccerball_a
+  rotate: false
+  xy: 1064, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_ticket
+  rotate: false
+  xy: 1166, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wh_vfx_c_add_whistle
+  rotate: false
+  xy: 146, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

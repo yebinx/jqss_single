@@ -1,0 +1,43 @@
+import { ResInfo } from "../kernel/compat/load/ResInfo";
+
+export enum EViewNames {
+    LoadinView,
+    GameView,
+    ResultBigAward,
+    UIAuto,
+    UIBetSetting,
+    UIhistory,
+    UIHisDetail,
+    UIDateSelect,
+    UIselectdate,
+    UIpeifubiao,
+    UIRule,
+    UImoney,
+    UIConfirmDialog,
+    UIConfirmTip,
+    ReconnectTip,
+    UIToast,
+    UIBuyFree,
+    UIScreenTips,
+}
+
+export var g_uiMap: { [key: number]: ResInfo } = {
+    [EViewNames.LoadinView]: { respath: "public/prefabs/LoadingView", bundleName: "publicCommon" },
+    [EViewNames.GameView]: { respath: "prefabs/GameView", bundleName: "game" },
+    [EViewNames.ResultBigAward]: { respath: "prefabs/ResultBigAward", bundleName: "game" },
+    [EViewNames.UIBuyFree]: { respath: "prefabs/BuyFreePopup", bundleName: "game" },
+    [EViewNames.UIAuto]: { respath: "public/prefabs/UIAuto", bundleName: "publicCommon" },
+    [EViewNames.UIBetSetting]: { respath: "public/prefabs/UIBetSetting", bundleName: "publicCommon" },
+    [EViewNames.UIhistory]: { respath: "public/prefabs/UIhistory", bundleName: "publicCommon" },
+    [EViewNames.UIHisDetail]: { respath: "public/prefabs/UIHisDetail", bundleName: "publicCommon" },
+    [EViewNames.UIDateSelect]: { respath: "public/prefabs/UIDateSelect", bundleName: "publicCommon" },
+    [EViewNames.UIselectdate]: { respath: "public/prefabs/UIselectdate", bundleName: "publicCommon" },
+    [EViewNames.UIpeifubiao]: { respath: "public/prefabs/UIpeifubiao", bundleName: "publicCommon" },
+    [EViewNames.UIRule]: { respath: "public/prefabs/UIRule", bundleName: "publicCommon" },
+    [EViewNames.UImoney]: { respath: "public/prefabs/UImoney", bundleName: "publicCommon" },
+    [EViewNames.UIConfirmDialog]: { respath: "public/prefabs/common/ConfirmDialog", bundleName: "publicCommon" },
+    [EViewNames.UIConfirmTip]: { respath: "public/prefabs/common/ConfirmTip", bundleName: "publicCommon" },
+    [EViewNames.ReconnectTip]: { respath: "public/prefabs/common/ReconnectTip", bundleName: "publicCommon" },
+    [EViewNames.UIToast]: { respath: "public/prefabs/common/ConfirmDialog", bundleName: "publicCommon" },
+    [EViewNames.UIScreenTips]: { respath: "public/prefabs/ScreenRotationTips", bundleName: "publicCommon" },
+}

@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>
+    <%= projectName %>
+  </title>
+
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="full-screen" content="yes" />
+  <meta name="screen-orientation" content="portrait" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="360-fullscreen" content="true" />
+
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <link rel="stylesheet" type="text/css" href="<%= cssUrl %>" />
+  <link rel="shortcut icon" href="favicon1.ico" />
+</head>
+
+<body>
+  <div id="GameDiv" cc_exact_fit_screen="false" style="width: 100%; height: 100%;">
+    <div id="Cocos3dGameContainer">
+      <canvas id="GameCanvas" tabindex="99"></canvas>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var gamDiv = document.getElementById('GameDiv');
+    if (gamDiv) {
+      var windowWidth = window.innerWidth;
+      var windowHeight = window.innerHeight;
+      gamDiv.style.width = windowWidth + 'px;';
+      gamDiv.style.height = windowHeight + 'px;';
+    }
+    var gamCanvas = document.getElementById("GameCanvas");
+    if (gamCanvas) {
+      var windowWidth = window.innerWidth;
+      var windowHeight = window.innerHeight;
+      gamCanvas.style.width = windowWidth + 'px;';
+      gamCanvas.style.height = windowHeight + 'px;';
+    }
+
+    var bgImg = document.createElement('img');
+    bgImg.src = 'bgBlur.png';
+    bgImg.onload = function () {
+      var bgWidth = bgImg.width;
+      var bgHeight = bgImg.height;
+      var windowWidth = window.innerWidth;
+      var windowHeight = window.innerHeight;
+      var s1 = windowWidth / bgWidth;
+      var s2 = windowHeight / bgHeight;
+      document.body.style.backgroundImage = 'url(' + bgImg.src + ')';
+      //document.body.style.backgroundPosition = 'center';
+      var curW = Math.max(s1, s2) * bgWidth;
+      var curH = Math.max(s1, s2) * bgHeight;
+      document.body.style.backgroundRepeat = "no-repeat";
+      document.body.style.backgroundSize = curW + "px " + curH + "px"; //"cover";
+      var bgTop = (windowHeight - curH) / 2;
+      var bgLeft = (windowWidth - curW) / 2;
+      document.body.style.backgroundPosition = bgLeft + 'px ' + bgTop + 'px';
+
+      window.addEventListener("resize", () => {
+        var bgWidth = bgImg.width;
+        var bgHeight = bgImg.height;
+        var windowWidth = window.innerWidth;
+        var windowHeight = window.innerHeight;
+        var s1 = windowWidth / bgWidth;
+        var s2 = windowHeight / bgHeight;
+        //document.body.style.backgroundPosition = 'center';
+        var curW = Math.max(s1, s2) * bgWidth;
+        var curH = Math.max(s1, s2) * bgHeight;
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundSize = curW + "px " + curH + "px"; //"cover";
+        var bgTop = (windowHeight - curH) / 2;
+        var bgLeft = (windowWidth - curW) / 2;
+        document.body.style.backgroundPosition = bgLeft + 'px ' + bgTop + 'px';
+      });
+    }
+  </script>
+  <%- include(cocosTemplate, {}) %>
+</body>
+
+</html>

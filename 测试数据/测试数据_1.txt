@@ -1,0 +1,835 @@
+1,-->{"token":"7955978BA6DC421C9473000B1E77C0F9"}
+{
+    "error_code": 0,
+    "data": {
+        "player_info": {
+            "id": 4271,
+            "balance": 99028000,
+            "account": "try_VBlmrEWAfTd5oaB3",
+            "nickname": "试玩OTFeBtl1Rw",
+            "type": 0,
+            "mute": 0
+        },
+        "game_info": {
+            "id": 4271,
+            "free_play_times": 0,
+            "last_time_bet": 60000,
+            "last_time_bet_id": 13,
+            "last_time_bet_size": 1000,
+            "last_time_basic_bet": 20,
+            "last_time_bet_multiple": 3,
+            "free_total_times": 0,
+            "free_remain_times": 0,
+            "free_game_total_win": 0,
+            "total_bet": 5400000,
+            "total_bet_times": 90,
+            "total_free_times": 0,
+            "last_win": 0
+        },
+        "list": [
+            {
+                "item_type_list": [
+                    9,
+                    5,
+                    12,
+                    12,
+                    2,
+                    13
+                ]
+            },
+            {
+                "item_type_list": [
+                    35,
+                    48,
+                    48,
+                    20,
+                    48,
+                    48
+                ]
+            },
+            {
+                "item_type_list": [
+                    101,
+                    48,
+                    48,
+                    7,
+                    12,
+                    6
+                ]
+            },
+            {
+                "item_type_list": [
+                    3,
+                    1,
+                    10,
+                    2,
+                    48,
+                    8
+                ]
+            },
+            {
+                "item_type_list": [
+                    21,
+                    48,
+                    1,
+                    38,
+                    48,
+                    48
+                ]
+            },
+            {
+                "item_type_list": [
+                    13,
+                    6,
+                    12,
+                    10,
+                    10,
+                    2
+                ]
+            }
+        ],
+        "last_round": null
+    },
+    "req": {
+        "token": "7955978BA6DC421C9473000B1E77C0F9"
+    }
+}
+
+
+
+
+2,-->{}
+{
+    "error_code": 0,
+    "data": {
+        "bet_list": [
+            {
+                "bet_size": 200,
+                "bet_multiple": 1,
+                "basic_bet": 20,
+                "total_bet": 4000,
+                "id": 1,
+                "bet_size_s": "0.02",
+                "total_bet_s": "0.40"
+            },
+            {
+                "bet_size": 200,
+                "bet_multiple": 2,
+                "basic_bet": 20,
+                "total_bet": 8000,
+                "id": 2,
+                "bet_size_s": "0.02",
+                "total_bet_s": "0.80"
+            },
+            {
+                "bet_size": 200,
+                "bet_multiple": 3,
+                "basic_bet": 20,
+                "total_bet": 12000,
+                "id": 3,
+                "bet_size_s": "0.02",
+                "total_bet_s": "1.20"
+            },
+            {
+                "bet_size": 200,
+                "bet_multiple": 4,
+                "basic_bet": 20,
+                "total_bet": 16000,
+                "id": 4,
+                "bet_size_s": "0.02",
+                "total_bet_s": "1.60"
+            },
+            {
+                "bet_size": 200,
+                "bet_multiple": 5,
+                "basic_bet": 20,
+                "total_bet": 20000,
+                "id": 5,
+                "bet_size_s": "0.02",
+                "total_bet_s": "2.00"
+            },
+            {
+                "bet_size": 200,
+                "bet_multiple": 6,
+                "basic_bet": 20,
+                "total_bet": 24000,
+                "id": 6,
+                "bet_size_s": "0.02",
+                "total_bet_s": "2.40"
+            },
+            {
+                "bet_size": 200,
+                "bet_multiple": 7,
+                "basic_bet": 20,
+                "total_bet": 28000,
+                "id": 7,
+                "bet_size_s": "0.02",
+                "total_bet_s": "2.80"
+            },
+            {
+                "bet_size": 200,
+                "bet_multiple": 8,
+                "basic_bet": 20,
+                "total_bet": 32000,
+                "id": 8,
+                "bet_size_s": "0.02",
+                "total_bet_s": "3.20"
+            },
+            {
+                "bet_size": 200,
+                "bet_multiple": 9,
+                "basic_bet": 20,
+                "total_bet": 36000,
+                "id": 9,
+                "bet_size_s": "0.02",
+                "total_bet_s": "3.60"
+            },
+            {
+                "bet_size": 200,
+                "bet_multiple": 10,
+                "basic_bet": 20,
+                "total_bet": 40000,
+                "id": 10,
+                "bet_size_s": "0.02",
+                "total_bet_s": "4.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 1,
+                "basic_bet": 20,
+                "total_bet": 20000,
+                "id": 11,
+                "bet_size_s": "0.10",
+                "total_bet_s": "2.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 2,
+                "basic_bet": 20,
+                "total_bet": 40000,
+                "id": 12,
+                "bet_size_s": "0.10",
+                "total_bet_s": "4.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 3,
+                "basic_bet": 20,
+                "total_bet": 60000,
+                "id": 13,
+                "bet_size_s": "0.10",
+                "total_bet_s": "6.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 4,
+                "basic_bet": 20,
+                "total_bet": 80000,
+                "id": 14,
+                "bet_size_s": "0.10",
+                "total_bet_s": "8.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 5,
+                "basic_bet": 20,
+                "total_bet": 100000,
+                "id": 15,
+                "bet_size_s": "0.10",
+                "total_bet_s": "10.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 6,
+                "basic_bet": 20,
+                "total_bet": 120000,
+                "id": 16,
+                "bet_size_s": "0.10",
+                "total_bet_s": "12.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 7,
+                "basic_bet": 20,
+                "total_bet": 140000,
+                "id": 17,
+                "bet_size_s": "0.10",
+                "total_bet_s": "14.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 8,
+                "basic_bet": 20,
+                "total_bet": 160000,
+                "id": 18,
+                "bet_size_s": "0.10",
+                "total_bet_s": "16.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 9,
+                "basic_bet": 20,
+                "total_bet": 180000,
+                "id": 19,
+                "bet_size_s": "0.10",
+                "total_bet_s": "18.00"
+            },
+            {
+                "bet_size": 1000,
+                "bet_multiple": 10,
+                "basic_bet": 20,
+                "total_bet": 200000,
+                "id": 20,
+                "bet_size_s": "0.10",
+                "total_bet_s": "20.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 1,
+                "basic_bet": 20,
+                "total_bet": 100000,
+                "id": 21,
+                "bet_size_s": "0.50",
+                "total_bet_s": "10.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 2,
+                "basic_bet": 20,
+                "total_bet": 200000,
+                "id": 22,
+                "bet_size_s": "0.50",
+                "total_bet_s": "20.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 3,
+                "basic_bet": 20,
+                "total_bet": 300000,
+                "id": 23,
+                "bet_size_s": "0.50",
+                "total_bet_s": "30.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 4,
+                "basic_bet": 20,
+                "total_bet": 400000,
+                "id": 24,
+                "bet_size_s": "0.50",
+                "total_bet_s": "40.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 5,
+                "basic_bet": 20,
+                "total_bet": 500000,
+                "id": 25,
+                "bet_size_s": "0.50",
+                "total_bet_s": "50.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 6,
+                "basic_bet": 20,
+                "total_bet": 600000,
+                "id": 26,
+                "bet_size_s": "0.50",
+                "total_bet_s": "60.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 7,
+                "basic_bet": 20,
+                "total_bet": 700000,
+                "id": 27,
+                "bet_size_s": "0.50",
+                "total_bet_s": "70.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 8,
+                "basic_bet": 20,
+                "total_bet": 800000,
+                "id": 28,
+                "bet_size_s": "0.50",
+                "total_bet_s": "80.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 9,
+                "basic_bet": 20,
+                "total_bet": 900000,
+                "id": 29,
+                "bet_size_s": "0.50",
+                "total_bet_s": "90.00"
+            },
+            {
+                "bet_size": 5000,
+                "bet_multiple": 10,
+                "basic_bet": 20,
+                "total_bet": 1000000,
+                "id": 30,
+                "bet_size_s": "0.50",
+                "total_bet_s": "100.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 1,
+                "basic_bet": 20,
+                "total_bet": 500000,
+                "id": 31,
+                "bet_size_s": "2.50",
+                "total_bet_s": "50.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 2,
+                "basic_bet": 20,
+                "total_bet": 1000000,
+                "id": 32,
+                "bet_size_s": "2.50",
+                "total_bet_s": "100.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 3,
+                "basic_bet": 20,
+                "total_bet": 1500000,
+                "id": 33,
+                "bet_size_s": "2.50",
+                "total_bet_s": "150.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 4,
+                "basic_bet": 20,
+                "total_bet": 2000000,
+                "id": 34,
+                "bet_size_s": "2.50",
+                "total_bet_s": "200.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 5,
+                "basic_bet": 20,
+                "total_bet": 2500000,
+                "id": 35,
+                "bet_size_s": "2.50",
+                "total_bet_s": "250.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 6,
+                "basic_bet": 20,
+                "total_bet": 3000000,
+                "id": 36,
+                "bet_size_s": "2.50",
+                "total_bet_s": "300.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 7,
+                "basic_bet": 20,
+                "total_bet": 3500000,
+                "id": 37,
+                "bet_size_s": "2.50",
+                "total_bet_s": "350.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 8,
+                "basic_bet": 20,
+                "total_bet": 4000000,
+                "id": 38,
+                "bet_size_s": "2.50",
+                "total_bet_s": "400.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 9,
+                "basic_bet": 20,
+                "total_bet": 4500000,
+                "id": 39,
+                "bet_size_s": "2.50",
+                "total_bet_s": "450.00"
+            },
+            {
+                "bet_size": 25000,
+                "bet_multiple": 10,
+                "basic_bet": 20,
+                "total_bet": 5000000,
+                "id": 40,
+                "bet_size_s": "2.50",
+                "total_bet_s": "500.00"
+            }
+        ],
+        "default_id": 13,
+        "add_sub_combination": [
+            1,
+            2,
+            3,
+            5,
+            10,
+            13,
+            15,
+            20,
+            25,
+            30,
+            35,
+            40
+        ]
+    },
+    "req": {}
+}
+
+
+3,-->{"token":"7955978BA6DC421C9473000B1E77C0F9","id":13,"idempotent":"1705562730875"}
+{
+    "error_code": 0,
+    "data": {
+        "result": {
+            "round_list": [
+                {
+                    "item_type_list": [
+                        7,
+                        6,
+                        8,
+                        3,
+                        7,
+                        10,
+                        8,
+                        5,
+                        48,
+                        7,
+                        11,
+                        10,
+                        8,
+                        10,
+                        8,
+                        5,
+                        6,
+                        48,
+                        3,
+                        3,
+                        2,
+                        5,
+                        5,
+                        48,
+                        12,
+                        2,
+                        13,
+                        48,
+                        13,
+                        8,
+                        3,
+                        13,
+                        4,
+                        13,
+                        6,
+                        8
+                    ],
+                    "round_rate": 16,
+                    "round": 1,
+                    "multi_time": 1,
+                    "prize_list": [
+                        {
+                            "win_pos_list": [
+                                2,
+                                6,
+                                12,
+                                14
+                            ],
+                            "count": 2,
+                            "level": 3,
+                            "item_type": 8,
+                            "rate": 6,
+                            "win": 18000,
+                            "win_s": "1.80"
+                        },
+                        {
+                            "win_pos_list": [
+                                5,
+                                11,
+                                13
+                            ],
+                            "count": 1,
+                            "level": 3,
+                            "item_type": 10,
+                            "rate": 4,
+                            "win": 12000,
+                            "win_s": "1.20"
+                        }
+                    ],
+                    "next_list": null,
+                    "list": null,
+                    "win_pos_list": [
+                        2,
+                        5,
+                        6,
+                        11,
+                        12,
+                        13,
+                        14
+                    ],
+                    "dyadic_list": [
+                        {
+                            "list": [
+                                11,
+                                3
+                            ]
+                        },
+                        {
+                            "list": [
+                                9,
+                                48
+                            ]
+                        },
+                        {
+                            "list": [
+                                9,
+                                4,
+                                48
+                            ]
+                        },
+                        {
+                            "list": null
+                        },
+                        {
+                            "list": null
+                        },
+                        {
+                            "list": null
+                        }
+                    ],
+                    "gold_change_list": null,
+                    "sliver_change_list": null,
+                    "wild_reduce_list": null,
+                    "gold_pos_list": null,
+                    "sliver_pos_list": null,
+                    "multi_wild_pos_list": null,
+                    "round_rate_origin": 16,
+                    "col_symbol_list": [
+                        {
+                            "list": [
+                                7,
+                                6,
+                                8,
+                                3,
+                                7,
+                                10
+                            ]
+                        },
+                        {
+                            "list": [
+                                8,
+                                5,
+                                48,
+                                7,
+                                11,
+                                10
+                            ]
+                        },
+                        {
+                            "list": [
+                                8,
+                                10,
+                                8,
+                                5,
+                                6,
+                                48
+                            ]
+                        },
+                        {
+                            "list": [
+                                3,
+                                3,
+                                2,
+                                5,
+                                5,
+                                48
+                            ]
+                        },
+                        {
+                            "list": [
+                                12,
+                                2,
+                                13,
+                                48,
+                                13,
+                                8
+                            ]
+                        },
+                        {
+                            "list": [
+                                3,
+                                13,
+                                4,
+                                13,
+                                6,
+                                8
+                            ]
+                        }
+                    ],
+                    "win_symbol_point": null,
+                    "free_play": 0,
+                    "round_id": "8306244772",
+                    "player_win_lose": -12000,
+                    "player_win_lose_s": "-1.20",
+                    "balance_s": "9901.60",
+                    "win_s": "4.80",
+                    "balance": 99016000,
+                    "win": 48000
+                },
+                {
+                    "item_type_list": [
+                        11,
+                        3,
+                        7,
+                        6,
+                        3,
+                        7,
+                        9,
+                        48,
+                        5,
+                        48,
+                        7,
+                        11,
+                        9,
+                        4,
+                        48,
+                        5,
+                        6,
+                        48,
+                        3,
+                        3,
+                        2,
+                        5,
+                        5,
+                        48,
+                        12,
+                        2,
+                        13,
+                        48,
+                        13,
+                        8,
+                        3,
+                        13,
+                        4,
+                        13,
+                        6,
+                        8
+                    ],
+                    "round_rate": 0,
+                    "round": 2,
+                    "multi_time": 2,
+                    "prize_list": [],
+                    "next_list": null,
+                    "list": null,
+                    "win_pos_list": null,
+                    "dyadic_list": null,
+                    "gold_change_list": null,
+                    "sliver_change_list": null,
+                    "wild_reduce_list": null,
+                    "gold_pos_list": null,
+                    "sliver_pos_list": null,
+                    "multi_wild_pos_list": null,
+                    "round_rate_origin": 0,
+                    "col_symbol_list": [
+                        {
+                            "list": [
+                                11,
+                                3,
+                                7,
+                                6,
+                                3,
+                                7
+                            ]
+                        },
+                        {
+                            "list": [
+                                9,
+                                48,
+                                5,
+                                48,
+                                7,
+                                11
+                            ]
+                        },
+                        {
+                            "list": [
+                                9,
+                                4,
+                                48,
+                                5,
+                                6,
+                                48
+                            ]
+                        },
+                        {
+                            "list": [
+                                3,
+                                3,
+                                2,
+                                5,
+                                5,
+                                48
+                            ]
+                        },
+                        {
+                            "list": [
+                                12,
+                                2,
+                                13,
+                                48,
+                                13,
+                                8
+                            ]
+                        },
+                        {
+                            "list": [
+                                3,
+                                13,
+                                4,
+                                13,
+                                6,
+                                8
+                            ]
+                        }
+                    ],
+                    "win_symbol_point": null,
+                    "free_play": 0,
+                    "round_id": "3063904432",
+                    "player_win_lose": 0,
+                    "player_win_lose_s": "0.00",
+                    "balance_s": "9901.60",
+                    "win_s": "0.00",
+                    "balance": 99016000,
+                    "win": 0
+                }
+            ],
+            "rate": 16,
+            "scatter_count": 0,
+            "free_play": 0,
+            "is_end_free": false
+        },
+        "round_no": "0865062664",
+        "order_id": "15-1705562726-XVHPB0X4",
+        "balance": 99016000,
+        "balance_before_score": 98968000,
+        "bet": 0,
+        "prize": 48000,
+        "player_win_lose": -12000,
+        "free": false,
+        "free_total_times": 0,
+        "free_remain_times": 0,
+        "free_game_total_win": 0,
+        "dbg": null
+    },
+    "req": {
+        "token": "7955978BA6DC421C9473000B1E77C0F9",
+        "id": 13,
+        "buy_free": false,
+        "idempotent": "1705562730875"
+    }
+}

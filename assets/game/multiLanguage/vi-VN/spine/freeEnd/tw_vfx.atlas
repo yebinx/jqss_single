@@ -1,0 +1,257 @@
+
+tw_vfx.png
+size: 2000,1986
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gyd
+  rotate: false
+  xy: 92, 1841
+  size: 525, 143
+  orig: 525, 143
+  offset: 0, 0
+  index: -1
+tw_character
+  rotate: true
+  xy: 404, 544
+  size: 424, 729
+  orig: 464, 749
+  offset: 19, 20
+  index: -1
+tw_vfx_a_screen
+  rotate: false
+  xy: 1135, 375
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+tw_vfx_b_add
+  rotate: true
+  xy: 1243, 877
+  size: 365, 548
+  orig: 365, 548
+  offset: 0, 0
+  index: -1
+tw_vfx_g_normal_01
+  rotate: true
+  xy: 2, 2
+  size: 540, 703
+  orig: 540, 734
+  offset: 0, 15
+  index: -1
+tw_vfx_g_normal_02
+  rotate: true
+  xy: 544, 996
+  size: 270, 335
+  orig: 270, 367
+  offset: 0, 10
+  index: -1
+tw_vfx_j_screen
+  rotate: false
+  xy: 2, 614
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+wshuffle_vfx_c_add
+  rotate: false
+  xy: 985, 1784
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+yh/tw_vfx_i_screen_00000
+  rotate: false
+  xy: 881, 970
+  size: 360, 284
+  orig: 360, 360
+  offset: 0, 42
+  index: -1
+yh/tw_vfx_i_screen_00001
+  rotate: false
+  xy: 2, 1904
+  size: 88, 80
+  orig: 360, 360
+  offset: 133, 150
+  index: -1
+yh/tw_vfx_i_screen_00002
+  rotate: false
+  xy: 619, 1824
+  size: 162, 160
+  orig: 360, 360
+  offset: 97, 108
+  index: -1
+yh/tw_vfx_i_screen_00003
+  rotate: true
+  xy: 783, 1786
+  size: 198, 200
+  orig: 360, 360
+  offset: 79, 86
+  index: -1
+yh/tw_vfx_i_screen_00004
+  rotate: true
+  xy: 1663, 1766
+  size: 218, 220
+  orig: 360, 360
+  offset: 69, 76
+  index: -1
+yh/tw_vfx_i_screen_00005
+  rotate: true
+  xy: 478, 1590
+  size: 232, 236
+  orig: 360, 360
+  offset: 62, 66
+  index: -1
+yh/tw_vfx_i_screen_00006
+  rotate: true
+  xy: 716, 1544
+  size: 240, 246
+  orig: 360, 360
+  offset: 58, 59
+  index: -1
+yh/tw_vfx_i_screen_00007
+  rotate: true
+  xy: 1226, 1518
+  size: 248, 252
+  orig: 360, 360
+  offset: 53, 54
+  index: -1
+yh/tw_vfx_i_screen_00008
+  rotate: true
+  xy: 1480, 1512
+  size: 252, 256
+  orig: 360, 360
+  offset: 51, 52
+  index: -1
+yh/tw_vfx_i_screen_00009
+  rotate: true
+  xy: 1738, 1508
+  size: 256, 260
+  orig: 360, 360
+  offset: 49, 47
+  index: -1
+yh/tw_vfx_i_screen_00010
+  rotate: true
+  xy: 2, 1361
+  size: 258, 260
+  orig: 360, 360
+  offset: 48, 47
+  index: -1
+yh/tw_vfx_i_screen_00011
+  rotate: true
+  xy: 264, 1330
+  size: 258, 264
+  orig: 360, 360
+  offset: 48, 44
+  index: -1
+yh/tw_vfx_i_screen_00012
+  rotate: true
+  xy: 530, 1282
+  size: 260, 266
+  orig: 360, 360
+  offset: 47, 41
+  index: -1
+yh/tw_vfx_i_screen_00013
+  rotate: true
+  xy: 798, 1268
+  size: 260, 266
+  orig: 360, 360
+  offset: 47, 41
+  index: -1
+yh/tw_vfx_i_screen_00014
+  rotate: true
+  xy: 1328, 1248
+  size: 262, 268
+  orig: 360, 360
+  offset: 46, 39
+  index: -1
+yh/tw_vfx_i_screen_00015
+  rotate: true
+  xy: 2, 1064
+  size: 264, 268
+  orig: 360, 360
+  offset: 45, 37
+  index: -1
+yh/tw_vfx_i_screen_00016
+  rotate: true
+  xy: 272, 1016
+  size: 264, 270
+  orig: 360, 360
+  offset: 45, 35
+  index: -1
+yh/tw_vfx_i_screen_00017
+  rotate: true
+  xy: 1598, 1244
+  size: 262, 268
+  orig: 360, 360
+  offset: 47, 36
+  index: -1
+yh/tw_vfx_i_screen_00018
+  rotate: false
+  xy: 1066, 1256
+  size: 260, 260
+  orig: 360, 360
+  offset: 47, 36
+  index: -1
+yh/tw_vfx_i_screen_00019
+  rotate: true
+  xy: 964, 1530
+  size: 240, 260
+  orig: 360, 360
+  offset: 48, 36
+  index: -1
+yh/tw_vfx_i_screen_00020
+  rotate: true
+  xy: 2, 1621
+  size: 218, 236
+  orig: 360, 360
+  offset: 69, 61
+  index: -1
+yh/tw_vfx_i_screen_00021
+  rotate: true
+  xy: 240, 1621
+  size: 218, 236
+  orig: 360, 360
+  offset: 68, 61
+  index: -1
+yh/tw_vfx_i_screen_00022
+  rotate: true
+  xy: 1425, 1768
+  size: 216, 236
+  orig: 360, 360
+  offset: 69, 60
+  index: -1
+yh/tw_vfx_i_screen_00023
+  rotate: true
+  xy: 1187, 1772
+  size: 212, 236
+  orig: 360, 360
+  offset: 69, 61
+  index: -1
+yh/tw_vfx_i_screen_00024
+  rotate: true
+  xy: 1187, 1772
+  size: 212, 236
+  orig: 360, 360
+  offset: 69, 61
+  index: -1
+
+tw_vfx2.png
+size: 1642,1302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tw_bg
+  rotate: true
+  xy: 2, 544
+  size: 756, 1638
+  orig: 756, 1638
+  offset: 0, 0
+  index: -1
+tw_vfx_h_screen
+  rotate: true
+  xy: 2, 2
+  size: 540, 882
+  orig: 540, 882
+  offset: 0, 0
+  index: -1

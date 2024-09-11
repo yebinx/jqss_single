@@ -1,0 +1,20 @@
+
+bj_idle.png
+size: 712,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fa_vfx_b_screen
+  rotate: false
+  xy: 2, 2
+  size: 456, 540
+  orig: 456, 540
+  offset: 0, 0
+  index: -1
+ma_vfx_a_add
+  rotate: false
+  xy: 460, 42
+  size: 250, 500
+  orig: 250, 500
+  offset: 0, 0
+  index: -1

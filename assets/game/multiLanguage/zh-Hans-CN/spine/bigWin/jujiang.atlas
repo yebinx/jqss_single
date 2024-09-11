@@ -1,0 +1,237 @@
+
+jujiang.png
+size: 2033,1613
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_02
+  rotate: true
+  xy: 750, 1287
+  size: 324, 702
+  orig: 324, 702
+  offset: 0, 0
+  index: -1
+bw_vfx_a_add
+  rotate: false
+  xy: 454, 74
+  size: 324, 510
+  orig: 324, 510
+  offset: 0, 0
+  index: -1
+bw_vfx_b_add
+  rotate: false
+  xy: 1454, 1281
+  size: 540, 330
+  orig: 540, 330
+  offset: 0, 0
+  index: -1
+bw_vfx_f_screen
+  rotate: false
+  xy: 544, 586
+  size: 400, 540
+  orig: 400, 540
+  offset: 0, 0
+  index: -1
+bw_vfx_g_screen_021
+  rotate: true
+  xy: 1891, 722
+  size: 324, 140
+  orig: 324, 140
+  offset: 0, 0
+  index: -1
+bw_vfx_g_screen_022
+  rotate: false
+  xy: 1228, 704
+  size: 324, 140
+  orig: 324, 140
+  offset: 0, 0
+  index: -1
+bw_vfx_h_add_02
+  rotate: false
+  xy: 2, 586
+  size: 540, 540
+  orig: 540, 540
+  offset: 0, 0
+  index: -1
+bw_vfx_i_add_01
+  rotate: true
+  xy: 946, 693
+  size: 490, 280
+  orig: 490, 280
+  offset: 0, 0
+  index: -1
+bw_vfx_i_add_02
+  rotate: true
+  xy: 1034, 201
+  size: 490, 280
+  orig: 490, 280
+  offset: 0, 0
+  index: -1
+bw_vfx_j_normal
+  rotate: false
+  xy: 2, 88
+  size: 450, 496
+  orig: 474, 496
+  offset: 12, 0
+  index: -1
+bw_vfx_l_add
+  rotate: false
+  xy: 780, 84
+  size: 252, 500
+  orig: 252, 500
+  offset: 0, 0
+  index: -1
+eff1/bw_vfx_k_screen_00000
+  rotate: true
+  xy: 1591, 830
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00001
+  rotate: false
+  xy: 1316, 404
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00002
+  rotate: false
+  xy: 1316, 104
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00003
+  rotate: true
+  xy: 1554, 612
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00004
+  rotate: false
+  xy: 1534, 14
+  size: 216, 296
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00005
+  rotate: false
+  xy: 1752, 314
+  size: 216, 296
+  orig: 216, 400
+  offset: 0, 46
+  index: -1
+eff1/bw_vfx_k_screen_00006
+  rotate: false
+  xy: 1752, 16
+  size: 216, 296
+  orig: 216, 400
+  offset: 0, 47
+  index: -1
+eff1/bw_vfx_k_screen_00007
+  rotate: false
+  xy: 1534, 312
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 46
+  index: -1
+jinbi/bw_particle_coin_normal_00000
+  rotate: false
+  xy: 1854, 617
+  size: 102, 103
+  orig: 125, 125
+  offset: 11, 11
+  index: -1
+jinbi/bw_particle_coin_normal_00001
+  rotate: true
+  xy: 1834, 1186
+  size: 93, 103
+  orig: 125, 125
+  offset: 12, 11
+  index: -1
+jinbi/bw_particle_coin_normal_00002
+  rotate: true
+  xy: 2, 21
+  size: 65, 103
+  orig: 125, 125
+  offset: 25, 11
+  index: -1
+jinbi/bw_particle_coin_normal_00003
+  rotate: false
+  xy: 946, 588
+  size: 22, 103
+  orig: 125, 125
+  offset: 49, 11
+  index: -1
+jinbi/bw_particle_coin_normal_00004
+  rotate: true
+  xy: 750, 1131
+  size: 52, 103
+  orig: 125, 125
+  offset: 41, 11
+  index: -1
+jinbi/bw_particle_coin_normal_00006
+  rotate: true
+  xy: 1244, 2
+  size: 100, 103
+  orig: 125, 125
+  offset: 14, 11
+  index: -1
+jinbi/bw_particle_coin_normal_00007
+  rotate: false
+  xy: 1034, 96
+  size: 103, 103
+  orig: 125, 125
+  offset: 11, 11
+  index: -1
+jinbi/bw_particle_coin_normal_00008
+  rotate: false
+  xy: 1139, 96
+  size: 103, 103
+  orig: 125, 125
+  offset: 11, 11
+  index: -1
+mega_a
+  rotate: false
+  xy: 1228, 1111
+  size: 756, 67
+  orig: 756, 68
+  offset: 0, 0
+  index: -1
+mega_a2
+  rotate: false
+  xy: 1228, 1048
+  size: 756, 61
+  orig: 756, 62
+  offset: 0, 1
+  index: -1
+mega_b
+  rotate: false
+  xy: 2, 1128
+  size: 746, 483
+  orig: 760, 498
+  offset: 7, 7
+  index: -1
+mega_c
+  rotate: false
+  xy: 1292, 1180
+  size: 540, 99
+  orig: 540, 99
+  offset: 0, 0
+  index: -1
+mega_c2
+  rotate: false
+  xy: 750, 1185
+  size: 540, 100
+  orig: 540, 100
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 1228, 846
+  size: 361, 200
+  orig: 371, 214
+  offset: 7, 7
+  index: -1

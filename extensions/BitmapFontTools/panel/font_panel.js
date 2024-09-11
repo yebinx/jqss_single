@@ -1,0 +1,7 @@
+(function (){
+    // 防止使用编辑器自带的package报错
+    const Path = require('path')
+    // @ts-ignore
+    module.paths.push(Path.join(Editor.App.path,'node_modules'));
+})();
+const Path=require("path"),URL=require("url"),Fs=require("fs");function urlToFsPath(e){const t=URL.parse(e);if("packages:"===t.protocol){let e=Path.join(Editor.Project.path,"extensions",t.hostname,t.pathname);if(Fs.existsSync(e))return e;const a=Editor.Package.getPath(t.hostname);return e=Path.join(a,t.pathname),Fs.existsSync(e)?e:null}}function relativeUrlPath(e){const t=urlToFsPath(e);return Path.relative(__dirname,t)}function requireWithUrl(e){const t=urlToFsPath(e);return t?require(t):null}const panel=requireWithUrl("packages://bitmap-font/panel/font.js");function loadCss(e,t){e&&(Array.isArray(t)||(t=[t]),t.forEach((t=>{const a=CSS.escape(t);if(!e.querySelector(`#${a}`)){const n=document.createElement("link");n.rel="stylesheet",n.href=t,n.id=a,e.appendChild(n)}})))}exports.template='<div id="app" style="width:100%;height:100%;display:flex;">font</div>',exports.$={app:"#app"},exports.ready=function(...e){loadCss(this.$.app.parentNode,"packages://bitmap-font/panel/font.css"),loadCss(document.head,"packages://bitmap-font/panel/font.css");let t=panel;panel&&panel.default&&(t=panel.default);let a=t;"function"==typeof t&&(a=new t),a.hasOwnProperty("ready")&&"function"==typeof a.ready&&a.ready(this.$.app,e)},exports.close=function(){};

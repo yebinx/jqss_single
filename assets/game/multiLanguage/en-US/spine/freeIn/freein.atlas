@@ -1,0 +1,83 @@
+
+freein.png
+size: 1968,1557
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball
+  rotate: true
+  xy: 1370, 248
+  size: 468, 566
+  orig: 540, 590
+  offset: 45, 11
+  index: -1
+big_2
+  rotate: true
+  xy: 1391, 51
+  size: 195, 181
+  orig: 201, 188
+  offset: 3, 3
+  index: -1
+big_5
+  rotate: true
+  xy: 1023, 64
+  size: 201, 182
+  orig: 207, 188
+  offset: 3, 3
+  index: -1
+big_7
+  rotate: true
+  xy: 1207, 46
+  size: 200, 182
+  orig: 207, 188
+  offset: 3, 3
+  index: -1
+big_9
+  rotate: true
+  xy: 838, 64
+  size: 201, 183
+  orig: 207, 190
+  offset: 3, 3
+  index: -1
+bl2
+  rotate: true
+  xy: 2, 101
+  size: 696, 834
+  orig: 696, 834
+  offset: 0, 0
+  index: -1
+bl_vfx_a_add
+  rotate: false
+  xy: 838, 267
+  size: 530, 530
+  orig: 530, 530
+  offset: 0, 0
+  index: -1
+bns_loading
+  rotate: false
+  xy: 2, 2
+  size: 592, 97
+  orig: 593, 97
+  offset: 0, 0
+  index: -1
+bonus_loading
+  rotate: true
+  xy: 2, 799
+  size: 756, 1638
+  orig: 756, 1638
+  offset: 0, 0
+  index: -1
+graphics
+  rotate: false
+  xy: 1642, 1010
+  size: 324, 545
+  orig: 324, 545
+  offset: 0, 0
+  index: -1
+graphics_02
+  rotate: false
+  xy: 1642, 718
+  size: 324, 290
+  orig: 324, 291
+  offset: 0, 1
+  index: -1

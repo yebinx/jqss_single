@@ -1,0 +1,63 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "d18f411d-53ec-4fa2-a854-4af74bf3d890",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "5a56c": {
+      "importer": "sprite-frame",
+      "uuid": "d18f411d-53ec-4fa2-a854-4af74bf3d890@5a56c",
+      "displayName": "",
+      "id": "5a56c",
+      "name": "ic_nav_calender",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0.5,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 41,
+        "height": 37,
+        "rawWidth": 41,
+        "rawHeight": 38,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "aa582df0-914b-44c6-b187-5ade99b8c94c@6c48a",
+        "atlasUuid": "d18f411d-53ec-4fa2-a854-4af74bf3d890"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "icon.png",
+    "format": 2,
+    "uuid": "d18f411d-53ec-4fa2-a854-4af74bf3d890",
+    "textureUuid": "aa582df0-914b-44c6-b187-5ade99b8c94c@6c48a"
+  }
+}

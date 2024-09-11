@@ -1,0 +1,160 @@
+
+dajiang.png
+size: 1934,1487
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_01
+  rotate: false
+  xy: 2, 31
+  size: 324, 696
+  orig: 324, 702
+  offset: 0, 0
+  index: -1
+big_win
+  rotate: true
+  xy: 501, 934
+  size: 551, 199
+  orig: 564, 204
+  offset: 6, 5
+  index: -1
+bigwin_a
+  rotate: true
+  xy: 2, 729
+  size: 756, 67
+  orig: 756, 68
+  offset: 0, 1
+  index: -1
+bigwin_a2
+  rotate: true
+  xy: 71, 729
+  size: 756, 65
+  orig: 756, 67
+  offset: 0, 1
+  index: -1
+bigwin_b
+  rotate: true
+  xy: 138, 856
+  size: 629, 361
+  orig: 643, 367
+  offset: 7, 6
+  index: -1
+bigwin_c
+  rotate: false
+  xy: 138, 762
+  size: 540, 92
+  orig: 540, 92
+  offset: 0, 0
+  index: -1
+bigwin_c2
+  rotate: false
+  xy: 680, 840
+  size: 540, 92
+  orig: 540, 93
+  offset: 0, 0
+  index: -1
+bw_vfx_a_add
+  rotate: true
+  xy: 870, 260
+  size: 324, 510
+  orig: 324, 510
+  offset: 0, 0
+  index: -1
+bw_vfx_b_add
+  rotate: true
+  xy: 1104, 945
+  size: 540, 330
+  orig: 540, 330
+  offset: 0, 0
+  index: -1
+bw_vfx_f_screen
+  rotate: false
+  xy: 702, 945
+  size: 400, 540
+  orig: 400, 540
+  offset: 0, 0
+  index: -1
+bw_vfx_h_add_01
+  rotate: false
+  xy: 328, 220
+  size: 540, 540
+  orig: 540, 540
+  offset: 0, 0
+  index: -1
+bw_vfx_i_add_01
+  rotate: false
+  xy: 1436, 753
+  size: 490, 280
+  orig: 490, 280
+  offset: 0, 0
+  index: -1
+bw_vfx_j_normal
+  rotate: true
+  xy: 1436, 1035
+  size: 450, 496
+  orig: 474, 496
+  offset: 12, 0
+  index: -1
+bw_vfx_l_add
+  rotate: true
+  xy: 928, 586
+  size: 252, 500
+  orig: 252, 500
+  offset: 0, 0
+  index: -1
+eff1/bw_vfx_k_screen_00000
+  rotate: true
+  xy: 328, 2
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00001
+  rotate: true
+  xy: 628, 2
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00002
+  rotate: true
+  xy: 928, 42
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00003
+  rotate: true
+  xy: 1228, 42
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00004
+  rotate: true
+  xy: 1600, 535
+  size: 216, 296
+  orig: 216, 400
+  offset: 0, 45
+  index: -1
+eff1/bw_vfx_k_screen_00005
+  rotate: true
+  xy: 1600, 317
+  size: 216, 296
+  orig: 216, 400
+  offset: 0, 46
+  index: -1
+eff1/bw_vfx_k_screen_00006
+  rotate: false
+  xy: 1600, 19
+  size: 216, 296
+  orig: 216, 400
+  offset: 0, 47
+  index: -1
+eff1/bw_vfx_k_screen_00007
+  rotate: false
+  xy: 1382, 286
+  size: 216, 298
+  orig: 216, 400
+  offset: 0, 46
+  index: -1

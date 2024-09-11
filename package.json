@@ -1,0 +1,20 @@
+{
+  "name": "wldd1",
+  "uuid": "0775e333-174a-4171-9d78-bf60991e78b8",
+  "creator": {
+    "version": "3.8.1",
+    "registry": {
+      "remote": {}
+    },
+    "dependencies": {
+      "localization-editor": "1.0.1"
+    }
+  },
+  "dependencies": {
+    "@marsgames/nosleep.js": "^0.12.22",
+    "bignumber.js": "^9.1.2",
+    "decimal": "^0.0.2",
+    "decimal.js": "^10.4.3",
+    "nanoid": "^5.0.3"
+  }
+}

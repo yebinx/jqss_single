@@ -1,0 +1,76 @@
+
+free_bj_idle.png
+size: 186,88
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tw_particle_normal_00000
+  rotate: false
+  xy: 86, 44
+  size: 36, 42
+  orig: 60, 60
+  offset: 12, 9
+  index: -1
+tw_particle_normal_00001
+  rotate: false
+  xy: 157, 16
+  size: 26, 31
+  orig: 60, 60
+  offset: 17, 14
+  index: -1
+tw_particle_normal_00002
+  rotate: false
+  xy: 124, 49
+  size: 32, 37
+  orig: 60, 60
+  offset: 14, 11
+  index: -1
+tw_particle_normal_00003
+  rotate: false
+  xy: 45, 4
+  size: 36, 38
+  orig: 60, 60
+  offset: 12, 11
+  index: -1
+tw_particle_normal_00004
+  rotate: true
+  xy: 83, 5
+  size: 37, 36
+  orig: 60, 60
+  offset: 12, 12
+  index: -1
+tw_particle_normal_00005
+  rotate: true
+  xy: 158, 57
+  size: 29, 26
+  orig: 60, 60
+  offset: 16, 17
+  index: -1
+tw_particle_normal_00006
+  rotate: true
+  xy: 121, 5
+  size: 37, 34
+  orig: 60, 60
+  offset: 12, 13
+  index: -1
+tw_particle_normal_00007
+  rotate: false
+  xy: 2, 2
+  size: 41, 39
+  orig: 60, 60
+  offset: 10, 11
+  index: -1
+tw_particle_normal_00008
+  rotate: false
+  xy: 43, 44
+  size: 41, 42
+  orig: 60, 60
+  offset: 10, 9
+  index: -1
+tw_particle_normal_00009
+  rotate: false
+  xy: 2, 43
+  size: 39, 43
+  orig: 60, 60
+  offset: 11, 9
+  index: -1

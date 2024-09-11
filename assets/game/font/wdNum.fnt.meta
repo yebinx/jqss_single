@@ -1,0 +1,66 @@
+{
+  "ver": "1.0.6",
+  "importer": "bitmap-font",
+  "imported": true,
+  "uuid": "00543aab-1784-4376-bec8-fc8209bfdbed",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "_fntConfig": {
+      "commonHeight": 280,
+      "fontSize": 280,
+      "atlasName": "wdNum.png",
+      "fontDefDictionary": {
+        "49": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 245,
+            "height": 280
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 245
+        },
+        "50": {
+          "rect": {
+            "x": 492,
+            "y": 0,
+            "width": 245,
+            "height": 280
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 245
+        },
+        "51": {
+          "rect": {
+            "x": 0,
+            "y": 281,
+            "width": 245,
+            "height": 280
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 245
+        },
+        "52": {
+          "rect": {
+            "x": 246,
+            "y": 0,
+            "width": 245,
+            "height": 280
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 245
+        }
+      },
+      "kerningDict": {}
+    },
+    "fontSize": 280,
+    "textureUuid": "8575d0ea-09be-48fb-af7e-47b8b24a35c9"
+  }
+}

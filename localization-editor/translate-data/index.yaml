@@ -1,0 +1,2631 @@
+locale: index
+items:
+  "18":
+    key: "18"
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 35oszorlxIg6Vwde75qvhc
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  shared_title_start_game:
+    key: shared_title_start_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips_do_login:
+    key: shared_loading_tips_do_login
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_loading_tips:
+    key: shared_loading_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_login_fail:
+    key: shared_login_fail
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_exit:
+    key: shared_btn_exit
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_sound:
+    key: shared_btn_sound
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate:
+    key: shared_btn_rate
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule:
+    key: shared_btn_rule
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history:
+    key: shared_btn_history
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close:
+    key: shared_btn_close
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: fd3613ab-ddd6-402b-8adf-d6d89bc2a0de
+        nodeUuid: a21+eJ8aFLPrBlTsKjQfSa
+        reference: fd3613ab-ddd6-402b-8adf-d6d89bc2a0de
+    _variants: []
+  shared_loading:
+    key: shared_loading
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_retry:
+    key: shared_btn_retry
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_start:
+    key: shared_record_start
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_end:
+    key: shared_record_end
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_type_title:
+    key: shared_record_date_type_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_today:
+    key: shared_record_date_today
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_last_week:
+    key: shared_record_date_last_week
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_custom:
+    key: shared_record_date_custom
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_history_title:
+    key: shared_record_history_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_time:
+    key: shared_record_time
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_order_number:
+    key: shared_record_order_number
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_normal_play:
+    key: shared_record_normal_play
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_title:
+    key: shared_setting_bet_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_base:
+    key: shared_setting_bet_base
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_multiple:
+    key: shared_setting_bet_multiple
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_line:
+    key: shared_setting_bet_line
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_total:
+    key: shared_setting_bet_total
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_info_tips:
+    key: shared_record_win_line_info_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule:
+    key: shared_game_rule
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_title:
+    key: shared_setting_auto_start_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_count:
+    key: shared_setting_auto_start_count
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_max_bet:
+    key: shared_setting_bet_max_bet
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_bet_min_bet:
+    key: shared_setting_bet_min_bet
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_success:
+    key: shared_btn_success
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_not_history_record_tips:
+    key: shared_record_not_history_record_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_bet:
+    key: shared_record_bet
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win:
+    key: shared_record_win
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_total_record_n:
+    key: shared_record_total_record_n
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_round_count:
+    key: shared_round_count
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_balance:
+    key: shared_record_balance
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_reward_multiple:
+    key: shared_record_reward_multiple
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_detail_not_reward:
+    key: shared_record_round_detail_not_reward
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_state:
+    key: shared_record_win_state
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_2:
+    key: shared_record_win_line_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_3:
+    key: shared_record_win_line_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_4:
+    key: shared_record_win_line_4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_5:
+    key: shared_record_win_line_5
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_6:
+    key: shared_record_win_line_6
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_7:
+    key: shared_record_win_line_7
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_8:
+    key: shared_record_win_line_8
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_9:
+    key: shared_record_win_line_9
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_bonus_n:
+    key: shared_record_free_bonus_n
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_setting_auto_start_start:
+    key: shared_setting_auto_start_start
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_cash_money_bag:
+    key: shared_cash_money_bag
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_request_fail_retry:
+    key: shared_request_fail_retry
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_on_tips:
+    key: shared_quick_on_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_quick_off_tips:
+    key: shared_quick_off_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_free_play:
+    key: shared_record_free_play
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_round_date:
+    key: shared_record_round_date
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_win_line_n:
+    key: shared_record_win_line_n
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_symbol:
+    key: shared_money_symbol
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_record_date_range:
+    key: shared_record_date_range
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_title_transaction_fail:
+    key: shared_note_title_transaction_fail
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_insufficient_balance_tips:
+    key: shared_insufficient_balance_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_unknow_error_try_again:
+    key: shared_unknow_error_try_again
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_tips:
+    key: shared_title_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_note_heart_beat_time_out:
+    key: shared_note_heart_beat_time_out
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_exit_game:
+    key: shared_title_exit_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_reload:
+    key: shared_title_reload
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_exit_game_tips_content:
+    key: shared_exit_game_tips_content
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_title_cancel:
+    key: shared_title_cancel
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_scatter:
+    key: shared_symbol_name_scatter
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_symbol_name_wild:
+    key: shared_symbol_name_wild
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'------------------------------------------------------’":
+    key: "'------------------------------------------------------’"
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_main_game:
+    key: shared_main_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start:
+    key: shared_btn_start
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info1:
+    key: shared_btn_start_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info2:
+    key: shared_btn_start_info2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info3:
+    key: shared_btn_start_info3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_start_info4:
+    key: shared_btn_start_info4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop:
+    key: shared_btn_stop
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_stop_info1:
+    key: shared_btn_stop_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus:
+    key: shared_btn_minus
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_minus_info1:
+    key: shared_btn_minus_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add:
+    key: shared_btn_add
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_add_info1:
+    key: shared_btn_add_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance:
+    key: shared_money_bag_balance
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_money_bag_balance_info1:
+    key: shared_money_bag_balance_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money:
+    key: shared_bet_money
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info1:
+    key: shared_bet_money_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info2:
+    key: shared_bet_money_info2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info3:
+    key: shared_bet_money_info3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info4:
+    key: shared_bet_money_info4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_bet_money_info5:
+    key: shared_bet_money_info5
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money:
+    key: shared_prize_money
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_prize_money_info1:
+    key: shared_prize_money_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info1:
+    key: shared_btn_auto_start_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start_info2:
+    key: shared_btn_auto_start_info2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape:
+    key: shared_btn_snape
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_snape_info1:
+    key: shared_btn_snape_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu:
+    key: shared_btn_menu
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_menu_info1:
+    key: shared_btn_menu_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_audio_info1:
+    key: shared_btn_audio_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rate_info1:
+    key: shared_btn_rate_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_rule_info1:
+    key: shared_btn_rule_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info1:
+    key: shared_btn_history_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_history_info2:
+    key: shared_btn_history_info2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_close_info1:
+    key: shared_btn_close_info1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_bonus_multiple:
+    key: shared_game_rule_bonus_multiple
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_free_game:
+    key: shared_game_rule_free_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example:
+    key: shared_game_rate_line_example
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rate_line_example_2:
+    key: shared_game_rate_line_example_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_size_introduce:
+    key: shared_game_bet_size_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_bet_multiple_introduce:
+    key: shared_game_bet_multiple_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_total_bet_introduce:
+    key: shared_game_total_bet_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_money_bag_introduce:
+    key: shared_game_money_bag_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_auto_spin_introduce:
+    key: shared_game_auto_spin_introduce
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info:
+    key: shared_game_rule_other_info
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_1:
+    key: shared_game_rule_other_info_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_game_rule_other_info_2:
+    key: shared_game_rule_other_info_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  buy_bonus_game:
+    key: buy_bonus_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  "'-------------------'":
+    key: "'-------------------'"
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_1:
+    key: game_rule_bonus_multiple_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_bonus_multiple_2:
+    key: game_rule_bonus_multiple_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_1:
+    key: game_rule_free_game_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_2:
+    key: game_rule_free_game_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_3:
+    key: game_rule_free_game_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_free_game_4:
+    key: game_rule_free_game_4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol:
+    key: game_rule_symbol
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_1:
+    key: game_rule_symbol_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_2:
+    key: game_rule_symbol_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_symbol_3:
+    key: game_rule_symbol_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_title:
+    key: game_rate_line_info_title
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_1:
+    key: game_rate_line_info_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_2:
+    key: game_rate_line_info_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_3:
+    key: game_rate_line_info_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_4:
+    key: game_rate_line_info_4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_5:
+    key: game_rate_line_info_5
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_line_info_6:
+    key: game_rate_line_info_6
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_value:
+    key: game_rate_symbol_value
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_1:
+    key: game_rate_symbol_info_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_wild_info:
+    key: symbol_wild_info
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rate_symbol_info_3:
+    key: game_rate_symbol_info_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1:
+    key: game_rule_title_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_1:
+    key: game_rule_title_1_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_2:
+    key: game_rule_title_1_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_7:
+    key: game_rule_title_1_7
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_8:
+    key: game_rule_title_1_8
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_12:
+    key: game_rule_title_1_12
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rule_title_1_19:
+    key: game_rule_title_1_19
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  symbol_scatter_info:
+    key: symbol_scatter_info
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc1:
+    key: FeatureBuyDesc1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  FeatureBuyDesc2:
+    key: FeatureBuyDesc2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  ScatterDescription:
+    key: ScatterDescription
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_NetworkErrorMessage:
+    key: shared_NetworkErrorMessage
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_ServerErrorMessage:
+    key: shared_ServerErrorMessage
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_AnimationTips:
+    key: shared_AnimationTips
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  all_record_displayed:
+    key: all_record_displayed
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips1:
+    key: loading_tips1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips2:
+    key: loading_tips2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips3:
+    key: loading_tips3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips4:
+    key: loading_tips4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips5:
+    key: loading_tips5
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_tips6:
+    key: loading_tips6
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_game_res:
+    key: loading_game_res
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_basic_res:
+    key: loading_basic_res
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_fail:
+    key: loading_fail
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  history_later:
+    key: history_later
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  network_error:
+    key: network_error
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  account_irregularity:
+    key: account_irregularity
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  launch_failed:
+    key: launch_failed
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  fail_retrieve_account:
+    key: fail_retrieve_account
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  unable_transaction:
+    key: unable_transaction
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  incorrect_bet_amount:
+    key: incorrect_bet_amount
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  insufficient_points:
+    key: insufficient_points
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  bet_size_level_values:
+    key: bet_size_level_values
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail1:
+    key: login_fail1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail2:
+    key: login_fail2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail3:
+    key: login_fail3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail4:
+    key: login_fail4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  login_fail5:
+    key: login_fail5
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  account_verification:
+    key: account_verification
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  loading_player_info:
+    key: loading_player_info
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  shared_btn_auto_start:
+    key: shared_btn_auto_start
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  fail_connect_game:
+    key: fail_connect_game
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 946ce9aa-c86f-43e0-9e0e-ad7ca2d0a91e
+        nodeUuid: fa2Qr7aItCZLoGJcH+rWfq
+        reference: 946ce9aa-c86f-43e0-9e0e-ad7ca2d0a91e
+    _variants: []
+  pfb_22:
+    key: pfb_22
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: c6g39FoaBFTJmtVTmLfPFp
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_0:
+    key: pfb_0
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_23:
+    key: pfb_23
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 80gW48x1FDKLYT56y6v75R
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_24:
+    key: pfb_24
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 67iYAkXm1P77c/WT65r4LW
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_27:
+    key: pfb_27
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: c4WVky2oZB349MUhYEvYsw
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_29:
+    key: pfb_29
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 4btoMP+rNA4p9RbphT+1sN
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_30:
+    key: pfb_30
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: fcBCQ1DWNEEoqJQOXTf0dw
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_32:
+    key: pfb_32
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 9evVxgfIVFKJM3Wj5T/8Gg
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_33:
+    key: pfb_33
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: fcrgG+TX1I5qWpx7EI9Im1
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_34:
+    key: pfb_34
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: f4IQaQxSNBn4chjIeOozFy
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_35:
+    key: pfb_35
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 08WuaHlOBAs7mLPfgSel6a
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_37:
+    key: pfb_37
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 1dffxhXLBNo6GBZpXoJMQX
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_38:
+    key: pfb_38
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 9cHRtEvq9ImowL7Wd0HgVz
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_39:
+    key: pfb_39
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: abeKH8iUZFWYJrFT6A68Bn
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_40:
+    key: pfb_40
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_lz:
+    key: pfb_lz
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_0:
+    key: rule_0
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_1:
+    key: rule_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule2:
+    key: rule2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_3:
+    key: rule_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: f1PLhlggRLGIPVr/YJfojB
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_4:
+    key: rule_4
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: ef9hPQvKJNCqVs8p0yFtdI
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_5:
+    key: rule_5
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: e53YhuAVtLY7ELR2emhMur
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_6:
+    key: rule_6
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 3d2fr5CTBA0b0UqWv2uQWh
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_7:
+    key: rule_7
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 411+iT2mhPDqV3mgeJ+lyx
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_9:
+    key: rule_9
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: ea7wrePtlMuJJwH8p/iJyl
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_10:
+    key: rule_10
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: f2F1ZflNdMDqlMEsEBqEbp
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_14:
+    key: rule_14
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: c158h4ePBIjr4TRjpr6AyI
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_16:
+    key: rule_16
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: a6So0FMW9JAK0nIaR4ubok
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_18:
+    key: rule_18
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 0c5ziiA6hFDaPSLR4qUO+O
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_19:
+    key: rule_19
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 2fFzxMg0hHuK4iuUeAwohc
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_20:
+    key: rule_20
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: b6fPlKAZNJRYVzi+6BdD3A
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_28:
+    key: rule_28
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: a7ArGlTtdNR42omcHVYayg
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_29:
+    key: rule_29
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: c8tLhMDalBHqGu/oTSAho0
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_30:
+    key: rule_30
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 79k5A+WdpDNb9n2c1EVM71
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_33:
+    key: rule_33
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 15BWicHTxAmowH5m6g3RB8
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_44:
+    key: rule_44
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_53:
+    key: rule_53
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_54:
+    key: rule_54
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_70:
+    key: rule_70
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 70v9zeioFON7jf9G4BJi5Y
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_73:
+    key: rule_73
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_74:
+    key: rule_74
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_75:
+    key: rule_75
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_1:
+    key: the_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_2:
+    key: the_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_3:
+    key: the_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_4:
+    key: the_4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  the_5:
+    key: the_5
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  test:
+    key: test
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: c77ecaa8-c936-46c4-a5b0-98692673ed87
+        nodeUuid: 428ebbrM9EMLIAWGvLxF4D
+        reference: c77ecaa8-c936-46c4-a5b0-98692673ed87
+    _variants: []
+  reload:
+    key: reload
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  fail_complete_transaction:
+    key: fail_complete_transaction
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  game_rules:
+    key: game_rules
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  start:
+    key: start
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_25:
+    key: pfb_25
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 922KtC6khCyYEk4bkRp3/B
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_26:
+    key: pfb_26
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: abqQrfNHhBx7rctF0p3XpQ
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_28:
+    key: pfb_28
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: f39I1DEsNBA5TVZoK+MI6a
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_31:
+    key: pfb_31
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 06RhWj4UhGALkBup2C+C98
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  rule_8:
+    key: rule_8
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 9bMaKsLjVOdZSkqNmfY6FJ
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_11:
+    key: rule_11
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: abNwYUppBIw77eYQETOlim
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_12:
+    key: rule_12
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: a3RW/dRUhDdZdm/JudYC4u
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_13:
+    key: rule_13
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: bfR3poD8VP2K1kxxlYQBM2
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_15:
+    key: rule_15
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: deHsZ+q9NF95TP+peDvHmW
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_17:
+    key: rule_17
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 53tV/3TrFPX6uSt6urj0KZ
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_21:
+    key: rule_21
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: e0nYXOvvhLtrYZ7TQSlwiJ
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_22:
+    key: rule_22
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: a6DtPOWwxFBYJD5OkDLfNW
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_23:
+    key: rule_23
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 56d4OBij9CKaPQTgObZsHj
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 09tUdW1XFKIqJLTaCoOHSA
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_26:
+    key: rule_26
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 6cfDYmLlxIVIQ/aQVH7a8d
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_31:
+    key: rule_31
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 4eJaIGt/dOuoZia1kHLPCg
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_34:
+    key: rule_34
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_35:
+    key: rule_35
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_36:
+    key: rule_36
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_37:
+    key: rule_37
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_38:
+    key: rule_38
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_39:
+    key: rule_39
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_40:
+    key: rule_40
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_41:
+    key: rule_41
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_42:
+    key: rule_42
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_43:
+    key: rule_43
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_45:
+    key: rule_45
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_46:
+    key: rule_46
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_47:
+    key: rule_47
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_48:
+    key: rule_48
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_49:
+    key: rule_49
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_50:
+    key: rule_50
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_51:
+    key: rule_51
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_52:
+    key: rule_52
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_55:
+    key: rule_55
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_56:
+    key: rule_56
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_57:
+    key: rule_57
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_58:
+    key: rule_58
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_59:
+    key: rule_59
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_60:
+    key: rule_60
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_61:
+    key: rule_61
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_62:
+    key: rule_62
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_63:
+    key: rule_63
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_64:
+    key: rule_64
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_65:
+    key: rule_65
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_66:
+    key: rule_66
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_67:
+    key: rule_67
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_68:
+    key: rule_68
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_69:
+    key: rule_69
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_71:
+    key: rule_71
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_72:
+    key: rule_72
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  net_busy:
+    key: net_busy
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_24:
+    key: rule_24
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_25:
+    key: rule_25
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: b5eSSACC9MV43HFGHgDhkg
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_27:
+    key: rule_27
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_32:
+    key: rule_32
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_41:
+    key: pfb_41
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_42:
+    key: pfb_42
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_44:
+    key: pfb_44
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_43:
+    key: pfb_43
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_2:
+    key: pfb_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_3:
+    key: pfb_3
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_4:
+    key: pfb_4
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_5:
+    key: pfb_5
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 70jqrT7ppE5Ko1DD+DPHnN
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_6:
+    key: pfb_6
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 8ejZacUzdMDqvw2iKhiGYZ
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_7:
+    key: pfb_7
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 33YoCwUHVID7LgPORLfvHM
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_8:
+    key: pfb_8
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 6cj0kXYRdFg5m8DEq8BppA
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_9:
+    key: pfb_9
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: caSwaCshxBZ5b6VfbHiWfM
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_10:
+    key: pfb_10
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: efCnE4gi5LiKdaQywtGfYw
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_11:
+    key: pfb_11
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 468wn5LRFInKVwLQUcNFYV
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_12:
+    key: pfb_12
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 54bRh1rAxIv74HWV4/B8u6
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_13:
+    key: pfb_13
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 19ZiIfoCVP4Y9TKztPkpW8
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_14:
+    key: pfb_14
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: d21Q/2TEVIYK2a2mnF81TI
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_16:
+    key: pfb_16
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 964rRpuslHUIVSnD2vOQc3
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_17:
+    key: pfb_17
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 04GAZqpOdFhaM/9rjSxsBV
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_18:
+    key: pfb_18
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 35oszorlxIg6Vwde75qvhc
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_19:
+    key: pfb_19
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: fcmVNO7FND+IwRXsYJv1dN
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_21:
+    key: pfb_21
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 90LRSJ9rhJZ4NTicZHJ4XL
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_36:
+    key: pfb_36
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 69tpXbUkBM0YzY2d4TvI9+
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  rule_2:
+    key: rule_2
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 8bJFCvzqpAUrEeGsGUT+M7
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_83:
+    key: rule_83
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  pfb_15:
+    key: pfb_15
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: ffeyukSf9Cn49WiKdQnPQG
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  pfb_20:
+    key: pfb_20
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+        nodeUuid: 8aALZxbjlDPqT1mrMqwkxO
+        reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
+    _variants: []
+  rule_86:
+    key: rule_86
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 6ci0o3HdJFhqBbiKsoBaC6
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_88:
+    key: rule_88
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 04mkMRAddOQbq755w0Eldr
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  pfb_1:
+    key: pfb_1
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+  rule_76:
+    key: rule_76
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 7c0tQuSsFJsYUzWzrjD+KH
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_78:
+    key: rule_78
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 1aP8oP6zxDIp5EdzBRweNQ
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_79:
+    key: rule_79
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: ccxLFav25GHrxOkRyP/8v4
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_80:
+    key: rule_80
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: aaibYj2chJaZr9OMxGZ/bi
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_81:
+    key: rule_81
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 01agNs2adNKJMCk3K4EUGr
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_82:
+    key: rule_82
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 56ho5Q0B9Mnr0UQ2farHLk
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_84:
+    key: rule_84
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 9d53jxhtZInI9ht+4ctU7V
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_85:
+    key: rule_85
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 90HGK63I1FFqvMUsUoCwR3
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_87:
+    key: rule_87
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 79F6JlYBFETKk79ZEViGWc
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  rule_77:
+    key: rule_77
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 7f+4Wx87RF+4wPeKcfvb2p
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 7f+4Wx87RF+4wPeKcfvb2p
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  b19KI62gtOgKjcJi9Nw0Zr:
+    key: b19KI62gtOgKjcJi9Nw0Zr
+    value: ""
+    type: 2
+    isVariant: false
+    associations:
+      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
+        nodeUuid: 7f+4Wx87RF+4wPeKcfvb2p
+        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    _variants: []
+  max_beting:
+    key: max_beting
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: e977e912-c072-4357-ad35-a0f90c8b42c9
+        nodeUuid: 30hVz7hGJCu4yHKzqOOhE9
+        reference: e977e912-c072-4357-ad35-a0f90c8b42c9
+    _variants: []
+  shared_rotation_tips:
+    key: shared_rotation_tips
+    value: ""
+    type: 4
+    isVariant: false
+    associations:
+      - sceneUuid: 4bf11615-7057-40cd-8a54-865a08798731
+        nodeUuid: 97arRIuhhB/qXXDmsRnL9F
+        reference: 4bf11615-7057-40cd-8a54-865a08798731
+      - sceneUuid: 4bf11615-7057-40cd-8a54-865a08798731
+        nodeUuid: 68CWNvvRVGqa2YdrLFMBCK
+        reference: 4bf11615-7057-40cd-8a54-865a08798731
+      - sceneUuid: 4bf11615-7057-40cd-8a54-865a08798731
+        nodeUuid: 68CWNvvRVGqa2YdrLFMBCK
+        reference: 4bf11615-7057-40cd-8a54-865a08798731
+    _variants: []
+  rue_0:
+    key: rue_0
+    value: ""
+    type: 4
+    isVariant: false
+    associations: []
+    _variants: []
+languageConfig:
+  bcp47Tag: index
+  translateFinished: 5
+  translateTotal: 0
+  compileFinished: 0
+  compileTotal: 0

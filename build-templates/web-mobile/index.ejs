@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><%= projectName %></title>
+    <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true"/>
+    <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <!-- force webkit on 360 -->
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <!-- force edge on IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- force full screen on some browser -->
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <!--fix fireball/issues/3568 -->
+    <!--<meta name="browsermode" content="application">-->
+    <meta name="x5-page-mode" content="app">
+    <!--<link rel="apple-touch-icon" href=".png" />-->
+    <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+    <link rel="stylesheet" type="text/css" href="<%= cssUrl %>"/>
+
+    <!--控制svg-->
+    <script>
+        window["_svgStartDate"] = new Date();
+        window["_svgDuration"] = 3000; // 毫秒
+    </script>
+    <!--控制svg-->
+    <!--lottie加载js-->
+    <script src="dotlottie-player.js"></script>
+    <!--svg样式-->
+    <style id="loader-style">
+    #initial-loader{background-color:#000;height:100%;margin:auto;position:fixed;width:100%}
+    #initial-loader,.svg-loading{align-items:center;display:flex;flex-direction:column;justify-content:center}
+
+    body {
+        background-color: black; /* 设置背景颜色为黑色 */
+    }
+
+    .container {
+        /* background-image: url('logo_bg.jpg'); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* 设置容器的高度为视口的高度 */
+    }.container img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+    
+    dotlottie-player {
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    </style>
+    <!--svg样式-->
+
+    <script>
+        function isMobile() {
+            return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        window.onload = function (){
+            let dotlottie = document.getElementById('dotlottie-player');
+            if (isMobile()) {
+                dotlottie.style.maxWidth = "40%"
+                dotlottie.style.maxHeight = "40%"
+            } else {
+                dotlottie.style.maxWidth = "25%"
+                dotlottie.style.maxHeight = "25%"
+            }
+        }
+    </script>
+
+    <!-- 引入多语言逻辑-->
+    <script type="text/javascript" src="nameConfig.js"></script>
+    <script type="text/javascript" src="l10nConfig.js"></script>
+
+</head>
+<body style="background-color: black;">
+    <div id="GameDiv" cc_exact_fit_screen="true">
+        <div id="Cocos3dGameContainer" >
+            <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99" ></canvas>
+        </div>
+
+        <script>
+            let anim_name = "anim_"+window['lang']+".json"
+            document.addEventListener("DOMContentLoaded", function() {
+                let dotlottiePlayer = document.createElement("dotlottie-player");
+                dotlottiePlayer.id = "dotlottie-player";
+                dotlottiePlayer.setAttribute("src", anim_name);
+                dotlottiePlayer.setAttribute("background", "transparent");
+                dotlottiePlayer.setAttribute("speed", "1");
+                dotlottiePlayer.setAttribute("loop", "");
+                dotlottiePlayer.setAttribute("autoplay", "");
+                dotlottiePlayer.classList.add("logo");
+                
+                let placeholder = document.getElementById("dotlottie-placeholder");
+                placeholder.parentNode.replaceChild(dotlottiePlayer, placeholder);
+            });
+
+        </script>
+        <!---pg svg-->
+        <div id="initial-loader">
+            <div class="container">
+            <!-- <img src="logo_bg.png"> -->
+            <!-- <dotlottie-player id="dotlottie-player" :src="anim_name" background="transparent" speed="1" loop autoplay class="logo"></dotlottie-player> -->
+            <div id="dotlottie-placeholder"></div>
+            <!-- </img> -->
+        </div>
+        <!-- <div class="svg-loading"></div> -->
+    </div>
+
+    <!-- 引入配置逻辑-->
+    <script type="text/javascript" src="gameConfig.js"></script>
+
+    <script>
+        function isMobile() {
+            return navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+        }
+
+        window.onload = function () {
+            let dotlottie = document.getElementById('dotlottie-player');
+             if (isMobile()) {
+                dotlottie.style.top = "46%"
+                dotlottie.style.maxWidth = "61%"
+                dotlottie.style.maxHeight = "61%"
+            } else {
+                dotlottie.style.maxWidth = "45%"
+                dotlottie.style.maxHeight = "45%"
+            }
+        }
+           
+        console.log("gameVersion: " + "gameVersion");
+    </script>
+    <!---pg svg-->
+    </div>
+    <%- include(cocosTemplate, {}) %>
+</body>
+</html>
+
+
+
