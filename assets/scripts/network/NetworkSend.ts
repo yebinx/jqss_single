@@ -21,7 +21,7 @@ export class NetworkSend
     }
     public enterRoom(){
         var cmd = new roomCmd.CMD_GR_LogonByTPAccount();
-        cmd.szTPAccount.value = NativeClass.GetUserAccount() == "" ? 'TKKSOLK174' : NativeClass.GetUserAccount();
+        cmd.szTPAccount.value = NativeClass.GetUserAccount() == "" ? 'TKKSOLK172' : NativeClass.GetUserAccount();
         cmd.szPassWord.value = NativeClass.GetUserPassword() == "" ? 'TK125601' : NativeClass.GetUserPassword();
         cmd.iOperatoerID.value = NativeClass.GetOperatorId() == 0 ? '697996' : NativeClass.GetOperatorId();
         cmd.ulSessionID.value = NativeClass.GetSessionId();
@@ -96,6 +96,14 @@ export class NetworkSend
             Network.Instance.SendCmd(roomCmd.MDM_GR_USER, roomCmd.SUB_GR_USER_SIT_REQ, sitReq);
         // }
 
+    }
+
+    public buyFree(bet,round=3){
+        let tbet = bet/20;
+        let cmd = new roomCmd.Cmd_C_Free();
+        cmd.iBet = tbet;
+        cmd.iRound=round;
+        Network.Instance.SendCmd(roomCmd.MDM_GF_GAME, RoomSubCmd.SUB_C_FREE, cmd);
     }
    
 }

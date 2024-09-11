@@ -290,6 +290,10 @@ export class Network
                 }
                 UIManager.showView(EViewNames.UIConfirmTip, EUILayer.Popup, params)
                 EventCenter.getInstance().fire(GameEvent.reconnect_tip, 0)
+            }else if(head.wMainCmdID.value==roomCmd.MDM_GF_GAME && RoomSubCmd.SUB_S_FREE){
+                let buyresult = new roomCmd.Cmd_S_Free();
+                EventCenter.getInstance().fire("buy_free", buyresult.bResult.value);
+                console.log("购买免费游戏成功",buyresult);
             }
            
         }

@@ -305,7 +305,7 @@ export default class DataManager{
 
    private static max_bet_multiple=10;
    public static initBetInfo(){
-        let tdata = {bet_list:[],default_id:10,addSubCombination:[
+        let tdata = {bet_list:[],default_id:12,addSubCombination:[
             1,
             2,
             3,

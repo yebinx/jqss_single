@@ -19,7 +19,7 @@ export default class UserInfo{
             "id": 4271,
             "free_play_times": 0,
             "last_time_bet": 60000,
-            "last_time_bet_id": 10,
+            "last_time_bet_id": 12,
             "last_time_bet_size": 1000,
             "last_time_basic_bet": 20,
             "last_time_bet_multiple": 3,

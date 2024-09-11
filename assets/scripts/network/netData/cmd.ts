@@ -15,7 +15,8 @@ export enum RoomMainCmd {
 
 export enum RoomSubCmd {
     SUB_C_START = 2,        // 开始游戏
-
+    SUB_C_FREE = 6,
+    SUB_S_FREE = 105,
     SUB_S_GAME_END = 102,    // 游戏结束(旋转结果)
     SUB_S_GAME_END_BEGIN = 108,
     SUB_S_GAME_END_END = 109,
@@ -664,6 +665,13 @@ export var roomCmd = {
     },
     CMD_GF_SingleBetInfo:function () {
         this.sSingleBetInfo = createTypeArray(150, INT);
+    },
+    Cmd_C_Free:function(){
+        this.iBet = new INT();
+        this.iRound = new INT();
+    },
+    Cmd_S_Free:function(){
+        this.bResult=new BYTE();
     }
 };
 

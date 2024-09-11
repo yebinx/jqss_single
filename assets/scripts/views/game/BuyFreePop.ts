@@ -3,26 +3,30 @@ import { BaseView } from '../../kernel/compat/view/BaseView';
 import { EventMouse } from 'cc';
 import { tween } from 'cc';
 import { EventTouch } from 'cc';
-import { v3 } from 'cc';
+
 import { UIOpacity } from 'cc';
-import { Tween } from 'cc';
+
 import { UIManager } from '../../kernel/compat/view/UImanager';
 import { EViewNames } from '../../configs/UIConfig';
-import GameCtrl from '../../ctrls/GameCtrl';
+
 import { Layout } from 'cc';
 import { Label } from 'cc';
 import EventCenter from '../../kernel/core/event/EventCenter';
-import GameEvent from '../../event/GameEvent';
+
 import { PUBLIC_EVENTS } from '../../event/PublicEvents';
 import BigNumber from 'bignumber.js';
-import GameConst from '../../define/GameConst';
+
 import MoneyUtil from '../../kernel/core/utils/MoneyUtil';
 import GameAudio from '../../mgrs/GameAudio';
+import { NetworkSend } from '../../network/NetworkSend';
+import { EUILayer, ParamConfirmDlg } from '../../kernel/compat/view/ViewDefine';
+
 const { ccclass, property } = _decorator;
 
 @ccclass('BuyFreePop')
 export class BuyFreePop extends BaseView {
 
+    private mIsBuying:boolean=false;
     protected onLoad(): void {
         super.onLoad();
         this.node.getComponent(UIOpacity).opacity = 0;
@@ -42,6 +46,7 @@ export class BuyFreePop extends BaseView {
             amount = num;
         })
         this.m_ui.buy_free_prize.getComponent(Label).string = MoneyUtil.rmbStr(new BigNumber(amount).multipliedBy(75).toNumber());
+        this.mIsBuying=false;
     }
 
     mouseEnter(ev: EventMouse) {
@@ -81,13 +86,45 @@ export class BuyFreePop extends BaseView {
     }
 
     confirm() {
-        this.cancel();
-        GameAudio.buyFreeStart();
-        EventCenter.getInstance().fire(PUBLIC_EVENTS.ON_SPIN, true);
+        if(this.mIsBuying)return;
+        this.buy();
     }
 
     update(deltaTime: number) {
         this.m_ui.Layout.getComponent(Layout).affectedByScale = true;
+    }
+
+    protected onEnable(): void {
+        EventCenter.getInstance().listen("buy_free",this.buyCall,this);
+    }
+
+    protected onDisable(): void {
+      
+        EventCenter.getInstance().remove("buy_free",this.buyCall,this);
+    }
+
+    private buy(){
+        this.mIsBuying=true;
+        EventCenter.getInstance().fire(PUBLIC_EVENTS.GET_BET_AMOUNT,(betAmount)=>{
+            let tTotalAmount = betAmount;
+            NetworkSend.Instance.buyFree(tTotalAmount);
+        },this)
+    }
+
+    private buyCall(value){
+        if(value>0){
+            this.cancel();
+            // GameAudio.buyFreeStart();
+            // EventCenter.getInstance().fire(PUBLIC_EVENTS.ON_SPIN, true);
+        }else{
+            let params: ParamConfirmDlg = {
+                callback:()=>{},
+                title: "Tip",
+                content: `购买免费游戏出错`,
+                okTxt:"OK"
+            }
+            UIManager.showView(EViewNames.UIConfirmTip, EUILayer.Popup, params)
+        }
     }
 }
 
