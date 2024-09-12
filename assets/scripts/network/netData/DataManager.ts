@@ -65,7 +65,8 @@ export default class DataManager{
         tdata.trigger_free = this.betResult.triFreeCount>0 && this.betResult.freeCount>0;
         tdata.free_game_total_win=this.betResult.nFreeTotalAwardGold;
         tdata.free_game_total_win_s=MoneyUtil.formatGold(this.betResult.nFreeTotalAwardGold);
-        for(let i=0;i<this.betResult.result.length;i++){
+        let tlen = this.betResult.result.length;
+        for(let i=0;i<tlen;i++){
             let ttemp = this.betResult.result[i];
             let tround:TRound = {};
             tround.balance = ttemp.balance;
@@ -81,7 +82,7 @@ export default class DataManager{
             tround.drop_list=[];
             tround.prize_list=[];
             tround.dyadic_list=[];
-            tround.multi_list= [1, 2, 3, 5];
+            tround.multi_list= this.preTotalFree>0 && !(this.betResult.freeCount==0 && i==tlen-1)?[2,4,6,10]:[1, 2, 3, 5];
             let tmaxLen=5;
             for(let col=0;col<6;col++){
                 let tcollist = ttemp.card_list[col];

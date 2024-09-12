@@ -49,7 +49,7 @@ export class BuyFreePop extends BaseView {
            
             this.mBet = num;
         })
-        this.mPrice = new BigNumber(this.mBet).multipliedBy(75).toNumber();
+        this.mPrice = new BigNumber(this.mBet/20).multipliedBy(75).toNumber();
         this.m_ui.buy_free_prize.getComponent(Label).string = MoneyUtil.rmbStr(this.mPrice);
         this.mIsBuying=false;
     }
@@ -129,7 +129,7 @@ export class BuyFreePop extends BaseView {
         if(value==0){
             this.cancel();
             GameAudio.buyFreeStart();
-            //EventCenter.getInstance().fire(PUBLIC_EVENTS.ON_SPIN, true);
+            EventCenter.getInstance().fire(PUBLIC_EVENTS.ON_SPIN, true);
         }else{
             this.showAlert("购买免费游戏出错");
         }
