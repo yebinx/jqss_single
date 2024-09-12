@@ -28,6 +28,8 @@ const { ccclass, property } = _decorator;
 export class BuyFreePop extends BaseView {
 
     private mIsBuying:boolean=false;
+    private mBet:number=0;
+    private mPrice:number=0;
     protected onLoad(): void {
         super.onLoad();
         this.node.getComponent(UIOpacity).opacity = 0;
@@ -42,11 +44,13 @@ export class BuyFreePop extends BaseView {
 
         // this.m_ui.cancel.on(Node.EventType.TOUCH_START, this.touchStart, this);
         // this.m_ui.cancel.on(Node.EventType.TOUCH_START, this.touchEnd, this);
-        let amount = 0;
+       
         EventCenter.getInstance().fire(PUBLIC_EVENTS.GET_BET_AMOUNT, (num: number) => {
-            amount = num;
+           
+            this.mBet = num;
         })
-        this.m_ui.buy_free_prize.getComponent(Label).string = MoneyUtil.rmbStr(new BigNumber(amount).multipliedBy(75).toNumber());
+        this.mPrice = new BigNumber(this.mBet).multipliedBy(75).toNumber();
+        this.m_ui.buy_free_prize.getComponent(Label).string = MoneyUtil.rmbStr(this.mPrice);
         this.mIsBuying=false;
     }
 
@@ -110,16 +114,15 @@ export class BuyFreePop extends BaseView {
         EventCenter.getInstance().fire(PUBLIC_EVENTS.BALANCE_INFO, (num) => {
             tbalance = num;
         })
-        EventCenter.getInstance().fire(PUBLIC_EVENTS.GET_BET_AMOUNT,(betAmount)=>{
-            let tprice = betAmount/20;
-            let tcost = new BigNumber(tprice).multipliedBy(75).toNumber();
-            if(tcost>tbalance){
-                this.showAlert("余额不足");
-                return;
-            }
-            console.log("buy free",tbalance,tcost,tbalance-tcost);
-            NetworkSend.Instance.buyFree(tprice);
-        },this)
+        // EventCenter.getInstance().fire(PUBLIC_EVENTS.GET_BET_AMOUNT,(betAmount)=>{
+        // },this)
+       
+        if(this.mPrice>tbalance){
+            this.showAlert("余额不足");
+            return;
+        }
+        console.log("buy free",tbalance,this.mPrice,tbalance-this.mPrice);
+        NetworkSend.Instance.buyFree(this.mBet/20);
     }
 
     private buyCall(value){
