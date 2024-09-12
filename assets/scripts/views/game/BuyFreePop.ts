@@ -20,6 +20,7 @@ import MoneyUtil from '../../kernel/core/utils/MoneyUtil';
 import GameAudio from '../../mgrs/GameAudio';
 import { NetworkSend } from '../../network/NetworkSend';
 import { EUILayer, ParamConfirmDlg } from '../../kernel/compat/view/ViewDefine';
+import DataManager from '../../network/netData/DataManager';
 
 const { ccclass, property } = _decorator;
 
@@ -105,26 +106,43 @@ export class BuyFreePop extends BaseView {
 
     private buy(){
         this.mIsBuying=true;
+        let tbalance;
+        EventCenter.getInstance().fire(PUBLIC_EVENTS.BALANCE_INFO, (num) => {
+            tbalance = num;
+        })
         EventCenter.getInstance().fire(PUBLIC_EVENTS.GET_BET_AMOUNT,(betAmount)=>{
-            let tTotalAmount = betAmount;
-            NetworkSend.Instance.buyFree(tTotalAmount);
+            let tprice = betAmount/20;
+            let tcost = new BigNumber(tprice).multipliedBy(75).toNumber();
+            if(tcost>tbalance){
+                this.showAlert("余额不足");
+                return;
+            }
+            console.log("buy free",tbalance,tcost,tbalance-tcost);
+            NetworkSend.Instance.buyFree(tprice);
         },this)
     }
 
     private buyCall(value){
-        if(value>0){
+        if(value==0){
             this.cancel();
-            // GameAudio.buyFreeStart();
-            // EventCenter.getInstance().fire(PUBLIC_EVENTS.ON_SPIN, true);
+            GameAudio.buyFreeStart();
+            //EventCenter.getInstance().fire(PUBLIC_EVENTS.ON_SPIN, true);
         }else{
-            let params: ParamConfirmDlg = {
-                callback:()=>{},
-                title: "Tip",
-                content: `购买免费游戏出错`,
-                okTxt:"OK"
-            }
-            UIManager.showView(EViewNames.UIConfirmTip, EUILayer.Popup, params)
+            this.showAlert("购买免费游戏出错");
         }
+    }
+    
+    private showAlert(conttent:string){
+        let params: ParamConfirmDlg = {
+            callback:()=>{
+                this.mIsBuying=false;
+            },
+            title: "Tip",
+            content: conttent,
+            okTxt:"OK"
+        }
+        UIManager.showView(EViewNames.UIConfirmTip, EUILayer.Popup, params)
+
     }
 }
 

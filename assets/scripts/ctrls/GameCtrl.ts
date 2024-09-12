@@ -176,6 +176,7 @@ export default class GameCtrl extends BaseCtrl<GameModel>{
 
     /**下注 */
     reqBet(isBuyFree: boolean = false) {
+        if(isBuyFree)return;
         EventCenter.getInstance().fire(PUBLIC_EVENTS.GET_BET_AMOUNT,(betAmount)=>{
             let tTotalAmount = betAmount;
             NetworkSend.Instance.sendStartSpin({mTotalAmount:tTotalAmount});
@@ -283,7 +284,7 @@ export default class GameCtrl extends BaseCtrl<GameModel>{
             this.reqBet(isBuyFree)
 
             if (isBuyFree) {
-                betAmount = new BigNumber(betAmount).multipliedBy(75).toNumber();
+                betAmount = new BigNumber(betAmount/20).multipliedBy(75).toNumber();
             }
             if (balance >= betAmount) {
                 // if (isBuyFree) {

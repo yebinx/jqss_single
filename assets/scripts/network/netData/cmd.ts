@@ -668,7 +668,7 @@ export var roomCmd = {
     },
     Cmd_C_Free:function(){
         this.iBet = new INT();
-        this.iRound = new INT();
+        //this.iRound = new INT();
     },
     Cmd_S_Free:function(){
         this.bResult=new BYTE();
