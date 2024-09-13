@@ -284,7 +284,7 @@ export default class GameCtrl extends BaseCtrl<GameModel>{
             this.reqBet(isBuyFree)
 
             if (isBuyFree) {
-                betAmount = new BigNumber(betAmount/20).multipliedBy(75).toNumber();
+                betAmount = new BigNumber(betAmount).multipliedBy(75).toNumber();
             }
             if (balance >= betAmount) {
                 // if (isBuyFree) {

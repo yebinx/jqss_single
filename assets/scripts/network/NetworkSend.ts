@@ -99,7 +99,7 @@ export class NetworkSend
     }
 
     public buyFree(bet,round=3){
-        let tbet = bet;
+        let tbet = bet/20;
         let cmd = new roomCmd.Cmd_C_Free();
         cmd.iBet = tbet;
         //cmd.iRound=round;

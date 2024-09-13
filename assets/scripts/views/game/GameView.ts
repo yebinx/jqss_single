@@ -687,6 +687,10 @@ export class GameView extends BaseView {
             axis.elementList.forEach((ele) => {
                 if (ele.serverIdx > 0 && ele.serverIdx < Infinity) {
                     if (ele.id == TItemtype.ITEM_TYPE_WILD) {
+                        if(!ele.spine){
+                            console.log("versatileJitter err");
+                            return;
+                        }
                         ele.spine.active = true;
                         ele.spine.children.forEach((node, idx) => {
                             if (idx == 0) {

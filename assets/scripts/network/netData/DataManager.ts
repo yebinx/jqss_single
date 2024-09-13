@@ -52,8 +52,8 @@ export default class DataManager{
         tdata.bet = this.currBet;
         tdata.bet_s =  MoneyUtil.formatGold(this.currBet);
         tdata.free_remain_times = this.betResult.freeCount;
-        tdata.prize = this.betResult.prize;
-        tdata.prize_s = MoneyUtil.formatGold(this.betResult.prize);
+        tdata.prize = this.betResult.haveWin;
+        tdata.prize_s = MoneyUtil.formatGold(this.betResult.haveWin);
         tdata.player_win_lose = this.betResult.haveWin?this.betResult.haveWin:-this.currBet;
         tdata.player_win_lose_s = MoneyUtil.formatGold(this.betResult.haveWin?this.betResult.haveWin:-this.currBet);
         tdata.result = new TResult();
@@ -75,6 +75,7 @@ export default class DataManager{
             tround.win_s = MoneyUtil.formatGold(ttemp.win);
             tround.free_play = ttemp.triFreeCount;
             tround.multi_time=ttemp.multiple;
+            console.log("multiple-----------------------------",i,ttemp.multiple);
             tround.item_type_list=[];
             tround.next_list=[];
             tround.col_symbol_list=[];

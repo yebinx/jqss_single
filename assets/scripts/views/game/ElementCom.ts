@@ -592,10 +592,15 @@ export class ElementCom extends Component {
             } else {
                 this.scheduleOnce(() => {
                     GameAudio.caiDai();
-                    CocosUtil.playSpineAnim(this.iconsDi.getChildByName("caidai" + this.count), "animation", false, () => {
-                        this.iconsDi.getChildByName("caidai" + this.count).active = false;
-                        this.iconsDi.active = false;
-                    });
+                    let tnode = this.iconsDi.getChildByName("caidai" + this.count);
+                    if(tnode){
+                        CocosUtil.playSpineAnim(tnode, "animation", false, () => {
+                            this.iconsDi.getChildByName("caidai" + this.count).active = false;
+                            this.iconsDi.active = false;
+                        });
+                    }else{
+                        console.log("caidai err",this.id,this.count);
+                    }
                 }, 0.5)
                 sps.setAnimation(0, "win_idle", false);
                 sps.setCompleteListener(() => {

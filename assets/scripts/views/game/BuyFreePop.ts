@@ -49,7 +49,7 @@ export class BuyFreePop extends BaseView {
            
             this.mBet = num;
         })
-        this.mPrice = new BigNumber(this.mBet/20).multipliedBy(75).toNumber();
+        this.mPrice = new BigNumber(this.mBet).multipliedBy(75).toNumber();
         this.m_ui.buy_free_prize.getComponent(Label).string = MoneyUtil.rmbStr(this.mPrice);
         this.mIsBuying=false;
     }
@@ -122,7 +122,7 @@ export class BuyFreePop extends BaseView {
             return;
         }
         console.log("buy free",tbalance,this.mPrice,tbalance-this.mPrice);
-        NetworkSend.Instance.buyFree(this.mBet/20);
+        NetworkSend.Instance.buyFree(this.mBet);
     }
 
     private buyCall(value){
