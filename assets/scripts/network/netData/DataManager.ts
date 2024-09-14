@@ -66,6 +66,7 @@ export default class DataManager{
         tdata.free_game_total_win=this.betResult.nFreeTotalAwardGold;
         tdata.free_game_total_win_s=MoneyUtil.formatGold(this.betResult.nFreeTotalAwardGold);
         let tlen = this.betResult.result.length;
+        let round_rate = 0;
         for(let i=0;i<tlen;i++){
             let ttemp = this.betResult.result[i];
             let tround:TRound = {};
@@ -74,6 +75,9 @@ export default class DataManager{
             tround.win = ttemp.win;
             tround.win_s = MoneyUtil.formatGold(ttemp.win);
             tround.free_play = ttemp.triFreeCount;
+            tround.round = i;
+            // tround.round_rate = ttemp.multiple/ttemp.nAvalanche;
+            if(round_rate==0)round_rate=ttemp.multiple/ttemp.nAvalanche;
             tround.multi_time=ttemp.multiple;
             console.log("multiple-----------------------------",i,ttemp.multiple);
             tround.item_type_list=[];
@@ -83,7 +87,11 @@ export default class DataManager{
             tround.drop_list=[];
             tround.prize_list=[];
             tround.dyadic_list=[];
-            tround.multi_list= this.preTotalFree>0 && !(this.betResult.freeCount==0 && i==tlen-1)?[2,4,6,10]:[1, 2, 3, 5];
+            tround.multi_list= [1, 2, 3, 5];//this.preTotalFree>0 && !(this.betResult.freeCount==0 && i==tlen-1)?[2,4,6,10]:[1, 2, 3, 5];
+            for(let i=0;i<tround.multi_list.length;i++){
+                tround.multi_list[i] *= round_rate; 
+            }
+            console.log("*****************************",i, ttemp.nAvalanche,tround.round_rate,ttemp.multiple,tround.multi_list);
             let tmaxLen=5;
             for(let col=0;col<6;col++){
                 let tcollist = ttemp.card_list[col];

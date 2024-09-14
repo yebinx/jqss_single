@@ -512,6 +512,7 @@ export default class GameModel extends BaseModel {
                 item.multi_list[index] = this.multipleList[index] * mul;
             })
         })
+       
     }
 
     getCurMinMul() {

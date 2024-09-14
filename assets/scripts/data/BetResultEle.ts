@@ -18,6 +18,7 @@ export default class BetResultEle{
     public multiple:number=1;
     public lNormalTotalAwardGold:number=0;
     public nFreeTotalAwardGold:number=0;
+    public nAvalanche:number=1;
     constructor(CMD_S_GameEnd){
         this.win = CMD_S_GameEnd.lAwardGold.value;
         this.havewin = CMD_S_GameEnd.lNormalTotalAwardGold.value;
@@ -28,6 +29,7 @@ export default class BetResultEle{
         this.multiple = CMD_S_GameEnd.nMultiple.value;
         this.lNormalTotalAwardGold = CMD_S_GameEnd.lNormalTotalAwardGold.value;
         this.nFreeTotalAwardGold = CMD_S_GameEnd.nFreeTotalAwardGold.value;
+        this.nAvalanche = CMD_S_GameEnd.nAvalanche.value;
         this.addCardList(CMD_S_GameEnd);
         this.setRmoveListData();
     }
