@@ -21,6 +21,7 @@ import GameAudio from '../../mgrs/GameAudio';
 import { NetworkSend } from '../../network/NetworkSend';
 import { EUILayer, ParamConfirmDlg } from '../../kernel/compat/view/ViewDefine';
 import DataManager from '../../network/netData/DataManager';
+import GameCtrl from '../../ctrls/GameCtrl';
 
 const { ccclass, property } = _decorator;
 
@@ -128,6 +129,8 @@ export class BuyFreePop extends BaseView {
     private buyCall(value){
         if(value==0){
             this.cancel();
+            GameCtrl.getIns().isNeedTemporaryData=false;
+            DataManager.clearClassData();
             GameAudio.buyFreeStart();
             EventCenter.getInstance().fire(PUBLIC_EVENTS.ON_SPIN, true);
         }else{

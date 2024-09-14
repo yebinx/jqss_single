@@ -62,7 +62,7 @@ export default class DataManager{
         tdata.result.is_end_free = this.betResult.freeCount==0 && this.preTotalFree>0;
         tdata.free=this.betResult.triFreeCount>0;
         tdata.free_total_times = this.betResult.totalFreeCount;
-        tdata.trigger_free = this.betResult.triFreeCount>0 && this.betResult.freeCount>0;
+        tdata.trigger_free = this.betResult.triFreeCount>0 && this.betResult.freeCount != this.betResult.totalFreeCount;
         tdata.free_game_total_win=this.betResult.nFreeTotalAwardGold;
         tdata.free_game_total_win_s=MoneyUtil.formatGold(this.betResult.nFreeTotalAwardGold);
         let tlen = this.betResult.result.length;

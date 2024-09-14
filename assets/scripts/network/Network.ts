@@ -228,6 +228,8 @@ export class Network
                 // let tcmd = new mssCmd.Cmd_S_Base_Hight();
                 // tcmd.parse(event.data);
                 // console.log("下注返回错误",tcmd);
+            }else if(head.wMainCmdID.value == roomCmd.MDM_GF_GAME && head.wSubCmdID.value == RoomSubCmd.SUB_S_BASE_HIGHT){
+
             }
             else if(head.wMainCmdID.value == roomCmd.MDM_GF_GAME && head.wSubCmdID.value == RoomSubCmd.SUB_S_GAME_ERR){
                 let terr = new roomCmd.CMD_S_HandleError();
@@ -242,7 +244,7 @@ export class Network
                 console.log("游戏当前状态",cmdData);
             }
             else if(head.wMainCmdID.value == roomCmd.MDM_GF_FRAME && head.wSubCmdID.value == roomCmd.SUB_GF_SCENE){
-                var statusFree = new mssCmd.CMD_S_StatusFree();
+                var statusFree = new mssCmd.CMD_S_GameStatus();
                 statusFree.parse(event.data);
                 DataManager.CMD_S_StatusFree = statusFree;
                 console.log("场景信息",statusFree);

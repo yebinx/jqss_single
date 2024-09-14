@@ -60,11 +60,11 @@ export default class GameCtrl extends BaseCtrl<GameModel>{
     async enterGame() {
         this.register()
         let viewInfo = this.getModel().getInitViewInfo();
-        this.getModel().gameInfo.free_remain_times = DataManager.CMD_S_StatusFree.nTotalFreeCount.value;
-        this.getModel().getBetData().free_remain_times=DataManager.CMD_S_StatusFree.nTotalFreeCount.value;
+        this.getModel().gameInfo.free_remain_times = DataManager.CMD_S_StatusFree.nFreeCount.value;
+        this.getModel().getBetData().free_remain_times=DataManager.CMD_S_StatusFree.nFreeCount.value;
         viewInfo.remainFreeTimes = this.getModel().gameInfo.free_remain_times;
-        viewInfo.isEndFree = DataManager.CMD_S_StatusFree.nTotalFreeCount.value==1;
-        if(viewInfo.remainFreeTimes>0)DataManager.preTotalFree=viewInfo.remainFreeTimes;
+        viewInfo.isEndFree = DataManager.CMD_S_StatusFree.nFreeCount.value==1;
+        if(viewInfo.remainFreeTimes>0)DataManager.preTotalFree=DataManager.CMD_S_StatusFree.nTotalFreeCount.value;
         await UIManager.showView(EViewNames.GameView, EUILayer.Panel, viewInfo);
         UIManager.closeView(EViewNames.LoadinView);
     }
@@ -315,7 +315,7 @@ export default class GameCtrl extends BaseCtrl<GameModel>{
             // debugger
             this.hasData = true;
             this.getModel().setBetResult(data);
-            if (data.free && DataManager.preTotalFree==0) {
+            if (data.free && !data.trigger_free) {
                 this.getModel().mode = GameMode.into_free
             } else if (data.trigger_free) {
                 this.getModel().mode = GameMode.free_again
@@ -326,13 +326,13 @@ export default class GameCtrl extends BaseCtrl<GameModel>{
             } else {
                 this.getModel().mode = GameMode.normal
             }
-            warn("当前游戏模式", GameModel[this.getModel().mode])
             this.delayHandlerId = setTimeout(() => {
                 this.startRoll()
             }, this.delayTime);
             this.temporaryData = null;
             this.isNeedTemporaryData = true;
         }
+        console.log("当前游戏模式",this.getModel().mode,this.isNeedTemporaryData)
     }
 
     updateBetResult() {
@@ -377,7 +377,7 @@ export default class GameCtrl extends BaseCtrl<GameModel>{
     /**检测是否需要自动旋转 */
     checkAutoRoll() {
         if (this.getModel().isFree() || this.getModel().isIntoFree()) {
-            let tnum = (this.isFrist && DataManager.preTotalFree>0)?DataManager.preTotalFree:this.getModel().getBetData().free_remain_times;
+            let tnum = this.getModel().getBetData().free_remain_times;
             EventCenter.getInstance().fire(GameEvent.game_update_free_num, tnum - 1)
             this.isFrist=false;
             this.reqRoll();

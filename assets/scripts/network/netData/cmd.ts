@@ -771,6 +771,7 @@ export var mssCmd = {
         this.uCurScene = new INT();   //当前场景  
         this.uNextScene = new INT();   //下一个场景   //0 TGS_NORMAL  TGS_FREE  1
         this.nFreeCount = new INT();   //当前剩余几次免费
+        this.nTotalFreeCount = new INT();
         this.lFreeTotalAwardGold = new LONGLONG();
         this.nRollType = new INT();
         this.nRollPos = createTypeArray(mssCmd.COL, BYTE);

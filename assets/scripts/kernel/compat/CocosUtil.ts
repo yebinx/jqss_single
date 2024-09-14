@@ -281,17 +281,22 @@ export default class CocosUtil {
 		node.active = true;
 		let sps = node.getComponent(sp.Skeleton);
 		sps.setToSetupPose()
-		sps.setAnimation(0, animName, isLoop);
-		log("playsp", animName, node.name, isLoop)
-		sps.timeScale = timeScale;
-		if (cb) {
-			sps.setCompleteListener(() => {
+		try {
+			sps.setAnimation(0, animName, isLoop);
+			sps.timeScale = timeScale;
+			if (cb) {
+				sps.setCompleteListener(() => {
+					sps.setCompleteListener(null);
+					cb();
+				});
+			} else {
 				sps.setCompleteListener(null);
-				cb();
-			});
-		} else {
-			sps.setCompleteListener(null);
+			}
+		} catch (error) {
+			console.error("playsp", animName, node.name, isLoop)
+			if(cb)cb();
 		}
+		
 	}
 
 	/**修改当前节点颜色 */

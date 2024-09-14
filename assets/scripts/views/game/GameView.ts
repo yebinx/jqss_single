@@ -587,7 +587,7 @@ export class GameView extends BaseView {
 
     async onShowAwardResult(data: ResultAwardUIInfo) {
         console.log("onShowAwardResult", data);
-        this.resultAwardUIInfo = data;
+        this.resultAwardUIInfo = data as TRound;
         if (data?.prize_list?.length > 0) {
             let fillList = [];
             data.dyadic_list.forEach((list, idx) => {
@@ -687,26 +687,26 @@ export class GameView extends BaseView {
             axis.elementList.forEach((ele) => {
                 if (ele.serverIdx > 0 && ele.serverIdx < Infinity) {
                     if (ele.id == TItemtype.ITEM_TYPE_WILD) {
-                        if(!ele.spine){
-                            console.log("versatileJitter err");
-                            return;
-                        }
-                        ele.spine.active = true;
-                        ele.spine.children.forEach((node, idx) => {
-                            if (idx == 0) {
-                                node.active = true;
-                                let sps = node.getComponent(sp.Skeleton);
-                                if(sps){
-                                    sps.setAnimation(0, "spawn", false);
-                                    sps.setCompleteListener(() => {
-                                        sps.setAnimation(0, "idle", true);
-                                        sps.setCompleteListener(null);
-                                    })
+                        if(ele.spine){
+                            ele.spine.active = true;
+                            ele.spine.children.forEach((node, idx) => {
+                                if (idx == 0) {
+                                    node.active = true;
+                                    let sps = node.getComponent(sp.Skeleton);
+                                    if(sps){
+                                        sps.setAnimation(0, "spawn", false);
+                                        sps.setCompleteListener(() => {
+                                            sps.setAnimation(0, "idle", true);
+                                            sps.setCompleteListener(null);
+                                        })
+                                    }
+                                } else {
+                                    node.active = false;
                                 }
-                            } else {
-                                node.active = false;
-                            }
-                        });
+                            });  
+                        }else{
+                            console.error("versatileJitter err");
+                        }
                     }
                 }
             });
