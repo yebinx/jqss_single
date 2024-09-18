@@ -7,6 +7,7 @@ import EventCenter from "../kernel/core/event/EventCenter";
 import BaseModel from "./BaseModel";
 import { PUBLIC_EVENTS } from "../event/PublicEvents";
 import { BetInfoRsp } from "../interface/betinfo";
+import DataManager from "../network/netData/DataManager";
 
 export interface BaseGoldInfo {
     balance?: number//玩家余额
@@ -217,7 +218,12 @@ export default class GameModel extends BaseModel {
     setBetInfo(info: BetInfoRsp) {
         this.betInfo = info;
         this.betInfo.addSubCombination = info.add_sub_combination;
-        EventCenter.getInstance().fire(PUBLIC_EVENTS.SET_BET_INFO, info, this.gameInfo.last_time_bet_id || info.default_id)
+        let tbetid = this.gameInfo.last_time_bet_id || info.default_id;
+        let tlocalBetId = parseInt(localStorage.getItem(DataManager.userId+"_bet_id"));
+        if(tlocalBetId && tlocalBetId>0){
+            tbetid = tlocalBetId;
+        }
+        EventCenter.getInstance().fire(PUBLIC_EVENTS.SET_BET_INFO, info, tbetid)
     }
 
     getBetData() {

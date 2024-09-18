@@ -560,7 +560,7 @@ export class ElementCom extends Component {
             this.updateChild(this.prefabParentList[3], false);
             this.updateChild(this.prefabParentList[4], false);
 
-            log("消除wd", this.node.uuid)
+            // log("消除wd", this.node.uuid)
             let silverUp = this.node.getChildByName("silver_up");
             let next = this.wdNum - 1;
             CocosUtil.playSpineAnim(silverUp, "silver_up" + this.count, false, () => {
@@ -612,10 +612,10 @@ export class ElementCom extends Component {
                     .start();
             }
         } else if (id == TItemtype.ITEM_TYPE_SCATTER) {
-            log("消除sc")
+            // log("消除sc")
             checkEnd(false);
         } else {
-            log("消除普通")
+            // log("消除普通")
             this.updateChild(this.prefabParentList[4], true);
             this.updateChild(this.prefabParentList[3], true);
             // this.waiFaGuang.active = true;
@@ -672,7 +672,7 @@ export class ElementCom extends Component {
                         }).start();
                     }, 1)
                 } else {
-                    log("普通消除动画", "silver_up" + this.count)
+                    // log("普通消除动画", "silver_up" + this.count)
                     this.parentCom.removeSpecified(this);
                     CocosUtil.playSpineAnim(silverUp, "silver_up" + this.count, false, () => {
                         silverUp.active = false;

@@ -27,6 +27,7 @@ import { color } from 'cc';
 import CocosUtil from '../../../scripts/kernel/compat/CocosUtil';
 import { Sprite } from 'cc';
 import { l10n } from '../../../../extensions/localization-editor/static/assets/l10n';
+import DataManager from '../../../scripts/network/netData/DataManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('PublicBtns')
@@ -241,6 +242,7 @@ export class PublicBtns extends BaseView {
             isShowTip && UIManager.toast(l10n.t("shared_setting_bet_min_bet"))
         }
         this.updateChangeBetBtnState(data)
+        localStorage.setItem(DataManager.userId+"_bet_id",PublicData.getCurBetId()+"");
     }
 
     /**更新2个按钮状态 */

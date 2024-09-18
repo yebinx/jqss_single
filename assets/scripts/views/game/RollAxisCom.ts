@@ -172,7 +172,7 @@ export class RollAxisCom {
         if (this.state != RollState.start || !this.stopData || this.stopData.length == 0) {
             return;
         }
-        warn("开始停止", this.idx, this.stopData, RollState[this.state]);
+        // warn("开始停止", this.idx, this.stopData, RollState[this.state]);
         let datas = GameCtrl.getIns().getModel().elementChangeClient(this.stopData);
         Tween.stopAllByTarget(this.tempNode)
         let targetY = this.initY;
@@ -359,7 +359,7 @@ export class RollAxisCom {
     }
 
     onRollEnd() {
-        log("onRollEnd", this.idx);
+        // log("onRollEnd", this.idx);
         // GameAudio.normalRollStop();
         EventCenter.getInstance().fire(GameEvent.game_axis_ready_roll_end, this.idx)
         let count = 0, total = 0;

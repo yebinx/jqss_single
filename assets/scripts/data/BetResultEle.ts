@@ -52,8 +52,9 @@ export default class BetResultEle{
                 let trowcount = tdata.nMaxColCount.value;
                 let frameType1 = tdata.isGold.value;
                 let tisremove = tdata.isRemove.value;
+                let tfuseNum = tdata.nLockCount.value;
                 //if(DataManager.isWild(tdata.iType.value))frameType1=0;
-                let tid = DataManager.convertId(tdata.iType.value,frameType1,trowcount);
+                let tid = DataManager.convertId(tdata.iType.value,frameType1,trowcount,tfuseNum);
                 if(tdata.iType.value>0){
                     trow++;
                     tele.addListEle(tid);
@@ -70,11 +71,11 @@ export default class BetResultEle{
                 tdata = nRemoveIcon[row][col];
                 trowcount = tdata.nMaxColCount.value;
                 let frameType2 = tdata.isGold.value;
-               
-                //tid = DataManager.convertId(tdata.iType.value,frameType,trowcount);
-                if(tdata.iType.value>0 || frameType2>0){
-                    //tele.addDropEle(tid);
-                    if(tele.isRemoveEle(frameType2))tele.removeList.push({row:row,rowCount:trowcount,col:col,id:tid,norId:DataManager.convertToNorId(tdata.iType.value)});
+                tfuseNum = tdata.nLockCount.value;
+                tid = DataManager.convertId(tdata.iType.value,frameType2,trowcount,tfuseNum);
+                if(tisremove>0){//tdata.iType.value>0 || frameType2>0
+                    //tele.addDropEle(tid);tele.isRemoveEle(frameType2)
+                    if(tisremove==1)tele.removeList.push({row:row,rowCount:trowcount,col:col,id:tid,norId:DataManager.convertToNorId(tdata.iType.value)});
                     else console.log("win not remove",frameType2,tid,row,col);
                     let tpos = trow;
                     tele.addWinPos(tpos);

@@ -175,10 +175,10 @@ export class ElementCtrl extends BaseComp {
         } else {
             this.startRollCount++;
         }
-        log("检测是否需要急停", this.resultData, this.mulAnimEnd, this.startRollCount)
+        // log("检测是否需要急停", this.resultData, this.mulAnimEnd, this.startRollCount)
         if (this.startRollCount == this.rollAxisList.length && this.mulAnimEnd) {
             if ((GameCtrl.getIns().curFast || GameCtrl.getIns().curQuickFast) && this.resultData) {
-                warn("需要急停", GameCtrl.getIns().curFast, GameCtrl.getIns().curQuickFast)
+                // warn("需要急停", GameCtrl.getIns().curFast, GameCtrl.getIns().curQuickFast)
                 EventCenter.getInstance().fire(GameEvent.update_game_state, GameState.start_stop_roll)
                 this.rollAxisList.forEach((element, index) => {
                     element.isDraws = false;

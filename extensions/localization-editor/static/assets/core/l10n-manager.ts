@@ -63,6 +63,7 @@ export class L10nManager {
             );
             localStorageLanguage = this.checkLanguage(localStorageLanguage);
         }
+        localStorageLanguage="en-US";
         const defaultLanguage = localStorageLanguage ?? options.language ?? this.resourceList.defaultLanguage;
         const fallbackLanguage = options.fallbackLanguage ?? this.resourceList.fallbackLanguage;
         const resources = options.resources ?? this.resourceBundle;

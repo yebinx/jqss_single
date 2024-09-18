@@ -444,14 +444,14 @@ items:
     _variants: []
   shared_insufficient_balance_tips:
     key: shared_insufficient_balance_tips
-    value: 余额不足
+    value: Số dư không đủ
     type: 4
     isVariant: false
     associations: []
     _variants: []
   shared_unknow_error_try_again:
     key: shared_unknow_error_try_again
-    value: 未知错误，请重试。
+    value: Lỗi không xác định, vui lòng thử lại.
     type: 4
     isVariant: false
     associations: []
@@ -537,28 +537,29 @@ items:
     _variants: []
   symbol_scatter_info:
     key: symbol_scatter_info
-    value: 3 Scatter biểu tượng sẽ kích hoạt vòng quay miễn phí
+    value: 3 biểu tượng Scatter sẽ kích hoạt vòng quay miễn phí
     type: 4
     isVariant: false
     associations: []
     _variants: []
   FeatureBuyDesc1:
     key: FeatureBuyDesc1
-    value: 点击“购买奖金游戏”按钮打开奖金游戏菜单。
+    value: Chạm vào nút "tính năng mua" để mở menu tính năng mua.
     type: 4
     isVariant: false
     associations: []
     _variants: []
   FeatureBuyDesc2:
     key: FeatureBuyDesc2
-    value: 点击“开始”按钮，以奖金游戏菜单中所显示的价格购买免费旋转模式。
+    value: Chạm vào nút "Bắt Đầu" để mua tính năng Vòng quay miễn phí với giá hiện
+      thị trong menu tính năng mua
     type: 4
     isVariant: false
     associations: []
     _variants: []
   ScatterDescription:
     key: ScatterDescription
-    value: 4个或更多夺宝符号将触发免费旋转模式。
+    value: 4 hoặc hơn biểu tượng Scatter sẽ kích hoạt vòng quay miễn phí
     type: 4
     isVariant: false
     associations: []
@@ -1775,42 +1776,7 @@ items:
     _variants: []
   net_busy:
     key: net_busy
-    value: Network is busy, retrying now... (%{1} time)
-    type: 4
-    isVariant: false
-    associations: []
-    _variants: []
-  the_1:
-    key: the_1
-    value: 1st
-    type: 4
-    isVariant: false
-    associations: []
-    _variants: []
-  the_2:
-    key: the_2
-    value: 2nd
-    type: 4
-    isVariant: false
-    associations: []
-    _variants: []
-  the_3:
-    key: the_3
-    value: 3rd
-    type: 4
-    isVariant: false
-    associations: []
-    _variants: []
-  the_4:
-    key: the_4
-    value: 4th
-    type: 4
-    isVariant: false
-    associations: []
-    _variants: []
-  the_5:
-    key: the_5
-    value: 5th
+    value: Mạng bận, đang thử lại (lần thứ %{1})
     type: 4
     isVariant: false
     associations: []
@@ -1827,4 +1793,4 @@ languageConfig:
   translateFinished: 3
   translateTotal: 15
   compileFinished: 0
-  compileTotal: 248
+  compileTotal: 243

@@ -284,10 +284,15 @@ export default class DataManager{
     * 
     * id接收到的服务的id
    */
-   public static convertId(id:number,frameType:number=0,row:number=1){
+   public static convertId(id:number,frameType:number=0,row:number=1,fuseNum:number=0){
         if(id==0)return 48;
         let tid = id+2;
-        if(id==12)tid=1;
+        if(id==12){
+            tid=1;
+            if(fuseNum>0){
+                tid =  fuseNum*100 +1;
+            }
+        }
         else if(id==13)tid=2;
         let tarid = tid;
         if(tid>2){
@@ -309,6 +314,7 @@ export default class DataManager{
             tuserinfo.player_info.id=this.tagUserInfoHead.dwUserID.value;
             tuserinfo.player_info.balance = this.tagUserInfoHead.userScoreInfo.lGoldTotal.value;
             //tuserinfo.player_info.nickname = this.tagUserInfoHead
+            this.userId = tuserinfo.player_info.id;
         }
         return tuserinfo;
    }
