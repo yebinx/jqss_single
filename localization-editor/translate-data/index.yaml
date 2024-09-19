@@ -43,35 +43,45 @@ items:
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
     _variants: []
   shared_btn_sound:
     key: shared_btn_sound
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
     _variants: []
   shared_btn_rate:
     key: shared_btn_rate
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
     _variants: []
   shared_btn_rule:
     key: shared_btn_rule
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
     _variants: []
   shared_btn_history:
     key: shared_btn_history
     value: ""
     type: 4
     isVariant: false
-    associations: []
+    associations:
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
     _variants: []
   shared_btn_close:
     key: shared_btn_close
@@ -82,6 +92,7 @@ items:
       - sceneUuid: fd3613ab-ddd6-402b-8adf-d6d89bc2a0de
         nodeUuid: a21+eJ8aFLPrBlTsKjQfSa
         reference: fd3613ab-ddd6-402b-8adf-d6d89bc2a0de
+      - nodeUuid: 97hdYzXt9C0K8o/I8yW0Vr
     _variants: []
   shared_loading:
     key: shared_loading
@@ -1528,10 +1539,7 @@ items:
     value: ""
     type: 4
     isVariant: false
-    associations:
-      - sceneUuid: 99c3d08f-ee36-428a-910a-b93127dec443
-        nodeUuid: 411+iT2mhPDqV3mgeJ+lyx
-        reference: 99c3d08f-ee36-428a-910a-b93127dec443
+    associatio99c3d08f-ee36-428a-910a-b93127dec443
     _variants: []
   rule_9:
     key: rule_9
@@ -2314,13 +2322,7 @@ items:
         reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
     _variants: []
   pfb_11:
-    key: pfb_11
-    value: ""
-    type: 4
-    isVariant: false
-    associations:
-      - sceneUuid: 1ac8c05c-1f44-475c-a380-50c29db7cfae
-        nodeUuid: 468wn5LRFInKVwLQUcNFYV
+    key: pfb_1cNFYV
         reference: 1ac8c05c-1f44-475c-a380-50c29db7cfae
     _variants: []
   pfb_12:
@@ -2627,5 +2629,24 @@ languageConfig:
   bcp47Tag: index
   translateFinished: 5
   translateTotal: 0
+  compileFinished: 0
+  compileTotal: 0
+se
+    associations: []
+    _variants: []
+languageConfig:
+  bcp47Tag: index
+  translateFinished: 5
+  translateTotal: 0
+  compileFinished: 0
+  compileTotal: 0
+ []
+languageConfig:
+  bcp47Tag: index
+  translateFinished: 5
+  translateTotal: 0
+  compileFinished: 0
+  compileTotal: 0
+0
   compileFinished: 0
   compileTotal: 0
