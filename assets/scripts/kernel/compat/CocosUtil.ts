@@ -278,6 +278,11 @@ export default class CocosUtil {
 	}
 
 	static playSpineAnim(node: Node, animName: string, isLoop: boolean, cb?: Function, timeScale = 1) {
+		if(!node){
+			console.log("playSpineAnim err");
+			if(cb)cb();
+			return;
+		}
 		node.active = true;
 		let sps = node.getComponent(sp.Skeleton);
 		sps.setToSetupPose()

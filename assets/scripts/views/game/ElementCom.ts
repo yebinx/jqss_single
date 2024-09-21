@@ -552,6 +552,9 @@ export class ElementCom extends Component {
         }
 
         let id = this.changeId();
+        if(!this.icons.children[id - 1] || !this.icons.children[id - 1].children){
+            console.log("sss");
+        }
         let node = this.icons.children[id - 1].children[this.count - 1];
         let spNode = node.getChildByName("sp");
         let spNodeActive = spNode.active;

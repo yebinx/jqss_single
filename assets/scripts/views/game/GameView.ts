@@ -675,7 +675,7 @@ export class GameView extends BaseView {
         this.elementCtrl.rollAxisList.forEach((ele) => {
             ele.elementList.forEach((els) => {
                 if (els.serverIdx > -1 && this.resultAwardUIInfo.item_type_list[els.serverIdx] != els.id) {
-                    debugger
+                    console.error("err....");
                 }
             })
         })
