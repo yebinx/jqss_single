@@ -32,6 +32,7 @@ export class Network
     public WEBSOCKET_ADDR = "wss://game2.wu6jv3.com/games/21700/1";
     private mIsOtherAcc=false;
     private mConnedTimes:number=0;
+    private mIsNetConnect:boolean=false;
     public static get Instance(){
         if(!this._ins)this._ins=new Network();
         return this._ins;
@@ -77,7 +78,7 @@ export class Network
     private OnOpen(event) {
       
         clearTimeout(this.mConnectTimer);
-     
+        this.mIsNetConnect=true;
         this.SendPing();
         EventCenter.getInstance().fire("onConnect");
         NetworkSend.Instance.reqToken();
@@ -211,10 +212,13 @@ export class Network
                 let tdata = new roomCmd.CMD_GR_TableStatus();
                 tdata.parse(event.data);
                 console.log("桌子状态信息",tdata);
-                setTimeout(() => {
-                    NetworkSend.Instance.ready();
-                    NetworkSend.Instance.sendGetGameInfo();
-                }, 200);
+                if(this.mIsNetConnect){
+                    setTimeout(() => {
+                        NetworkSend.Instance.ready();
+                        NetworkSend.Instance.sendGetGameInfo();
+                    }, 200);
+                    this.mIsNetConnect=false;
+                }
             }else if(head.wMainCmdID.value == roomCmd.MDM_GF_GAME && head.wSubCmdID.value == RoomSubCmd.SUB_S_GAME_END){
                 let gameEnd = new mssCmd.CMD_S_GameEnd();
                 gameEnd.parse(event.data);
