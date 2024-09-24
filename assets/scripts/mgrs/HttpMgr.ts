@@ -523,359 +523,7 @@ export default class HttpMgr extends Singleton {
                 info = {}
 
             } else if (route == Routes.req_bet) {
-                info = {
-                    "error_code": 0,
-                    "data": {
-                        "result": {
-                            "round_list": [
-                                {
-                                    "item_type_list": [
-                                        7,
-                                        6,
-                                        8,
-                                        3,
-                                        7,
-                                        10,
-                                        8,
-                                        48,
-                                        48,
-                                        7,
-                                        11,
-                                        10,
-                                        8,
-                                        10,
-                                        8,
-                                        5,
-                                        6,
-                                        48,
-                                        3,
-                                        3,
-                                        2,
-                                        5,
-                                        12,
-                                        48,
-                                        12,
-                                        2,
-                                        13,
-                                        48,
-                                        13,
-                                        8,
-                                        3,
-                                        13,
-                                        4,
-                                        13,
-                                        6,
-                                        8
-                                    ],
-                                    "round_rate": 16,
-                                    "round": 1,
-                                    "multi_time": 1,
-                                    "prize_list": [
-                                        {
-                                            "win_pos_list": [
-                                                2,
-                                                6,
-                                                12,
-                                                14
-                                            ],
-                                            "count": 2,
-                                            "level": 3,
-                                            "item_type": 8,
-                                            "rate": 6,
-                                            "win": 18000,
-                                            "win_s": "1.80"
-                                        },
-                                        {
-                                            "win_pos_list": [
-                                                5,
-                                                11,
-                                                13
-                                            ],
-                                            "count": 1,
-                                            "level": 3,
-                                            "item_type": 10,
-                                            "rate": 4,
-                                            "win": 12000,
-                                            "win_s": "1.20"
-                                        }
-                                    ],
-                                    "multi_list": [1, 2, 3, 5],
-                                    "next_list": null,
-                                    "list": null,
-                                    "win_pos_list": [
-                                        2,
-                                        5,
-                                        6,
-                                        11,
-                                        12,
-                                        13,
-                                        14
-                                    ],
-                                    "dyadic_list": [
-                                        {
-                                            "list": [
-                                                11,
-                                                3
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                9,
-                                                48,
-                                                48,
-                                                48
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                9,
-                                                4,
-                                                48
-                                            ]
-                                        },
-                                        {
-                                            "list": null
-                                        },
-                                        {
-                                            "list": null
-                                        },
-                                        {
-                                            "list": null
-                                        }
-                                    ],
-                                    "gold_change_list": null,
-                                    "sliver_change_list": null,
-                                    "wild_reduce_list": null,
-                                    "gold_pos_list": null,
-                                    "sliver_pos_list": null,
-                                    "multi_wild_pos_list": null,
-                                    "round_rate_origin": 16,
-                                    "col_symbol_list": [
-                                        {
-                                            "list": [
-                                                7,
-                                                6,
-                                                8,
-                                                3,
-                                                7,
-                                                10
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                8,
-                                                48,
-                                                48,
-                                                7,
-                                                11,
-                                                10
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                8,
-                                                10,
-                                                8,
-                                                5,
-                                                6,
-                                                48
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                3,
-                                                3,
-                                                2,
-                                                5,
-                                                12,
-                                                48
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                12,
-                                                2,
-                                                13,
-                                                48,
-                                                13,
-                                                8
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                3,
-                                                13,
-                                                4,
-                                                13,
-                                                6,
-                                                8
-                                            ]
-                                        }
-                                    ],
-                                    "win_symbol_point": null,
-                                    "free_play": 0,
-                                    "round_id": "8306244772",
-                                    "player_win_lose": -12000,
-                                    "player_win_lose_s": "-1.20",
-                                    "balance_s": "9901.60",
-                                    "win_s": "4.80",
-                                    "balance": 99016000,
-                                    "win": 48000
-                                },
-                                {
-                                    "item_type_list": [
-                                        11,
-                                        3,
-                                        7,
-                                        6,
-                                        3,
-                                        7,
-                                        9,
-                                        48,
-                                        5,
-                                        48,
-                                        7,
-                                        11,
-                                        9,
-                                        4,
-                                        48,
-                                        5,
-                                        6,
-                                        48,
-                                        3,
-                                        3,
-                                        2,
-                                        5,
-                                        12,
-                                        48,
-                                        12,
-                                        2,
-                                        13,
-                                        48,
-                                        13,
-                                        8,
-                                        3,
-                                        13,
-                                        4,
-                                        13,
-                                        6,
-                                        8
-                                    ],
-                                    "round_rate": 0,
-                                    "round": 2,
-                                    "multi_time": 2,
-                                    "prize_list": [],
-                                    "multi_list": [1, 2, 3, 5],
-                                    "next_list": null,
-                                    "list": null,
-                                    "win_pos_list": null,
-                                    "dyadic_list": null,
-                                    "gold_change_list": null,
-                                    "sliver_change_list": null,
-                                    "wild_reduce_list": null,
-                                    "gold_pos_list": null,
-                                    "sliver_pos_list": null,
-                                    "multi_wild_pos_list": null,
-                                    "round_rate_origin": 0,
-                                    "col_symbol_list": [
-                                        {
-                                            "list": [
-                                                11,
-                                                3,
-                                                7,
-                                                6,
-                                                3,
-                                                7
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                9,
-                                                48,
-                                                5,
-                                                48,
-                                                7,
-                                                11
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                9,
-                                                4,
-                                                48,
-                                                5,
-                                                6,
-                                                48
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                3,
-                                                3,
-                                                2,
-                                                5,
-                                                12,
-                                                48
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                12,
-                                                2,
-                                                13,
-                                                48,
-                                                13,
-                                                8
-                                            ]
-                                        },
-                                        {
-                                            "list": [
-                                                3,
-                                                13,
-                                                4,
-                                                13,
-                                                6,
-                                                8
-                                            ]
-                                        }
-                                    ],
-                                    "win_symbol_point": null,
-                                    "free_play": 0,
-                                    "round_id": "3063904432",
-                                    "player_win_lose": 0,
-                                    "player_win_lose_s": "0.00",
-                                    "balance_s": "9901.60",
-                                    "win_s": "0.00",
-                                    "balance": 99016000,
-                                    "win": 0
-                                }
-                            ],
-                            "rate": 16,
-                            "scatter_count": 0,
-                            "free_play": 0,
-                            "is_end_free": false
-                        },
-                        "round_no": "0865062664",
-                        "order_id": "15-1705562726-XVHPB0X4",
-                        "balance": 99016000,
-                        "balance_before_score": 98968000,
-                        "bet": 0,
-                        "prize": 48000,
-                        "player_win_lose": -12000,
-                        "free": false,
-                        "free_total_times": 0,
-                        "free_remain_times": 0,
-                        "free_game_total_win": 0,
-                        "dbg": null
-                    },
-                    "req": {
-                        "token": "7955978BA6DC421C9473000B1E77C0F9",
-                        "id": 13,
-                        "buy_free": false,
-                        "idempotent": "1705562730875"
-                    }
-                }
-
+                info = this.getTestBetData();
             } else if (route == Routes.req_history) {
 
                 info = {
@@ -1569,5 +1217,718 @@ export default class HttpMgr extends Singleton {
                 }
             }
         });
+    }
+
+    private getTestBetData(){
+        let info = {
+            "error_code": 0,
+            "data": {
+                "result": {
+                    "round_list": [
+                        {
+                            "item_type_list": [
+                                7,
+                                6,
+                                8,
+                                3,
+                                7,
+                                10,
+                                8,
+                                48,
+                                48,
+                                7,
+                                11,
+                                10,
+                                8,
+                                10,
+                                8,
+                                5,
+                                6,
+                                48,
+                                3,
+                                3,
+                                2,
+                                5,
+                                12,
+                                48,
+                                12,
+                                2,
+                                13,
+                                48,
+                                13,
+                                8,
+                                3,
+                                13,
+                                4,
+                                13,
+                                6,
+                                8
+                            ],
+                            "round_rate": 16,
+                            "round": 1,
+                            "multi_time": 1,
+                            "prize_list": [
+                                {
+                                    "win_pos_list": [
+                                        2,
+                                        6,
+                                        12,
+                                        14
+                                    ],
+                                    "count": 2,
+                                    "level": 3,
+                                    "item_type": 8,
+                                    "rate": 6,
+                                    "win": 18000,
+                                    "win_s": "1.80"
+                                },
+                                {
+                                    "win_pos_list": [
+                                        5,
+                                        11,
+                                        13
+                                    ],
+                                    "count": 1,
+                                    "level": 3,
+                                    "item_type": 10,
+                                    "rate": 4,
+                                    "win": 12000,
+                                    "win_s": "1.20"
+                                }
+                            ],
+                            "multi_list": [1, 2, 3, 5],
+                            "next_list": null,
+                            "list": null,
+                            "win_pos_list": [
+                                2,
+                                5,
+                                6,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "dyadic_list": [
+                                {
+                                    "list": [
+                                        11,
+                                        3
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        9,
+                                        48,
+                                        48,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        9,
+                                        4,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                }
+                            ],
+                            "gold_change_list": null,
+                            "sliver_change_list": null,
+                            "wild_reduce_list": null,
+                            "gold_pos_list": null,
+                            "sliver_pos_list": null,
+                            "multi_wild_pos_list": null,
+                            "round_rate_origin": 16,
+                            "col_symbol_list": [
+                                {
+                                    "list": [
+                                        7,
+                                        6,
+                                        8,
+                                        3,
+                                        7,
+                                        10
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        8,
+                                        48,
+                                        48,
+                                        7,
+                                        11,
+                                        10
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        8,
+                                        10,
+                                        8,
+                                        5,
+                                        6,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        3,
+                                        3,
+                                        2,
+                                        5,
+                                        12,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        12,
+                                        2,
+                                        13,
+                                        48,
+                                        13,
+                                        8
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        3,
+                                        13,
+                                        4,
+                                        13,
+                                        6,
+                                        8
+                                    ]
+                                }
+                            ],
+                            "win_symbol_point": null,
+                            "free_play": 0,
+                            "round_id": "8306244772",
+                            "player_win_lose": -12000,
+                            "player_win_lose_s": "-1.20",
+                            "balance_s": "9901.60",
+                            "win_s": "4.80",
+                            "balance": 99016000,
+                            "win": 48000
+                        },
+                        {
+                            "item_type_list": [
+                                11,
+                                3,
+                                7,
+                                6,
+                                3,
+                                7,
+                                9,
+                                48,
+                                5,
+                                48,
+                                7,
+                                11,
+                                9,
+                                4,
+                                48,
+                                5,
+                                6,
+                                48,
+                                3,
+                                3,
+                                2,
+                                5,
+                                12,
+                                48,
+                                12,
+                                2,
+                                13,
+                                48,
+                                13,
+                                8,
+                                3,
+                                13,
+                                4,
+                                13,
+                                6,
+                                8
+                            ],
+                            "round_rate": 0,
+                            "round": 2,
+                            "multi_time": 2,
+                            "prize_list": [],
+                            "multi_list": [1, 2, 3, 5],
+                            "next_list": null,
+                            "list": null,
+                            "win_pos_list": null,
+                            "dyadic_list": null,
+                            "gold_change_list": null,
+                            "sliver_change_list": null,
+                            "wild_reduce_list": null,
+                            "gold_pos_list": null,
+                            "sliver_pos_list": null,
+                            "multi_wild_pos_list": null,
+                            "round_rate_origin": 0,
+                            "col_symbol_list": [
+                                {
+                                    "list": [
+                                        11,
+                                        3,
+                                        7,
+                                        6,
+                                        3,
+                                        7
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        9,
+                                        48,
+                                        5,
+                                        48,
+                                        7,
+                                        11
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        9,
+                                        4,
+                                        48,
+                                        5,
+                                        6,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        3,
+                                        3,
+                                        2,
+                                        5,
+                                        12,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        12,
+                                        2,
+                                        13,
+                                        48,
+                                        13,
+                                        8
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        3,
+                                        13,
+                                        4,
+                                        13,
+                                        6,
+                                        8
+                                    ]
+                                }
+                            ],
+                            "win_symbol_point": null,
+                            "free_play": 0,
+                            "round_id": "3063904432",
+                            "player_win_lose": 0,
+                            "player_win_lose_s": "0.00",
+                            "balance_s": "9901.60",
+                            "win_s": "0.00",
+                            "balance": 99016000,
+                            "win": 0
+                        }
+                    ],
+                    "rate": 16,
+                    "scatter_count": 0,
+                    "free_play": 0,
+                    "is_end_free": false
+                },
+                "round_no": "0865062664",
+                "order_id": "15-1705562726-XVHPB0X4",
+                "balance": 99016000,
+                "balance_before_score": 98968000,
+                "bet": 0,
+                "prize": 48000,
+                "player_win_lose": -12000,
+                "free": false,
+                "free_total_times": 0,
+                "free_remain_times": 0,
+                "free_game_total_win": 0,
+                "dbg": null
+            },
+            "req": {
+                "token": "7955978BA6DC421C9473000B1E77C0F9",
+                "id": 13,
+                "buy_free": false,
+                "idempotent": "1705562730875"
+            }
+        }
+        return info;
+    }
+
+    private getTestBetData2(){
+        let info = {
+            "error_code": 0,
+            "data": {
+                "result": {
+                    "round_list": [
+                        {
+                            "item_type_list": [
+                                7,
+                                6,
+                                8,
+                                3,
+                                7,
+                                10,
+                                8,
+                                48,
+                                48,
+                                7,
+                                11,
+                                10,
+                                8,
+                                10,
+                                8,
+                                5,
+                                6,
+                                48,
+                                3,
+                                3,
+                                2,
+                                5,
+                                12,
+                                48,
+                                12,
+                                2,
+                                13,
+                                48,
+                                13,
+                                8,
+                                3,
+                                13,
+                                4,
+                                13,
+                                6,
+                                8
+                            ],
+                            "round_rate": 16,
+                            "round": 1,
+                            "multi_time": 1,
+                            "prize_list": [
+                                {
+                                    "win_pos_list": [
+                                        0,
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5
+                                    ],
+                                    "count": 5,
+                                    "level": 3,
+                                    "item_type": 8,
+                                    "rate": 6,
+                                    "win": 18000,
+                                    "win_s": "1.80"
+                                }
+                            ],
+                            "multi_list": [1, 2, 3, 5],
+                            "next_list": null,
+                            "list": null,
+                            "win_pos_list": [
+                                0,1,2,3,4,5
+                            ],
+                            "dyadic_list": [
+                                {
+                                    "list": [
+                                        9,
+                                        9,
+                                        8,
+                                        8,
+                                        7,
+                                        7
+                                    ]
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                }
+                            ],
+                            "gold_change_list": null,
+                            "sliver_change_list": null,
+                            "wild_reduce_list": null,
+                            "gold_pos_list": null,
+                            "sliver_pos_list": null,
+                            "multi_wild_pos_list": null,
+                            "round_rate_origin": 16,
+                            "col_symbol_list": [
+                                {
+                                    "list": [
+                                        9,
+                                        9,
+                                        8,
+                                        8,
+                                        7,
+                                        7
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        8,
+                                        48,
+                                        48,
+                                        7,
+                                        11,
+                                        10
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        8,
+                                        10,
+                                        8,
+                                        5,
+                                        6,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        3,
+                                        3,
+                                        2,
+                                        5,
+                                        12,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        12,
+                                        2,
+                                        13,
+                                        48,
+                                        13,
+                                        8
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        3,
+                                        13,
+                                        4,
+                                        13,
+                                        6,
+                                        8
+                                    ]
+                                }
+                            ],
+                            "win_symbol_point": null,
+                            "free_play": 0,
+                            "round_id": "8306244772",
+                            "player_win_lose": -12000,
+                            "player_win_lose_s": "-1.20",
+                            "balance_s": "9901.60",
+                            "win_s": "4.80",
+                            "balance": 99016000,
+                            "win": 48000
+                        },
+                        {
+                            "item_type_list": [
+                                9,
+                                9,
+                                8,
+                                8,
+                                7,
+                                7,
+                                8,
+                                48,
+                                48,
+                                7,
+                                11,
+                                10,
+                                8,
+                                10,
+                                8,
+                                5,
+                                6,
+                                48,
+                                3,
+                                3,
+                                2,
+                                5,
+                                12,
+                                48,
+                                12,
+                                2,
+                                13,
+                                48,
+                                13,
+                                8,
+                                3,
+                                13,
+                                4,
+                                13,
+                                6,
+                                8
+                            ],
+                            "round_rate": 16,
+                            "round": 1,
+                            "multi_time": 1,
+                            "prize_list": [
+                                
+                            ],
+                            "multi_list": [1, 2, 3, 5],
+                            "next_list": null,
+                            "list": null,
+                            "win_pos_list": [
+                            
+                            ],
+                            "dyadic_list": [
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                },
+                                {
+                                    "list": null
+                                }
+                            ],
+                            "gold_change_list": null,
+                            "sliver_change_list": null,
+                            "wild_reduce_list": null,
+                            "gold_pos_list": null,
+                            "sliver_pos_list": null,
+                            "multi_wild_pos_list": null,
+                            "round_rate_origin": 16,
+                            "col_symbol_list": [
+                                {
+                                    "list": [
+                                        7,
+                                        6,
+                                        8,
+                                        3,
+                                        7,
+                                        10
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        8,
+                                        48,
+                                        48,
+                                        7,
+                                        11,
+                                        10
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        8,
+                                        10,
+                                        8,
+                                        5,
+                                        6,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        3,
+                                        3,
+                                        2,
+                                        5,
+                                        12,
+                                        48
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        12,
+                                        2,
+                                        13,
+                                        48,
+                                        13,
+                                        8
+                                    ]
+                                },
+                                {
+                                    "list": [
+                                        3,
+                                        13,
+                                        4,
+                                        13,
+                                        6,
+                                        8
+                                    ]
+                                }
+                            ],
+                            "win_symbol_point": null,
+                            "free_play": 0,
+                            "round_id": "8306244772",
+                            "player_win_lose": -12000,
+                            "player_win_lose_s": "-1.20",
+                            "balance_s": "9901.60",
+                            "win_s": "4.80",
+                            "balance": 99016000,
+                            "win": 48000
+                        }
+                    ],
+                    "rate": 16,
+                    "scatter_count": 0,
+                    "free_play": 0,
+                    "is_end_free": false
+                },
+                "round_no": "0865062664",
+                "order_id": "15-1705562726-XVHPB0X4",
+                "balance": 99016000,
+                "balance_before_score": 98968000,
+                "bet": 0,
+                "prize": 48000,
+                "player_win_lose": -12000,
+                "free": false,
+                "free_total_times": 0,
+                "free_remain_times": 0,
+                "free_game_total_win": 0,
+                "dbg": null
+            },
+            "req": {
+                "token": "7955978BA6DC421C9473000B1E77C0F9",
+                "id": 13,
+                "buy_free": false,
+                "idempotent": "1705562730875"
+            }
+        }
+        return info;
     }
 }

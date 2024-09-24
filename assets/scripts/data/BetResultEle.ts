@@ -31,7 +31,7 @@ export default class BetResultEle{
         this.nFreeTotalAwardGold = CMD_S_GameEnd.nFreeTotalAwardGold.value;
         this.nAvalanche = CMD_S_GameEnd.nAvalanche.value;
         this.addCardList(CMD_S_GameEnd);
-        this.setRmoveListData();
+        // this.setRmoveListData();
     }
 
     private addCardList(CMD_S_GameEnd){
@@ -73,6 +73,11 @@ export default class BetResultEle{
                 let frameType2 = tdata.isGold.value;
                 tfuseNum = tdata.nLockCount.value;
                 tid = DataManager.convertId(tdata.iType.value,frameType2,trowcount,tfuseNum);
+                if(tdata.iType.value>0 || frameType2>0){
+                    if(tisremove==0){
+                        console.log("ele pos err ");
+                    }
+                }
                 if(tisremove>0){//tdata.iType.value>0 || frameType2>0
                     //tele.addDropEle(tid);tele.isRemoveEle(frameType2)
                     if(tisremove==1)tele.removeList.push({row:row,rowCount:trowcount,col:col,id:tid,norId:DataManager.convertToNorId(tdata.iType.value)});
@@ -80,7 +85,7 @@ export default class BetResultEle{
                     let tpos = trow;
                     tele.addWinPos(tpos);
                     tele.addWinPosData(tid,trowcount,frameType2);
-                    console.log("win row "+row,"col "+col,tpos,tid,trowcount);
+                    
                 }
             }
             this.card_list.push(tele);

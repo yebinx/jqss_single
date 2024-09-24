@@ -360,6 +360,7 @@ export class GameView extends BaseView {
                     com.elementList.forEach((child) => {
                         if (data.win_pos_list.indexOf(child.serverIdx) > -1) {
                             total++;
+                            
                             child.playWinEffect(() => {
                                 count2++;
                                 log("playWinEffectCount", count2, total);
