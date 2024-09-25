@@ -73,8 +73,8 @@ export default class BetResultEle{
                 let frameType2 = tdata.isGold.value;
                 tfuseNum = tdata.nLockCount.value;
                 tid = DataManager.convertId(tdata.iType.value,frameType2,trowcount,tfuseNum);
-                if(tdata.iType.value>0 || frameType2>0){
-                    if(tisremove==0){
+                if(tdata.iType.value>0){
+                    if(tisremove!=1){
                         console.log("ele pos err ");
                     }
                 }
