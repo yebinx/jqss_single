@@ -445,6 +445,7 @@ export default class GameCtrl extends BaseCtrl<GameModel>{
     }
 
     stopRoll(){
+        if(this.getModel().isFree || this.autoRollCnt>0)return;
         let datas = this.getModel().getTestElementList();
         this.getModel().curBetResultRoundList = [];
         EventCenter.getInstance().fire(GameEvent.game_start_stop_roll, { data: datas })

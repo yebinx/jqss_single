@@ -167,6 +167,7 @@ export class Network
             return;
         } else if (head.wMainCmdID.value == KN_CMD.MDM_SOCKET_COMMAND) {
             if (head.wSubCmdID.value == KN_CMD.SUB_SOCKET_TOKEN_RES) {
+                
                 console.log(" this.ws.onmessage",head.wMainCmdID.value,head.wSubCmdID.value,event.data)
                 var token = new KN_COMMAND.CMD_TokenRes();
                 token.parse(event.data);

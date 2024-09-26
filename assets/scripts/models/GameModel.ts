@@ -572,6 +572,34 @@ export default class GameModel extends BaseModel {
         return this.betData.result.round_list[this.roundNum].item_type_list[serverIdx];
     }
 
+    public getChangeElementPosOff(serverIdx,changeId){
+        let item_type_list = this.betData.result.round_list[this.roundNum].item_type_list;
+        let toff = 0;
+        if(!this.isFind(changeId,item_type_list[serverIdx])){
+            for(let i=serverIdx+1;i<item_type_list.length;i++){
+                toff++;
+                if(this.isFind(changeId,item_type_list[i])){
+                    break;
+                }
+            }
+        }
+        if(toff>4){
+            console.log("ssssssss");
+            toff=0;
+        }
+        return toff;
+    }
+
+    private isFind(changeId,eleId){
+        if(eleId==48)return false;
+        if(changeId==0){
+            if(eleId>32)return true;
+        }else{
+            if(changeId==eleId)return true;
+        }
+        return false;
+    }
+
     /**当局中奖 */
     getAuthoritiesWin() {
         if (!this.betData || !this.betData.result || !this.betData.result.round_list || !this.betData.result.round_list.length) {

@@ -550,7 +550,7 @@ export class ElementCom extends Component {
             isDelete && EventCenter.getInstance().fire(GameEvent.game_axis_roll_move_ele, this.parentCom.idx, this);
             cb();
         }
-
+        let toId = this.id;
         let id = this.changeId();
         if(!this.icons.children[id - 1] || !this.icons.children[id - 1].children){
             console.log("sss");
@@ -567,8 +567,8 @@ export class ElementCom extends Component {
             let silverUp = this.node.getChildByName("silver_up");
             let next = this.wdNum - 1;
             CocosUtil.playSpineAnim(silverUp, "silver_up" + this.count, false, () => {
-                this.resCurPosIdx();
-                this.setId(this.getchangeWildId(next))//GameCtrl.getIns().getModel().getChangeElement(this.serverIdx));
+                this.resCurPosIdx(this.getchangeWildId(toId));
+                this.setId(GameCtrl.getIns().getModel().getChangeElement(this.serverIdx));
                 silverUp.active = false;
                 checkEnd(next <= 0);
             });
@@ -646,8 +646,8 @@ export class ElementCom extends Component {
                     this.scheduleOnce(() => {
                         GameAudio.wdAppear();
                         this.updateChild(this.prefabParentList[1], false);
-                        this.resCurPosIdx();
-                        this.setId(this.getLvUpId(id))//GameCtrl.getIns().getModel().getChangeElement(this.serverIdx));
+                        this.resCurPosIdx(this.getLvUpId(true));
+                        this.setId(GameCtrl.getIns().getModel().getChangeElement(this.serverIdx));
                         this.updateIcon(false, true);
                         this.node.getComponent(UIOpacity).opacity = 0;
                         tween(this.node.getComponent(UIOpacity)).to(0.5, { opacity: 255 }).start();
@@ -668,8 +668,8 @@ export class ElementCom extends Component {
                             this.updateIcon(false, false, true);
                         }).delay(0.1).union().repeat(9).call(() => {
                             GameAudio.yinChangeJinEnd();
-                            this.resCurPosIdx();
-                            this.setId(this.getLvUpId(id))//GameCtrl.getIns().getModel().getChangeElement(this.serverIdx));
+                            this.resCurPosIdx(this.getLvUpId(false));
+                            this.setId(GameCtrl.getIns().getModel().getChangeElement(this.serverIdx));
                             this.updateIcon(false, true, true);
                             tween(this.icons).to(0.1, { scale: v3(1, 1, 1) }).start();
                         }).start();
@@ -700,7 +700,7 @@ export class ElementCom extends Component {
         }
     }
 
-    resCurPosIdx() {
+    resCurPosIdx(changeId) {
         let count = 0;
         for (let i = 0; i < this.parentCom.elementList.length; i++) {
             let ele = this.parentCom.elementList[i];
@@ -714,7 +714,10 @@ export class ElementCom extends Component {
                 count += ele.count;
             }
         }
-        this.posIdx = this.parentCom.idx * (GameConst.MaxRow - 1) + (GameConst.MaxRow - 1) - count;
+        let tpos = this.parentCom.idx * (GameConst.MaxRow - 1) + (GameConst.MaxRow - 1) - count;
+        let toff = GameCtrl.getIns().getModel().getChangeElementPosOff(tpos,changeId);
+        tpos += toff;
+        this.posIdx = tpos;
         return this.posIdx;
     }
 
@@ -743,14 +746,16 @@ export class ElementCom extends Component {
        this.id=id;
     }
 
-    private getchangeWildId(next){
-        if(next<=0)return 1;
-        return next*100+1;
+    private getchangeWildId(id){
+        if(id==401)return 301;
+        else if(id==301)return 201;
+        else if(id==201)return 101;
+        return id;
     }
 
-    private getLvUpId(id){
-        let tid = id+TItemtype.GOLD_MOD;
-        if(this.isGold()){
+    private getLvUpId(isGold:boolean){
+        let tid = 0;
+        if(isGold){
             tid = this.count*100 +1;
         }
         return tid;
